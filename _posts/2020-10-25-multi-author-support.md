@@ -2,7 +2,7 @@
 layout: post
 title:  "Added Multi Author Support"
 summary: "Multi Author Support allows to create articles with different Authors"
-author: xplor4r
+author: yonding
 date: '2020-10-25 1:35:23 +0530'
 category: jekyll
 thumbnail: /assets/img/posts/code.jpg
@@ -19,7 +19,7 @@ For this every Author needs to have a unique username (without space) For eg. If
 
 ### Configuring Authors :
 
-Under _authors folder create a author details file (username.md) with his/her username (as described above). For eg. **johndoe.md**.
+* Under _authors folder create a author details file (username.md) with his/her username (as described above). For eg. **johndoe.md**.
 
 Then add this frontmatter to describe the author in **johndoe.md**.
 ```yml
