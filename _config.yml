@@ -14,8 +14,8 @@ urls:
       url: /profile
     - text: BLOG
       url: /blog
-    - text: GALLERRY
-      url: /gallery
+    - text: PROJECTS
+      url: /projects
     # - text: SHOP
     #   url : /shop
     - text: CONTACT
@@ -141,7 +141,7 @@ collections:
 defaults:
   -
     scope:
-      path: "gallery"
+      path: "projects"
     values:
       permalink: /:path/:basename:output_ext
   -
