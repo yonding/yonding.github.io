@@ -2,9 +2,6 @@ import Home from "@/pages/Home.vue";
 import Profile from "@/pages/Profile.vue";
 import Portfolio from "@/pages/Portfolio.vue";
 import Project from "@/pages/Project.vue";
-import Project1 from "@/pages/project_pages/Project1.vue";
-import Project2 from "@/pages/project_pages/Project2.vue";
-import Project3 from "@/pages/project_pages/Project3.vue";
 
 import {createRouter, createWebHistory} from 'vue-router';
 
@@ -16,6 +13,7 @@ const routes = [
 ]
 
 const router = createRouter({
+    mode: 'hash',
     history: createWebHistory(),
     routes
 })
