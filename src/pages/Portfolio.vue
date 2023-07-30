@@ -1,6 +1,6 @@
 <template>
     <div class="portfolio-container container text-center">
-        <Header title="PORTFOLIO" back_path="/"></Header>
+        <Header title="PORTFOLIO" back_path="/#/"></Header>
         <Album></Album>
     </div>
 </template>

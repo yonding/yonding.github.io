@@ -1,6 +1,6 @@
 <template>
     <div class="project-container container">
-        <Header back_path="/come-and-see" :title=store.projects[$route.params.projectId-1].title></Header>
+        <Header back_path="/#/come-and-see" :title=store.projects[$route.params.projectId-1].title></Header>
         <Project1 v-if="$route.params.projectId==1"/>
         <Project2 v-if="$route.params.projectId==2"/>
         <Project3 v-if="$route.params.projectId==3"/>

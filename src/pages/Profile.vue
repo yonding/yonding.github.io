@@ -1,6 +1,6 @@
 <template>
     <div class="profile-container container text-center">
-        <Header title="PROFILE" back_path="/"></Header>
+        <Header title="PROFILE" back_path="/#/"></Header>
         <div class="row grid-container">
             <div class="col col-md-4 row-profile">
                 <div class="row-2">
