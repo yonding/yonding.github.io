@@ -124,14 +124,15 @@ export default{
     padding: 30px;
 }
 
-.subtitle {
-    height: 80px;
+#introductionImg{
+    width: 38%;
 }
-
 #projectArchitectureImg {
-    height: 90px;
+    width: 50%;
 }
-
+#tryNowImg{
+    width: 29%;
+}
 button {
     margin: 20px;
 }
