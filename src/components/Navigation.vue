@@ -35,7 +35,7 @@ img {
 }
 img:hover{
     opacity: 0.8;
-    border-radius: 50px;
+    border-radius: 30px;
     transition: all 0.3s;
 
 }
