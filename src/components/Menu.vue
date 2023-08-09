@@ -1,7 +1,7 @@
 <template>
     <header class="d-flex justify-content-center py-3">
         <ul class="nav">
-            <li class="nav-item hey"><a href="/#/who-is-yonding" class="nav-link">Who is yonding?</a></li>
+            <li class="nav-item hey"><a href="/#/who-is-yonding" class="nav-link" data-transition="fade">Who is yonding?</a></li>
             <div id="blank"></div>
             <li class="nav-item"><a href="/#/come-and-see" class="nav-link">Come and See</a></li>
         </ul>
@@ -28,6 +28,8 @@ a {
 a:hover {
     border: 0.01em solid;
     opacity: 80%;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.05);
 }
 
 #blank{
