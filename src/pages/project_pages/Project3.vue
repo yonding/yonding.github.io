@@ -1,6 +1,6 @@
 <template>
 <div class="p3-container container text-center">
-    <Navigation/>
+    <Navigation />
     <br>
     <img id="webrtcImg" src="@/assets/card_img/card_img_3.png" alt="webRTC" />
     <br><br><br>
@@ -104,7 +104,7 @@
     <br><br>
     <div class="try">
         <img src="@/assets/subtitle_img/try_now.png" alt="tryNowImg" id="tryNowImg" class="subtitle">
-
+        <VideoChat />
     </div>
     <br><br>
 </div>
@@ -112,9 +112,11 @@
 
 <script>
 import Navigation from "@/components/Navigation.vue";
-export default{
-    components:{
-        Navigation
+import VideoChat from "@/components/VideoChat.vue";
+export default {
+    components: {
+        Navigation,
+        VideoChat
     }
 }
 </script>
@@ -124,15 +126,18 @@ export default{
     padding: 30px;
 }
 
-#introductionImg{
+#introductionImg {
     width: 38%;
 }
+
 #projectArchitectureImg {
     width: 50%;
 }
-#tryNowImg{
+
+#tryNowImg {
     width: 29%;
 }
+
 button {
     margin: 20px;
 }
