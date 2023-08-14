@@ -77,21 +77,12 @@ export default {
                 this.alreadyExist = false;
                 this.blankWarning = true;
                 return;
-            }
-            fetch('http://localhost:3000/creatable', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({
-                        "roomName": this.roomName
-                    })
-                })
+            }else{
+                fetch('http://localhost:3000/creatable?roomName='+this.roomName, {})
                 .then(response => response.text())
                 .then(data => {
                     console.log(data);
-                    if(data == "already"){
-                        console.log(data)
+                    if (data == "false") {
                         this.blankWarning = false;
                         this.alreadyExist = true;
                     } else {
@@ -103,6 +94,9 @@ export default {
                 .catch(error => {
                     console.error('Error:', error);
                 });
+            }
+
+            ////////////////////////////////////////////////////////////
 
         },
         joinRoom() {
@@ -111,43 +105,43 @@ export default {
                 this.wrongWarning = false;
                 this.blankWarning = true;
                 return;
-            }
-            fetch('http://localhost:3000/joinable', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({
-                        "roomName": this.roomName,
-                        "password": this.password
+            }else{
+                fetch('http://localhost:3000/joinable', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({
+                            "roomName": this.roomName,
+                            "password": this.password
+                        })
                     })
-                })
-                .then(response => response.text())
-                .then(data => {
-                    console.log(data);
-                    if (data == "null" || data == "wrong") {
-                        this.blankWarning = false;
-                        this.fullWarning = false;
-                        this.wrongWarning = true;
-                    } else if (data == "full") {
-                        this.wrongWarning = false;
-                        this.blankWarning = false;
-                        this.fullWarning = true;
-                    }
-                    else {
-                        this.isJoining = false;
-                        this.isStarted = true;
-                        join(this.roomName, this.password);
-                    }
-                })
-                .catch(error => {
-                    console.error('Error:', error);
-                });
+                    .then(response => response.text())
+                    .then(data => {
+                        console.log(data);
+                        if (data == "null" || data == "wrong") {
+                            this.blankWarning = false;
+                            this.fullWarning = false;
+                            this.wrongWarning = true;
+                        } else if (data == "full") {
+                            this.wrongWarning = false;
+                            this.blankWarning = false;
+                            this.fullWarning = true;
+                        }
+                        else {
+                            this.isJoining = false;
+                            this.isStarted = true;
+                            join(this.roomName, this.password);
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+            }
         },
         hangup(){
             close();
             this.isStarted = false;
-
         }
     }
 }
@@ -168,7 +162,7 @@ export default {
 
 form {
     width: 400px;
-    margin: 50px auto;
+    margin: 50px auto 0px;
     background-color: rgb(247, 247, 247);
     border: 1px solid lightgray;
     padding: 20px;
