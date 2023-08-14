@@ -17,6 +17,7 @@
                 <input v-model=password type="password" /> <br><br>
                 <p v-if="blankWarning" id="blankWarning" style="color: rgb(164, 55, 55);">방 이름과 비밀번호를 입력해주세요.</p>
                 <p v-if="alreadyExist" id="alreadyExist" style="color: rgb(164, 55, 55);">동일한 방 이름이 이미 존재합니다.</p>
+                <p v-if="serverError" id="serverError" style="color: rgb(164, 55, 55);">서버 연결 실패</p>
                 <button @click="createRoom();">CREATE</button>
             </fieldset>
         </form>
@@ -35,7 +36,7 @@
                 <p v-if="blankWarning" id="blankWarning" style="color: rgb(164, 55, 55);">방 이름과 비밀번호를 입력해주세요.</p>
                 <p v-if="wrongWarning" id="wrongWarning" style="color: rgb(164, 55, 55);">방 이름 또는 비밀번호가 틀렸습니다.</p>
                 <p v-if="fullWarning" id="fullWarning" style="color: rgb(164, 55, 55);">해당 방의 인원이 초과되었습니다.</p>
-
+                <p v-if="serverError" id="serverError" style="color: rgb(164, 55, 55);">서버 연결 실패</p>
                 <button @click="joinRoom();">JOIN</button>
             </fieldset>
         </form>
@@ -67,6 +68,7 @@ export default {
             wrongWarning: false,
             alreadyExist: false,
             fullWarning: false,
+            serverError: false,
             roomName: '',
             password: ''
         }
@@ -74,6 +76,7 @@ export default {
     methods: {
         createRoom() {
             if (this.roomName == '' || this.password == ''){
+                this.isStarted = false;
                 this.alreadyExist = false;
                 this.blankWarning = true;
                 return;
@@ -83,6 +86,7 @@ export default {
                 .then(data => {
                     console.log(data);
                     if (data == "false") {
+                            this.isStarted = false;
                         this.blankWarning = false;
                         this.alreadyExist = true;
                     } else {
@@ -92,6 +96,7 @@ export default {
                     }
                 })
                 .catch(error => {
+                    this.serverError = true;
                     console.error('Error:', error);
                 });
             }
@@ -101,6 +106,7 @@ export default {
         },
         joinRoom() {
             if (this.roomName == '' || this.password == ''){
+                this.isStarted = false;
                 this.fullWarning = false;
                 this.wrongWarning = false;
                 this.blankWarning = true;
@@ -120,10 +126,12 @@ export default {
                     .then(data => {
                         console.log(data);
                         if (data == "null" || data == "wrong") {
+                            this.isStarted = false;
                             this.blankWarning = false;
                             this.fullWarning = false;
                             this.wrongWarning = true;
                         } else if (data == "full") {
+                            this.isStarted = false;
                             this.wrongWarning = false;
                             this.blankWarning = false;
                             this.fullWarning = true;
@@ -135,6 +143,7 @@ export default {
                         }
                     })
                     .catch(error => {
+                        this.serverError = true;
                         console.error('Error:', error);
                     });
             }
