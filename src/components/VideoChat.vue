@@ -100,9 +100,6 @@ export default {
                     console.error('Error:', error);
                 });
             }
-
-            ////////////////////////////////////////////////////////////
-
         },
         joinRoom() {
             if (this.roomName == '' || this.password == ''){

@@ -6,7 +6,7 @@ let roomName;
 let password;
 let isJoining;
 let isStarted;
-
+let pc;
 let localVideo;
 let remoteVideo;
 
@@ -42,16 +42,16 @@ export let create = async (room, pwd) => {
         }));
 
     };
-    
+
     socket.onmessage = async function (event) {
         let receivedData = event.data;
         let receivedJson = JSON.parse(receivedData);
         console.log("Received message from server:", receivedJson);
-        
-        
+
+
         if (receivedJson.type == 'Inform') {
             if (receivedJson.data == 'Created') {
-                localStream = await navigator.mediaDevices.getUserMedia(localStreamConstraints);        
+                localStream = await navigator.mediaDevices.getUserMedia(localStreamConstraints);
 
                 localVideo = document.querySelector('#user-1');
                 remoteVideo = document.querySelector('#user-2');
@@ -62,21 +62,25 @@ export let create = async (room, pwd) => {
                 this.blankWarning = false;
             } else if (receivedJson.data == 'Joined') {
                 console.log("엥ㅇ...")
-                const pc = new RTCPeerConnection(pcConfig);
+                pc = new RTCPeerConnection(pcConfig);
+                for (const track of localStream.getTracks()) {
+                    pc.addTrack(track, localStream);
+                }
                 console.log("peerConnection 생성!")
                 pc.onicecandidate = ({
                     candidate
-                }) => socket.send({
+                }) => socket.send(JSON.stringify({
                     type: 'Ice',
-                    data: candidate
-                });
+                    data: JSON.stringify(candidate)
+                }));
                 pc.onnegotiationneeded = async () => {
                     try {
                         await pc.setLocalDescription();
                         // 다른 피어에게 offer를 보낸다
-                        signaling.send({
-                            description: pc.localDescription
-                        });
+                        socket.send(JSON.stringify({
+                            type: "Offer",
+                            data: JSON.stringify(pc.localDescription)
+                        }));
                     } catch (err) {
                         console.error(err);
                     }
@@ -94,6 +98,24 @@ export let create = async (room, pwd) => {
                 };
 
             }
+        } else if (receivedJson.type == 'Answer') {
+            await pc.setRemoteDescription(JSON.parse(receivedJson.data));
+        } else if (receivedJson.type == 'Offer') {
+            await pc.setRemoteDescription(JSON.parse(receivedJson.data));
+            if (!localVideo.srcObject) {
+                localStream = await navigator.mediaDevices.getUserMedia(constraints);
+                for (const track of localStream.getTracks()) {
+                    pc.addTrack(track, localStream);
+                }
+                localVideo.srcObject = localStream;
+            }
+            await pc.setLocalDescription();
+            socket.send(JSON.stringify({
+                type: "Answer",
+                data: JSON.stringify(pc.localDescription)
+            }));
+        } else if (receivedJson.type == 'Ice') {
+            await pc.addIceCandidate(JSON.parse(receivedJson.data));
         }
 
     };
@@ -138,13 +160,55 @@ export let join = async (room, pwd) => {
             } else if (receivedJson.data == 'Full') {
                 alert("해당 방의 인원이 초과되었습니다.")
             } else if (receivedJson.data == 'Joined') {
-                localStream = await navigator.mediaDevices.getUserMedia(localStreamConstraints);        
+                localStream = await navigator.mediaDevices.getUserMedia(localStreamConstraints);
 
                 localVideo = document.querySelector('#user-1');
                 remoteVideo = document.querySelector('#user-2');
 
                 localVideo.srcObject = localStream;
+
+                console.log("엥ㅇ...")
+                pc = new RTCPeerConnection(pcConfig);
+                for (const track of localStream.getTracks()) {
+                    pc.addTrack(track, localStream);
+                }
+                console.log("peerConnection 생성!")
+                pc.onicecandidate = ({
+                    candidate
+                }) => socket.send(JSON.stringify({
+                    type: 'Ice',
+                    data: JSON.stringify(candidate)
+                }));
+                pc.ontrack = ({
+                    track,
+                    streams
+                }) => {
+                    // 원격 트랙용 미디어가 도착하면, 원격 비디오 요소에 표시
+                    track.onunmute = () => {
+                        // 만약 srcObject 가 설정되어 있으면, 다시 설정하지 않는다
+                        if (remoteVideo.srcObject) return;
+                        remoteVideo.srcObject = streams[0];
+                    };
+                };
             }
+        } else if (receivedJson.type == 'Answer') {
+            await pc.setRemoteDescription(JSON.parse(receivedJson.data));
+        } else if (receivedJson.type == 'Offer') {
+            await pc.setRemoteDescription(JSON.parse(receivedJson.data));
+            if (!localVideo.srcObject) {
+                localStream = await navigator.mediaDevices.getUserMedia(constraints);
+                for (const track of localStream.getTracks()) {
+                    pc.addTrack(track, localStream);
+                }
+                localVideo.srcObject = localStream;
+            }
+            await pc.setLocalDescription();
+            socket.send(JSON.stringify({
+                type: "Answer",
+                data: JSON.stringify(pc.localDescription)
+            }));
+        } else if (receivedJson.type == 'Ice') {
+            await pc.addIceCandidate(JSON.parse(receivedJson.data));
         }
     };
 
