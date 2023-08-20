@@ -103,8 +103,9 @@
                 <br>
                 
             </p>
+            <img src="@/assets/project_img/project3/project3_architecture.png" style="width:90%;">
         </div>
-        <br><br>
+        <br><br><br><br>
         <hr>
         <p id="tryNow"></p>
         <br><br>
