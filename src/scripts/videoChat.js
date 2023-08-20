@@ -1,11 +1,7 @@
 let localStream;
-let remoteStream;
 let socket;
-let stompClient;
 let roomName;
 let password;
-let isJoining;
-let isStarted;
 let pc;
 let localVideo;
 let remoteVideo;
@@ -14,7 +10,7 @@ let remoteVideo;
 // 로컬 스트림을 얻고, 셀프뷰에 보여주고 전송을 위해 추가하기
 const localStreamConstraints = {
     video: true,
-    audio: false
+    audio: true
 };
 
 const pcConfig = {
@@ -23,12 +19,11 @@ const pcConfig = {
     }]
 }
 
-const socketUrl = 'ws://localhost:3000/websocket';
+const socketUrl = 'wss://signaling.store/websocket';
 
 export let create = async (room, pwd) => {
     roomName = room;
     password = pwd;
-
     socket = new WebSocket(socketUrl);
 
     socket.onopen = function (event) {
@@ -54,6 +49,7 @@ export let create = async (room, pwd) => {
                 localStream = await navigator.mediaDevices.getUserMedia(localStreamConstraints);
 
                 localVideo = document.querySelector('#user-1');
+
                 remoteVideo = document.querySelector('#user-2');
 
                 localVideo.srcObject = localStream;
@@ -61,7 +57,6 @@ export let create = async (room, pwd) => {
                 this.alreadyExist = true;
                 this.blankWarning = false;
             } else if (receivedJson.data == 'Joined') {
-                console.log("엥ㅇ...")
                 pc = new RTCPeerConnection(pcConfig);
                 for (const track of localStream.getTracks()) {
                     pc.addTrack(track, localStream);
@@ -73,18 +68,6 @@ export let create = async (room, pwd) => {
                     type: 'Ice',
                     data: JSON.stringify(candidate)
                 }));
-                pc.onnegotiationneeded = async () => {
-                    try {
-                        await pc.setLocalDescription();
-                        // 다른 피어에게 offer를 보낸다
-                        socket.send(JSON.stringify({
-                            type: "Offer",
-                            data: JSON.stringify(pc.localDescription)
-                        }));
-                    } catch (err) {
-                        console.error(err);
-                    }
-                };
                 pc.ontrack = ({
                     track,
                     streams
@@ -96,7 +79,10 @@ export let create = async (room, pwd) => {
                         remoteVideo.srcObject = streams[0];
                     };
                 };
-
+            }else if(receivedJson.data == 'Left'){
+                pc.close();
+                close();
+                create(roomName, password);
             }
         } else if (receivedJson.type == 'Answer') {
             await pc.setRemoteDescription(JSON.parse(receivedJson.data));
@@ -108,7 +94,7 @@ export let create = async (room, pwd) => {
                     pc.addTrack(track, localStream);
                 }
                 localVideo.srcObject = localStream;
-            }
+            } 
             await pc.setLocalDescription();
             socket.send(JSON.stringify({
                 type: "Answer",
@@ -167,7 +153,6 @@ export let join = async (room, pwd) => {
 
                 localVideo.srcObject = localStream;
 
-                console.log("엥ㅇ...")
                 pc = new RTCPeerConnection(pcConfig);
                 for (const track of localStream.getTracks()) {
                     pc.addTrack(track, localStream);
@@ -179,6 +164,19 @@ export let join = async (room, pwd) => {
                     type: 'Ice',
                     data: JSON.stringify(candidate)
                 }));
+
+                pc.onnegotiationneeded = async () => {
+                    try {
+                        await pc.setLocalDescription();
+                        // 다른 피어에게 offer를 보낸다
+                        socket.send(JSON.stringify({
+                            type: "Offer",
+                            data: JSON.stringify(pc.localDescription)
+                        }));
+                    } catch (err) {
+                        console.error(err);
+                    }
+                };
                 pc.ontrack = ({
                     track,
                     streams
@@ -190,6 +188,10 @@ export let join = async (room, pwd) => {
                         remoteVideo.srcObject = streams[0];
                     };
                 };
+            } else if(receivedJson.data == 'Left'){
+                pc.close();
+                close();
+                create(roomName, password);
             }
         } else if (receivedJson.type == 'Answer') {
             await pc.setRemoteDescription(JSON.parse(receivedJson.data));
@@ -218,5 +220,8 @@ export let join = async (room, pwd) => {
 }
 
 export let close = () => {
+    if(pc !== undefined){
+        pc.close();
+    }
     socket.close();
 }
