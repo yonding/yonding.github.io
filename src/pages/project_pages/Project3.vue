@@ -150,8 +150,7 @@ export default {
     padding: 30px;
 }
 .subtitle{
-    background-color: rgb(231, 231, 231);
-    border: solid 1px lightgray;
+    background-color: rgb(230, 230, 230);
 }
 
 #projectArchitectureImg {

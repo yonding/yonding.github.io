@@ -165,9 +165,9 @@ export default {
 }
 
 .video-player {
-    background-color: black;
+    background-color: rgb(230, 230, 230);
     width: 100%;
-    height: 300px;
+    height: 370px;
 }
 
 form {
