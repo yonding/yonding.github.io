@@ -1,9 +1,9 @@
 <template>
 <div class="navigation-container" style="position:fixed; bottom:30px; right:35px">
-    <img @click="scrollToSection('top')" src="@/assets/button_img/top.png" alt="introBtn" id="introBtn">
-    <img @click="scrollToSection('intro')" src="@/assets/button_img/intro.png" alt="introBtn" id="introBtn">
-    <img @click="scrollToSection('projectArchitecture')" src="@/assets/button_img/project_arch.png" alt="projectArchBtn" id="projectArchBtn">
-    <img @click="scrollToSection('tryNow')" src="@/assets/button_img/try_now.png" alt="tryNowBtn" id="tryNowBtn">
+    <button @click="scrollToSection('top')" alt="introBtn" id="introBtn">TOP</button>
+    <button @click="scrollToSection('intro')" alt="introBtn" id="introBtn">INTRO</button>
+    <button @click="scrollToSection('projectArchitecture')" alt="projectArchBtn" id="projectArchBtn">ARCH</button>
+    <button @click="scrollToSection('tryNow')" alt="tryNowBtn" id="tryNowBtn">TRY</button>
 </div>
 </template>
 
@@ -27,14 +27,18 @@ export default {
     width: 100px;
 }
 
-img {
+button {
     margin: 3px;
+    height: 80px;
     width: 80px;
+    border: solid 1.5px rgb(131, 131, 131);
     border-radius: 40px;
     transition: all 0.3s;
 }
-img:hover{
-    opacity: 0.8;
+button:hover{
+    background-color: lightgray;
+    
+    border: solid 1.8px rgb(91, 91, 91);
     border-radius: 30px;
     transition: all 0.3s;
 
