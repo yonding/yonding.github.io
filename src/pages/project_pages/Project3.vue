@@ -10,7 +10,7 @@
         <hr>
         <br>
         <div class="introduction">
-            <img src="@/assets/subtitle_img/introduction.png" alt="introductionImg" id="introductionImg" class="subtitle">
+            <div><h1 class="subtitle">INTRODUCTION</h1></div>
             <br><br><br>
             <div class="text">
                 <h2>P2P가 무엇인가요?</h2>
@@ -22,7 +22,7 @@
                     <br><br><br> 반면에 <strong>P2P</strong>는 Peer-to-Peer의 약어로 <br> 중앙 서버 없이 개별 컴퓨터들 간에 직접적으로 데이터를 주고받는 통신 방식을 의미합니다.<br><br>
                     <img src="@/assets/project_img/project3/p2p.jpeg" alt="p2pImg" width="60%"><br> client1이 client2와 client3에게 "안녕"이라고 전하기 위해서<br> 클라이언트-서버 시스템에서는 서버에게 한 번의 요청을 보내면 되었지만<br> P2P 시스템에서는 client1이 직접 client2와 client3에게 "안녕"이라는 컨텐츠를 두 번 전송해야
                     합니다.
-                    <br> (만약 채팅방에 10명이 있었다면 10명의 클라이언트에게 열 번의 전송을 해야 합니다.)<br><br> 이 방식에서는 peer to peer 로 직접 데이터를 주고받기 때문에<br> 서버 자원을 아낄 수 있다는 장점이 있지만<br> 클라이언트는 서버가 해주던 일(데이터를 대신 전해주는 일)을 직접 해야 합니다.<br><br> Torrent는 서버 없이도 클라이언트들이 서로 파일을 공유하기 위해 개발된 P2P
+                    <br> (만약 채팅방에 10명이 있었다면 자신을 제외한 9명의 클라이언트에게 아홉 번의 전송을 해야 합니다.)<br><br> 이 방식에서는 peer to peer 로 직접 데이터를 주고받기 때문에<br> 서버 자원을 아낄 수 있다는 장점이 있지만<br> 클라이언트는 서버가 해주던 일(데이터를 대신 전해주는 일)을 직접 해야 합니다.<br><br> Torrent는 중앙 서버 없이 클라이언트들이 서로 파일을 공유하기 위해 개발된 P2P
                     기술 중 하나입니다.<br> Torrent를 사용해 본 사람들은 "시드 유지 부탁드립니다."라는 말을 들어봤을 텐데,<br> 이 말은 "누군가 서버 역할을 자처해서 너에게 파일을 공유해줬으니<br> 다운로드를 완료한 후부터는 네가 서버의 역할을 자처해줘."라는 뜻입니다.
                 </p>
                 <br>
@@ -31,7 +31,7 @@
                 <br><br>
                 <h2>WebRTC는 무엇인가요?</h2><br>
                 <p>
-                    <img src="@/assets/project_img/project3/webrtc.png" alt="p2pImg" width="45%"><br><br> <strong>WebRTC도 Torrent과 같은 P2P 기반의 기술</strong> 중 하나입니다.<br> 그러나 Torrent와는 다른 목적을 가졌습니다.<br><br> 
+                    <img src="@/assets/project_img/project3/webrtc.png" alt="p2pImg" width="45%"><br><br> <strong>WebRTC도 Torrent와 같이 P2P 기반의 기술</strong> 중 하나입니다.<br> 그러나 Torrent와는 다른 목적을 가졌습니다.<br><br> 
                     Torrent는 파일 공유를 위해 개발되었지만<br> 
                     WebRTC는 <strong>Web Real-Time Communication</strong>이라는 이름에서 알 수 있듯이<br> 크롬과 같은 웹 브라우저를 통해 <strong>실시간으로 다른 사람들과 소통할 수 있게 해주는 P2P 기술</strong>입니다.<br><br> 
                     여기에서 "소통"이란 1:1, 1:N, N:N으로 음성 및 영상 통화를 하거나 파일을 공유하는 것을 의미합니다.<br><br>
@@ -61,7 +61,7 @@
                     네트워크 주소를 변환해주는 NAT 뒤에 위치해 있습니다. <br><br>
                     이러한 점들이 피어와 피어 간의 연결을 어렵게 하지만 <br> WebRTC는 다음의 과정을 통해 피어와 피어 사이를 연결합니다.
                     <br><br>
-    
+                    
                     <strong>상황 : peer A와 peer B가 WebRTC를 통해 통신하고 싶어합니다. <br><br></strong> 1. peer A는 자신이 인터넷과 연결될 수 있는 길을 찾습니다. <br> 2. peer B도 자신이 인터넷과 연결될 수 있는 길을 찾습니다. <br> 3. peer A와 B는 Signaling 서버에 자신이 인터넷과 연결될 수 있는 방법들과<br> 
                     자신의 디바이스에서 지원하는 미디어 정보를 보내고 시그널링 서버를 통해 이 정보들을 서로 교환합니다. <br>
                     4. 최적의 경로를 찾아 서로를 연결합니다. <br> 5. peer A와 B가 데이터를 주고 받습니다.
@@ -73,32 +73,35 @@
         <p id="projectArchitecture"></p>
         <br>        
         <div class="architecture">
-            <img src="@/assets/subtitle_img/project_architecture.png" alt="projectArchitectureImg" id="projectArchitectureImg" class="subtitle">
+            <div><h1 class="subtitle">PROJECT ARCHITECTURE</h1></div>
             <br><br>
             <div></div>
             <p>
                 <strong style="font-size: 25px;">목표</strong><br> <br>
-                WebRTC를 사용해 1대1 화상 채팅 서비스 구현하기<br><br><br>
+                WebRTC를 사용해 일대일 화상 채팅 서비스 구현하기<br><br><br>
                 <strong style="font-size: 25px;">구성요소 및 배포</strong><br><br>
                 <strong>1. Client Application</strong> <br>
                 현재 페이지의 "TRY NOW"에 구현 - Vue.js<br><br>
                 <strong>2. Signaling Server</strong> <br>
-                직접 서버 프로그램 작성 - Spring Boot, WebSockets<br><br>
-                <strong>3. STUN/TURN Server</strong> <br>
-                오픈소스 사용 - Coturn<br><br>
+                직접 서버 프로그램 작성 - Spring Boot, WebSockets<br>
+                작성한 코드는 아래의 깃허브 레포지토리에서 확인 가능합니다. <br>
+                <a href="https://github.com/yonding/signaling-server" target="_blank"><img src="@/assets/github_logo.png" alt="github_logo" id="githubImg"></a>
+                <br><br>
+                <strong>3. STUN Server</strong> <br>
+                Google STUN Server 사용<br><br>
                 <strong>[ Project Deployment ]</strong> <br>
                 Client App -  현재 페이지 (GitHub Pages) <br>
-                Signaling Server - AWS Lambda (Serverless) <br>
-                STUN/TURN Server - EC2 (Ubuntu 20.04)<br>
+                Signaling Server - AWS EC2 (Docker 컨테이너), AWS ALB<br>
+                STUN Server - Google 서버에 연결<br>
                 
                 <br>
                 <br>
-
-
+                
+                
                 <strong style="font-size: 25px;">구성요소 간의 상호작용 (그림)</strong><br> 
                 <br>
                 <br>
-
+                
             </p>
         </div>
         <br><br>
@@ -106,13 +109,12 @@
         <p id="tryNow"></p>
         <br><br>
         <div class="try">
-            <img src="@/assets/subtitle_img/try_now.png" alt="tryNowImg" id="tryNowImg" class="subtitle">
-            <br><br>
-            <VideoChat />
-            <br><br>
+            <div><h1 class="subtitle">TRY NOW</h1></div>
+            <br>
             <p> 
                 <strong style="font-size: 25px;">일대일 화상채팅 사용법</strong><br>
             </p>
+            <VideoChat />
             <p style="text-align: left; width: 500px; margin:0px auto">
                 <strong>※ 새로운 방을 생성하고 싶다면?</strong> <br>
                 1. "NEW ROOM"을 클릭하고 채팅방의 이름과 비밀번호를 <br>
@@ -147,9 +149,9 @@ export default {
 .p3-container {
     padding: 30px;
 }
-
-#introductionImg {
-    width: 38%;
+.subtitle{
+    background-color: rgb(231, 231, 231);
+    border: solid 1px lightgray;
 }
 
 #projectArchitectureImg {
