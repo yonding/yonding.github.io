@@ -1,5 +1,5 @@
 <template>
-    <div class="portfolio-container container text-center">
+    <div class="portfolio-container">
         <Header title="PORTFOLIO" back_path="/#/"></Header>
         <Album></Album>
     </div>
@@ -59,7 +59,15 @@ h1 {
     border-right: 0.06em solid #ddd;
 }
 
-@media screen and (max-width:595px) {
+@media (max-width:768px) {
+    *, ::after, ::before {
+    box-sizing:content-box;
+    }
+    .portfolio-container{
+    padding: 5px;
+    margin: 15px auto;
+    background-color: #fff;
+    }
     .row-profile {
         border-right: none;
     }

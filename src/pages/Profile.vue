@@ -69,10 +69,13 @@
                 </div>
             </div>
         </div>
+        <div style="height: 30px;">
+        </div>
     </div>
+
 </template>
 
-<script >
+<script>
 import Header from '../components/Header.vue'
 export default {
     name: "Profile",
@@ -86,35 +89,15 @@ body {
     align-items: center;
     background-color: #ccc;
 }
-
-.profile-container {
-    width: 90%;
-    height: 90%;
-    padding: 30px;
-    margin: 60px auto;
-    background-color: #fff;
-}
-
 </style>
 
 <style scoped>
-
 .grid-container {
     margin-top: 30px;
 }
 
 .row-profile {
     border-right: 0.06em solid #ddd;
-}
-
-@media screen and (max-width:595px) {
-    .row-profile {
-        border-right: none;
-    }
-    .row-skill {
-        padding-bottom: 35px;
-        border-bottom: 0.04em solid #ddd;
-    }
 }
 
 .row-profile .profile {
@@ -166,7 +149,7 @@ body {
 
 a:hover {
     opacity: 70%;
-    transition : all 0.3s;
+    transition: all 0.3s;
 }
 
 .skill {
@@ -185,15 +168,21 @@ a:hover {
 
 #githubImg:hover {
     opacity: 80%;
-    transition : all 0.3s;
+    transition: all 0.3s;
 }
-
+#tistoryImg:hover {
+    opacity: 80%;
+    transition: all 0.3s;
+}
 li {
     font-size: 20px;
 }
-.row-pub h2, .row-conf h2{
+
+.row-pub h2,
+.row-conf h2 {
     margin-bottom: 20px;
 }
+
 h5 {
     font-weight: 400;
 }
@@ -202,5 +191,58 @@ h5 {
     text-align: left;
     padding: 10px;
     margin: 15px 0px 10px 0px;
+}
+
+@media (max-width:768px) {
+    .grid-container{
+        margin: 5px auto;
+    }
+    #kyungheeImg{
+        margin: 20px 0px 10px 10px;
+        width: 50%;
+    }
+    .row-2{
+        margin:13px;
+    }
+    .col{
+        margin: 10px auto;
+    }
+    .row-profile {
+        border-right: none;
+    }
+    .row-skill {
+        padding-bottom: 35px;
+        border-bottom: 0.04em solid #ddd;
+    }
+    .profile-container {
+        width: 90%;
+        height: 90%;
+        padding: 5px;
+        margin: 15px auto;
+        background-color: #fff;
+    }
+
+    *, ::after, ::before {
+    box-sizing:content-box;
+    }
+    #name{
+        font-size:28px;
+    }
+    .profile h3{
+        font-size: 22px;
+    }
+
+    #githubImg {
+        margin: 10px 0px;
+        padding: 5px;
+        width: 50px;
+    }
+
+    #tistoryImg {
+        margin: 10px 0px;
+        padding: 5px;
+        width: 50px;
+    }
+
 }
 </style>

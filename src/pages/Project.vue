@@ -31,9 +31,19 @@ export default {
 .project-container {
     width: 90%;
     height: 90%;
-    padding: 30px;
+    padding: 10px;
     margin: 60px auto;
     background-color: #fff;
+}
+
+@media (max-width: 768px) {
+    .project-container {
+    width: 93%;
+    height: 93%;
+    padding: 5px;
+    margin: 15px auto;
+    background-color: #fff;
+}
 }
 
 </style>

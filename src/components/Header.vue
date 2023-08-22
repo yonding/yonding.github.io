@@ -41,4 +41,25 @@ h1 {
     margin-bottom: 20px;
     font-weight: 400;
 }
+
+@media (max-width: 768px) {
+    h1{
+        font-size: 28px;
+        margin:17px 0px 0px 0px;
+    }
+
+.back-btn {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    color: #616161;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 200;
+}
+hr{
+    margin-bottom: 0px;
+}
+}
 </style>
