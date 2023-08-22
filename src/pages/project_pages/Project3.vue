@@ -3,8 +3,8 @@
     <div class="p3-container container text-center">
         <img id="webrtcImg" src="@/assets/card_img/card_img_3.png" alt="webRTC" />
         <h2>Peer To Peer</h2>
-        <p id="intro" style="margin:0px;"></p>
         <hr>
+        <p id="intro" style="margin:0px;"></p>
         <div class="introduction">
             <div>
                 <h1 class="subtitle">INTRODUCTION</h1>
@@ -65,8 +65,8 @@
                 </p>
             </div>
             <hr>
+            <p id="projectArchitecture"></p>
         </div>
-        <p id="projectArchitecture"></p>
         <div class="architecture">
             <h1 class="subtitle">PROJECT ARCHITECTURE</h1>
             <br>
@@ -88,8 +88,8 @@
             <h2>구성요소 간의 상호작용 (그림)</h2>
             <img src="@/assets/project_img/project3/project3_architecture.png" style="width:90%;">
         </div>
-        <hr>
         <p id="tryNow"></p>
+        <hr>
         <div class="try">
             <div>
                 <h1 class="subtitle">TRY NOW</h1>

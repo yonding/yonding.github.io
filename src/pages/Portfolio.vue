@@ -1,5 +1,5 @@
 <template>
-    <div class="portfolio-container">
+    <div class="portfolio-container container">
         <Header title="PORTFOLIO" back_path="/#/"></Header>
         <Album></Album>
     </div>
@@ -14,7 +14,8 @@ export default {
     components: { Album, Header }
 };
 </script>
-<style>
+
+<style scoped>
 
 .portfolio-container {
     width: 90%;
@@ -23,10 +24,6 @@ export default {
     margin: 60px auto;
     background-color: #fff;
 }
-
-</style>
-
-<style scoped>
 .profile-header .fa{
     width: 80px;
 }
