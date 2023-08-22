@@ -40,12 +40,13 @@
             </form>
         </transition>
     </div>
-    <div class="video-container">
-        <div id="videos" v-if="isStarted">
+    <div class="video-container" v-if="isStarted">
+        <h1 id="roomTitle">{{ roomName }}</h1>
+        <div id="videos">
             <video id="user-1" class="video-player" autoplay playsinline muted></video>
             <video id="user-2" class="video-player" autoplay playsinline></video>
         </div>
-        <div v-if="isStarted">
+        <div >
             <button id="hangupButton" @click="hangup();">HANG UP</button>
         </div>
     </div>
@@ -161,6 +162,13 @@ export default {
     gap: 2em;
 }
 
+#roomTitle {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0px auto 30px;
+    background-color: rgb(230, 230, 230);
+}
+
 .video-player {
     background-color: rgb(230, 230, 230);
     width: 100%;
@@ -228,7 +236,7 @@ button {
 }
 
 #hangupButton {
-    margin: 10px auto;
+    margin: 40px auto 0;
 }
 
 button:hover {
@@ -304,8 +312,15 @@ input:focus {
         background-color: rgb(233, 233, 233);
         margin: 5px auto;
     }
-    #chatMenu{
+    #chatMenu {
         margin: 20px 0px 30px;
+    }
+    #roomTitle {
+        font-size: 24px;
+        display: inline-block;
+        padding: 5px 10px;
+        margin: 20px auto 15px;
+        background-color: rgb(230, 230, 230);
     }
 }
 </style>

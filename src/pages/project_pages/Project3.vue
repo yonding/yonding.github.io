@@ -94,16 +94,22 @@
             <div>
                 <h1 class="subtitle">TRY NOW</h1>
             </div>
-            <h2>일대일 화상채팅 사용법</h2>
+            <h2>일대일 화상채팅</h2>
             <VideoChat />
-            <p>
-                <strong>※ 새로운 방을 생성하고 싶다면?</strong><br> 1. "NEW ROOM"을 클릭하고 채팅방의 이름과 비밀번호를 설정한다.<br> 2. 채팅방 이름과 비밀번호를 상대방에게 알려준다.<br> 3. 상대방이 채팅에 참여할 때까지 기다린다. - 방 이름이 이미 존재할 시에는 채팅방을 생성할 수 없습니다.<br>
-            </p>
-            <p>
-                <strong>※ 상대방이 만든 방에 참여하고 싶다면?</strong><br>
-                1. "JOIN ROOM"을 클릭하고 상대방이 알려준 채팅방 이름과 비밀번호를 입력한다.<br>
-                2. 채팅에 참여한다. - 방이 존재하지 않거나 채팅방 정보가 틀렸거나 정원 초과일 시에는 채팅에 참여할 수 없습니다.<br>
-            </p>
+            <br>
+            <hr>
+            <div class="procedure">
+                <h2 style="text-align: center;">화상채팅 사용법</h2>
+                <p>
+                    <strong>※ 새로운 방을 생성하고 싶다면?</strong><br> 1. "NEW ROOM"을 클릭하고 채팅방의 이름과 비밀번호를 설정한다.<br> 2. 채팅방 이름과 비밀번호를 상대방에게 알려준다.<br> 3. 상대방이 채팅에 참여할 때까지 기다린다. <br>- 방 이름이 이미 존재할 시에는 채팅방을 생성할 수 없습니다.<br>
+                </p>
+                <p>
+                    <strong>※ 상대방이 만든 방에 참여하고 싶다면?</strong><br>
+                    1. "JOIN ROOM"을 클릭하고 상대방이 알려준 채팅방 이름과 비밀번호를 입력한다.<br>
+                    2. 채팅에 참여한다.<br>
+                    - 방이 존재하지 않거나 채팅방 정보가 틀렸거나 정원 초과일 시에는 채팅에 참여할 수 없습니다.<br>
+                </p>
+            </div>
         </div>
     </div>
 
@@ -124,7 +130,7 @@ export default {
 
 <style scoped>
 .p3-container {
-    padding: 30px;
+    padding: 50px 0px;
 }
 
 .subtitle {
@@ -154,13 +160,15 @@ h2,
 h3 {
     font-weight: 400;
     line-height: 2em;
-    margin: 15px;
+    margin: 40px;
 }
 
 h3 {
     font-size: 25px;
 }
-
+hr{
+    margin: 50px 0;
+}
 h4,
 h5,
 p {
@@ -177,7 +185,7 @@ p {
     width: 78%;
 }
 
-.text {
+.text, .architecture, .try {
     margin: auto;
     width: 95%;
 }
@@ -192,6 +200,11 @@ p {
     transition: all 0.3s;
 }
 
+.procedure{
+    margin: 0px auto;
+    text-align: left;
+    width: 70%;
+}
 @media (max-width: 768px) {
     .p3-container {
         padding: 0px;
@@ -201,9 +214,7 @@ p {
         padding: 0px;
         transition: all 0.5s ease-in-out;
     }
-    .context {
-        width: 100% !important;
-    }
+
     h1 {
         font-size: 26px;
         line-height: 1.5em;
@@ -224,7 +235,7 @@ p {
     }
     p {
         text-align: left;
-        font-size: 15px;
+        font-size: 17px;
         margin: 15px 20px;
     }
     #webrtcImg {
@@ -255,6 +266,9 @@ p {
     }
     hr {
         margin: 30px 0px;
+    }
+    .procedure{
+        width: 100%;
     }
 }
 </style>

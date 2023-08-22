@@ -92,6 +92,14 @@ body {
 </style>
 
 <style scoped>
+
+.profile-container {
+        width: 90%;
+        height: 90%;
+        padding: 30px;
+        margin: 60px auto;
+        background-color: #fff;
+    }
 .grid-container {
     margin-top: 30px;
 }
