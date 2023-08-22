@@ -59,7 +59,8 @@ button:hover {
         margin: 2px;
         height: 50px;
         width: 50px;
-        font-size: 11px;
+        font-size: 8px;
+        color:rgb(91, 91, 91);
         border: solid 1.5px rgb(131, 131, 131);
         border-radius: 40px;
         transition: all 0.3s;
