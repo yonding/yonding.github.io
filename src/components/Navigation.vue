@@ -31,7 +31,7 @@ export default {
 }
 
 button {
-    opacity: 0.5;
+    opacity: 0.7;
     margin: 5px;
     height: 80px;
     width: 80px;
@@ -50,18 +50,19 @@ button:hover {
 @media (max-width: 768px) {
     .navigation-container{
         display: inline;
-        width: 55px;
+        width: 65px;
         position: absolute;
         position:fixed; bottom:10px; right:10px;
         height: auto;
     }
     button {
-        margin: 2px;
-        height: 50px;
-        width: 50px;
-        font-size: 8px;
-        color:rgb(91, 91, 91);
-        border: solid 1.5px rgb(131, 131, 131);
+        margin: 3px;
+        height: 60px;
+        width: 60px;
+        font-size: 11px;
+        font-weight: 800;
+        color:rgb(30, 30, 30);
+        border: solid 1.2px rgb(30, 30, 30);
         border-radius: 40px;
         transition: all 0.3s;
     }
