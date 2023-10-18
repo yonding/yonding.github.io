@@ -71,7 +71,7 @@
                         <a href="https://dl.acm.org/doi/pdf/10.1145/1721654.1721672" target="_blank" id="kccCertificate">
                             <h5>
                                 A view of cloud computing<br>
-                                - Michael Armbrust, Armando Fox, Rean Griffith, Anthony D. Joseph, Randy Katz, Andy Konwinski, Gunho Lee, David Patterson, Ariel Rabkin, Ion Stoica, Matei Zaharia
+                                - Michael Armbrust, Armando Fox, Rean Griffith, Anthony D. Joseph, Randy Katz, Andy Konwinski, Gunho Lee, David Patterson, Ariel Rabkin, Ion Stoica, and Matei Zaharia
                             </h5>
                         </a>
                         <a href="https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf" target="_blank" id="kccCertificate">
@@ -89,31 +89,37 @@
                         <a href="https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf" target="_blank" id="kccCertificate">
                             <h5>
                                 Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing<br>
-                                - Matei Zaharia, Mosharaf Chowdhury, Tathagata Das, Ankur Dave, Justin Ma, Murphy Mc Cauley, Michael J. Franklin, Scott Shenker, Ion Stoica
+                                - Matei Zaharia, Mosharaf Chowdhury, Tathagata Das, Ankur Dave, Justin Ma, Murphy Mc Cauley, Michael J. Franklin, Scott Shenker, and Ion Stoica
                             </h5>
                         </a>
                         <a href="https://arxiv.org/pdf/2004.03814.pdf" target="_blank" id="kccCertificate">
                             <h5>
                                 Bao: Learning to Steer Query Optimizers<br>
-                                - Ryan Marcus, Parimarjan Negi, Hongzi Mao, Nesime Tatbul, Mohammad Alizadeh, Tim Kraska
+                                - Ryan Marcus, Parimarjan Negi, Hongzi Mao, Nesime Tatbul, Mohammad Alizadeh, and Tim Kraska
                             </h5>
                         </a>
                         <a href="https://db.in.tum.de/~anneser/autosteer-paper.pdf?lang=en" target="_blank" id="kccCertificate">
                             <h5>
                                 AutoSteer: Learned Query Optimization for Any SQL Database<br>
-                                - Christoph Anneser, Nesime Tatbul, David Cohen, Zhenggang Xu, Prithviraj Pandian, Nikolay Laptev, Ryan Marcus
+                                - Christoph Anneser, Nesime Tatbul, David Cohen, Zhenggang Xu, Prithviraj Pandian, Nikolay Laptev, and Ryan Marcus
                             </h5>
                         </a>
                         <a href="https://web.stanford.edu/~bvr/pubs/TS_Tutorial.pdf" target="_blank" id="kccCertificate">
                             <h5>
                                 A Tutorial on Thompson Sampling<br>
-                                - Daniel Russo, Benjamin Van Roy, Abbas Kazerouni, Ian Osband, Zheng Wen
+                                - Daniel Russo, Benjamin Van Roy, Abbas Kazerouni, Ian Osband, and Zheng Wen
                             </h5>
                         </a>
                         <a href="https://arxiv.org/pdf/1802.05800.pdf" target="_blank" id="kccCertificate">
                             <h5>
                                 Tree-CNN: A Hierarchical Deep Convolutional Neural Network for Incremental Learning<br>
-                                - Deboleena Roy, Priyadarshini Panda, Kaushik Roy
+                                - Deboleena Roy, Priyadarshini Panda, and Kaushik Roy
+                            </h5>
+                        </a>
+                        <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10460125/pdf/nihms-1917822.pdf" target="_blank" id="kccCertificate">
+                            <h5>
+                                Multi-Query Optimization Revisited: A Full-Query Algebraic Method<br>
+                                - Yicheng Tu, Mehrad Eslami, Zichen Xu, and Hadi Charkhgard
                             </h5>
                         </a>
 
