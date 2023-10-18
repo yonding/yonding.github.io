@@ -2,7 +2,7 @@
 <div class="p3-container container text-center">
     <Navigation />
     <br>
-    <img id="webrtcImg" src="@/assets/card_img/card_img_1.png" alt="webRTC" /><br><br>
+    <img id="mulmagiImg" src="@/assets/card_img/card_img_4.png" alt="mulmagi" /><br><br>
     <br>
     <p>
     </p>
@@ -63,7 +63,7 @@ p {
     font-size: 20px;
 }
 
-#webrtcImg {
+#mulmagiImg {
     width: 78%;
 }
 

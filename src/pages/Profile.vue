@@ -28,7 +28,6 @@
     
             <div class="col col-md-8 row-info">
                 <div class="row row-edu">
-    
                     <div class="col col-md-5 education-img">
                         <h2>EDUCATION</h2>
                         <img src="@/assets/kyunghee.png" id="kyungheeImg" alt="kyunghee">
@@ -56,13 +55,36 @@
     
                     </div>
                 </div>
-    
                 <div class="row row-conf">
                     <div class="col">
                         <h2>CONFERENCES</h2>
                         <a href="https://yonding.s3.ap-northeast-2.amazonaws.com/certificate2_kcc2023.pdf" target="_blank" id="kccCertificate">
                             <h5>
                                 2023 한국컴퓨터종합학술대회 (KCC 2023) 참석 및 발표
+                            </h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="row row-trans">
+                    <div class="col">
+                        <h2>TRANSLATIONS</h2>
+                        <a href="https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf" target="_blank" id="kccCertificate">
+                            <h5>
+                                A few useful things to Know about machine Learning <br>
+                                - Pedro Domingos
+                                
+                            </h5>
+                        </a>
+                        <a href="https://research.google.com/archive/mapreduce-osdi04.pdf" target="_blank" id="kccCertificate">
+                            <h5>
+                                MapReduce: Simplified Data Processing on Large Clusters<br>
+                                - Jeffrey Dean and Sanjay Ghemawat, Google,Inc.
+                            </h5>
+                        </a>
+                        <a href="https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf" target="_blank" id="kccCertificate">
+                            <h5>
+                                Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing<br>
+                                Matei Zaharia, Mosharaf Chowdhury, Tathagata Das, Ankur Dave, Justin Ma, Murphy Mc Cauley, Michael J. Franklin, Scott Shenker, Ion Stoica
                             </h5>
                         </a>
                     </div>
@@ -131,7 +153,7 @@ body {
 }
 
 .row-edu,
-.row-pub {
+.row-pub , .row-conf{
     text-align: left;
     padding: 10px;
     margin: 15px 0px 30px 0px;
@@ -187,15 +209,18 @@ li {
 }
 
 .row-pub h2,
-.row-conf h2 {
+.row-conf h2, 
+.row-trans h2{
     margin-bottom: 20px;
 }
-
+.row-trans h5{
+    margin-bottom: 20px;
+}
 h5 {
     font-weight: 400;
 }
 
-.row-conf {
+.row-con, .row-trans {
     text-align: left;
     padding: 10px;
     margin: 15px 0px 10px 0px;

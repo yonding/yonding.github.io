@@ -2,9 +2,8 @@
     <div class="p3-container container text-center">
         <Navigation />
         <br>
-        <img id="webrtcImg" src="@/assets/card_img/card_img_2.png" alt="Moldoo" />
+        <img id="webrtcImg" src="@/assets/card_img/card_img_2.png" alt="webrtc" />
         <br>
-        <h2>It's time to moldoo!</h2>
         <p>
         </p>
         <p id="intro"></p>

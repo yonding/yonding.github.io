@@ -4,6 +4,7 @@
         <Project1 v-if="$route.params.projectId==1" />
         <Project2 v-if="$route.params.projectId==2" />
         <Project3 v-if="$route.params.projectId==3" />
+        <Project4 v-if="$route.params.projectId==4" />
     
     </div>
 </template>
@@ -14,6 +15,7 @@ import { store } from '@/scripts/store.js';
 import Project1 from "@/pages/project_pages/Project1.vue";
 import Project2 from "@/pages/project_pages/Project2.vue";
 import Project3 from "@/pages/project_pages/Project3.vue";
+import Project4 from "@/pages/project_pages/Project4.vue";
 
 
 export default {
@@ -23,7 +25,7 @@ export default {
             store
         }
     },
-    components: { Header, Project1, Project2, Project3 }
+    components: { Header, Project1, Project2, Project3, Project4 }
 }
 </script>
 

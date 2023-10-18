@@ -2,7 +2,7 @@
     <Navigation />
     <div class="p3-container container text-center">
         <img id="webrtcImg" src="@/assets/card_img/card_img_3.png" alt="webRTC" />
-        <h2>Peer To Peer</h2>
+        <br><br>
         <hr>
         <p id="intro" style="margin:0px;"></p>
         <div class="introduction">
