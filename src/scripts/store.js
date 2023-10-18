@@ -30,6 +30,13 @@ export const store = reactive({
             text: "지쿠터, 따릉이, 물막이 Let's Go",
             imgPath: "../assets/card_img/card_img_4.png",
             tag: ["AWS"]
+        },
+        {
+            no:5,
+            title: "모두 몰두할 시간",
+            text: "집중 관리 앱, 몰두 개발 과정",
+            imgPath: "../assets/card_img/card_img_5.png",
+            tag: ["moldoo"]
         }
     ]
 })
