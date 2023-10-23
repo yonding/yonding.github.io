@@ -110,7 +110,11 @@
                     - 방이 존재하지 않거나 채팅방 정보가 틀렸거나 정원 초과일 시에는 채팅에 참여할 수 없습니다.<br>
                 </p>
             </div>
-        </div>
+
+        </div><br><hr>
+        <br>
+        <h2>사용 예시</h2>
+        <img id="exampleImg" src="@/assets/project_img/project3/example.png">
     </div>
 
     <div style="height: 30px;">
@@ -270,5 +274,10 @@ p {
     .procedure{
         width: 100%;
     }
+
 }
+
+#exampleImg{
+        width: 90%;
+    }
 </style>
