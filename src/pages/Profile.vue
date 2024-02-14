@@ -6,7 +6,7 @@
         <div class="row-2">
           <div class="profile">
             <img
-              src="@/assets/profile_img.jpeg"
+              src="@/assets/profile.jpeg"
               id="profileImg"
               alt="profile_img"
             />
@@ -62,7 +62,7 @@
             </h4>
             <h5>
               Bachelor of Engineering in Computer Engineering
-              <br />GPA: 4.0/4.3, 2019-2023
+              <br />GPA: 4.0/4.3, 2019.03-2024.02 <br />Summa
             </h5>
           </div>
         </div>
@@ -166,6 +166,7 @@
 <script>
 import Header from '../components/Header.vue'
 export default {
+  // eslint-disable-next-line
     name: "Profile",
     components: { Header }
 };
