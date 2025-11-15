@@ -16,7 +16,7 @@ My name is Ka Young Kim, a Master's student, supervised by Prof. [Seong Tae Kim]
 
 News
 ======
-[Jul 2025] 2 **papers** got accepted to **MICCAI 2025**!
+[Jul 2025] **2 papers** got accepted to **MICCAI 2025**!
 
 
 ----
