@@ -24,10 +24,15 @@ News
 ## Education
 
 ### Graduate Student  
-Kyung Hee University, South Korea
-*Mar 2024 – Current*
+<div style="display: flex; justify-content: space-between; width: 100%;">
+  <span>Kyung Hee University, South Korea</span>
+  <span>Mar 2024 – Current</span>
+</div>
+
 
 ### Undergraduate Student  
-Kyung Hee University, South Korea
-*Mar 2019 – Feb 2024*
+<div style="display: flex; justify-content: space-between; width: 100%;">
+  <span>Kyung Hee University, South Korea</span>
+  <span>Mar 2019 – Feb 2024</span>
+</div>
 
