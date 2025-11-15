@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-My name is Ka Young Kim, a Master's student, supervised by Prof. [Seong Tae Kim](https://ami.khu.ac.kr/people/pi/) at Kyung Hee University, South Korea. My research focuses on AI in healthcare, particularly in designing computer vision–based algorithms for understanding and assisting in laparoscopic and robotic surgeries. I am especially interested in enabling AI to understand surgical scenes and interact with humans. 
+My name is Ka Young Kim, a Master's student, supervised by Prof. [Seong Tae Kim](https://ami.khu.ac.kr/people/pi/) at [AMI Lab](https://ami.khu.ac.kr/), [Kyung Hee University](https://www.khu.ac.kr/eng/user/main/view.do), South Korea. My research focuses on AI in healthcare, particularly in designing computer vision–based algorithms for understanding and assisting in laparoscopic and robotic surgeries. I am especially interested in enabling AI to understand surgical scenes and interact with humans. 
 <!-- I am always open to collaboration. Feel free to drop me an e-mail. -->
 
 <!-- **I am currently on the job market and actively seeking faculty positions.**   -->
