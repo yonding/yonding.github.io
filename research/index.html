@@ -3,359 +3,48 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>월드 모델과 에이전트 논문 지도</title>
+<title>Research</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
 :root{
   box-sizing:border-box;
   padding-top:env(safe-area-inset-top,0px);
   padding-bottom:env(safe-area-inset-bottom,0px);
   color-scheme:light;
-  --bg:#EEF2F1;
-  --surface:#FFFFFF;
-  --ink:#16262B;
-  --muted:#5B6B70;
-  --line:#CBD5D3;
-  --head:#DCE5E3;
-  --k-ai:#3B46C4;
-  --k-cv:#0B8576;
-  --k-robo:#B7700A;
-  --k-journal:#A3284F;
-  --k-medconf:#4C7A1E;
-  --k-medjournal:#7A3EA8;
-  --k-other:#2F7DA8;
-  --k-pre:#7D8A8E;
+  --bg:#EEF2F1;--surface:#FFFFFF;--ink:#16262B;--muted:#5B6B70;--line:#CBD5D3;--accent:#0B8576;
 }
 @media (prefers-color-scheme:dark){
-  :root:not([data-theme="light"]){
-    color-scheme:dark;
-    --bg:#101A1D;--surface:#18252A;--ink:#E3ECEA;--muted:#9AABAF;--line:#2C3D42;--head:#1F3036;
-    --k-ai:#8C95FF;--k-cv:#3FC9B5;--k-robo:#F0A93D;--k-journal:#F07AA0;--k-medconf:#94CC5C;--k-medjournal:#C394EE;--k-other:#6CB9E6;--k-pre:#A7B3B6;
-  }
+  :root:not([data-theme="light"]){color-scheme:dark;--bg:#101A1D;--surface:#18252A;--ink:#E3ECEA;--muted:#9AABAF;--line:#2C3D42;--accent:#3FC9B5}
 }
-:root[data-theme="dark"]{
-  color-scheme:dark;
-  --bg:#101A1D;--surface:#18252A;--ink:#E3ECEA;--muted:#9AABAF;--line:#2C3D42;--head:#1F3036;
-  --k-ai:#8C95FF;--k-cv:#3FC9B5;--k-robo:#F0A93D;--k-journal:#F07AA0;--k-medconf:#94CC5C;--k-medjournal:#C394EE;--k-other:#6CB9E6;--k-pre:#A7B3B6;
-}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#101A1D;--surface:#18252A;--ink:#E3ECEA;--muted:#9AABAF;--line:#2C3D42;--accent:#3FC9B5}
 *,*::before,*::after{box-sizing:inherit}
-html{scroll-padding-top:env(safe-area-inset-top,0px)}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",system-ui,sans-serif;font-size:15px;line-height:1.55}
-main{max-width:1500px;margin:0 auto;padding:28px 20px 60px}
-h1{font-size:clamp(26px,4vw,40px);line-height:1.15;font-weight:700;margin:0 0 10px;letter-spacing:-0.02em}
-.lede{max-width:72ch;color:var(--muted);margin:0 0 22px}
-.tabs{display:flex;gap:6px;margin-bottom:18px;flex-wrap:wrap}
-.tab{font:inherit;font-weight:600;padding:9px 16px;border:1.5px solid var(--ink);background:transparent;color:var(--ink);border-radius:999px;cursor:pointer}
-.tab[aria-selected="true"]{background:var(--ink);color:var(--bg)}
-.tab:focus-visible,.chip:focus-visible,.paper:focus-visible{outline:3px solid var(--k-ai);outline-offset:2px}
-.flow{max-width:80ch;margin:0 0 18px;padding:14px 16px;background:var(--surface);border-radius:10px;border:1px solid var(--line)}
-.flow p{margin:0}
-.legend{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:16px}
-.legend .hint{color:var(--muted);font-size:13px;margin-right:4px}
-.chip{font:inherit;font-size:13px;display:inline-flex;align-items:center;gap:7px;padding:5px 11px;border-radius:6px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
-.chip i{width:10px;height:10px;border-radius:2px;background:var(--c)}
-.chip[aria-pressed="false"]{opacity:.38;text-decoration:line-through}
-.count{color:var(--muted);font-size:13px;margin-left:auto}
-.scroller{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
-table{border-collapse:separate;border-spacing:0;min-width:100%}
-th,td{border-bottom:1px solid var(--line);border-right:1px solid var(--line);vertical-align:top;text-align:left}
-thead th{position:sticky;top:0;background:var(--head);font-weight:600;font-size:14px;padding:10px 10px;z-index:2;white-space:nowrap}
-tbody th{position:sticky;left:0;background:var(--head);z-index:1;width:150px;min-width:150px;padding:12px 12px;font-size:14px;font-weight:600;line-height:1.35}
-tbody th small{display:block;font-weight:400;color:var(--muted);font-size:12px;margin-top:4px}
-thead th:first-child{left:0;z-index:3}
-td{padding:8px;min-width:178px;width:178px}
-td.empty{background:repeating-linear-gradient(135deg,transparent 0 8px,color-mix(in srgb,var(--line) 35%,transparent) 8px 9px)}
-.paper{display:block;text-decoration:none;color:var(--ink);background:var(--bg);border-left:4px solid var(--c);border-radius:4px;padding:7px 9px 8px;margin-bottom:7px}
-.paper:last-child{margin-bottom:0}
-.paper:hover .t{text-decoration:underline}
-.paper .t{display:block;font-weight:600;font-size:13.5px;line-height:1.3}
-.paper .n{display:block;font-size:12.5px;color:var(--muted);margin-top:3px;line-height:1.4}
-.paper .v{display:block;font-size:12px;font-weight:600;color:var(--c);margin-top:4px}
-.paper .s{font-weight:500;font-size:11px;border:1px solid var(--muted);color:var(--muted);border-radius:3px;padding:0 4px;margin-left:5px}
-.paper[hidden]{display:none}
-footer{margin-top:22px;color:var(--muted);font-size:13px;max-width:80ch}
-footer p{margin:0 0 6px}
-@media (max-width:640px){
-  main{padding:20px 12px 40px}
-  tbody th{width:112px;min-width:112px;font-size:13px}
-  td{min-width:160px;width:160px}
-}
+html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",system-ui,sans-serif;line-height:1.55;display:flex;align-items:center;justify-content:center}
+main{width:100%;max-width:640px;padding:40px 20px}
+h1{font-size:clamp(30px,6vw,44px);font-weight:700;letter-spacing:-0.02em;margin:0 0 8px}
+.lede{color:var(--muted);margin:0 0 28px}
+.btn{display:block;text-decoration:none;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-left:6px solid var(--accent);border-radius:10px;padding:20px 22px;transition:transform .15s ease,border-color .15s ease}
+.btn:hover{transform:translateY(-2px);border-color:var(--accent)}
+.btn:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.btn .t{display:block;font-size:19px;font-weight:600}
+.btn .d{display:block;color:var(--muted);font-size:14px;margin-top:4px}
+.btn .go{display:inline-block;margin-top:12px;font-weight:600;font-size:14px;color:var(--accent)}
+.home{display:inline-block;margin-top:28px;color:var(--muted);font-size:14px}
+@media (prefers-reduced-motion:reduce){.btn{transition:none}.btn:hover{transform:none}}
 </style>
 </head>
 <body>
 <main>
-  <h1>월드 모델과 에이전트 논문 지도</h1>
-  <p class="lede">가로축은 연도, 세로축은 연구 흐름입니다. 논문 이름을 누르면 원문으로 이동하고, ‘검색’ 표시가 붙은 논문은 원문 링크를 확인하지 못해 Google Scholar 검색으로 연결됩니다. 학회 종류 버튼을 눌러 특정 베뉴만 골라 볼 수 있습니다.</p>
-
-  <div class="tabs" role="tablist">
-    <button class="tab" role="tab" id="tab-general" aria-controls="panel" data-view="general">일반 AI</button>
-    <button class="tab" role="tab" id="tab-surgical" aria-controls="panel" data-view="surgical">수술과 의료 AI</button>
-  </div>
-
-  <div id="panel" role="tabpanel">
-    <div class="flow"><p id="flow"></p></div>
-    <div class="legend" id="legend"><span class="hint">베뉴 종류</span></div>
-    <div class="scroller"><table id="matrix"></table></div>
-  </div>
-
-  <footer>
-    <p>연도는 학회나 저널에 실린 해를 기준으로 하고, 아직 정식 출판 정보가 없는 논문은 arXiv 공개 연도로 넣었습니다.</p>
-    <p>2026년 10월 기준으로 조사했으며, 2026년 arXiv 논문 중 다수는 아직 심사 중일 수 있습니다.</p>
-  </footer>
+  <h1>Research</h1>
+  <p class="lede">공부하면서 정리한 연구 자료를 모아둔 곳입니다.</p>
+  <a class="btn" href="./world-model-agent/">
+    <span class="t">월드 모델과 에이전트 논문 지도</span>
+    <span class="d">연도와 연구 흐름으로 정리한 130편. 일반 AI와 수술, 의료 AI 두 갈래로 볼 수 있습니다.</span>
+    <span class="go">지도 열기</span>
+  </a>
+  <a class="home" href="/">홈으로 돌아가기</a>
 </main>
-
-<script>
-const KINDS = {
-  ai:{label:"AI 탑티어 학회", c:"--k-ai"},
-  cv:{label:"CV 탑티어 학회", c:"--k-cv"},
-  robo:{label:"로봇 학회와 저널", c:"--k-robo"},
-  journal:{label:"AI와 과학 탑저널", c:"--k-journal"},
-  other:{label:"NLP와 HCI 학회", c:"--k-other"},
-  medconf:{label:"의료 AI 학회", c:"--k-medconf"},
-  medjournal:{label:"의료 AI 저널", c:"--k-medjournal"},
-  pre:{label:"arXiv와 기술 보고서", c:"--k-pre"}
-};
-const ax = id => "https://arxiv.org/abs/" + id;
-const doi = d => "https://doi.org/" + d;
-
-const VIEWS = {
-general:{
-  flow:"2018년 World Models 이후 잠재 동역학으로 꿈속에서 배우는 흐름이 Dreamer 계열로 이어졌고, 2023년부터는 Genie와 Cosmos처럼 영상 생성 모델을 월드 모델로 쓰는 흐름이 커졌습니다. 같은 시기 LLM 쪽에서는 ReAct와 Toolformer를 시작으로 도구를 쓰는 에이전트 루프가 자리 잡았고, 이것이 코딩 에이전트 하네스와 로봇 VLA로 갈라졌습니다. 최근에는 두 흐름이 다시 만나 LLM을 월드 모델로 쓰거나 월드 모델 안에서 에이전트 정책을 평가하는 연구가 늘고 있습니다. 맨 위 줄에는 LeCun, Sutton, Silver, Bengio, Eric Xing처럼 방향을 제시한 연구자들의 포지션 페이퍼를 베뉴와 상관없이 모았습니다.",
-  years:["~2017","2018","2019","2020","2021","2022","2023","2024","2025","2026"],
-  rows:[
-    {id:"pos",name:"거장들의 관점과 비판",sub:"포지션 페이퍼, 에세이"},
-    {id:"lat",name:"잠재 동역학 월드 모델",sub:"모델 기반 강화학습"},
-    {id:"vid",name:"영상 생성형 월드 모델",sub:"인터랙티브 시뮬레이터"},
-    {id:"jepa",name:"표현 예측형 월드 모델",sub:"JEPA 계열"},
-    {id:"bridge",name:"LLM과 월드 모델의 만남",sub:"LLM 속 세계 표상, 계획"},
-    {id:"llm",name:"LLM 에이전트",sub:"추론, 도구 사용, 하네스"},
-    {id:"bench",name:"에이전트 환경과 벤치마크",sub:"웹, 코드, 운영체제"},
-    {id:"emb",name:"체화 에이전트와 VLA",sub:"로봇 파운데이션 모델"},
-    {id:"survey",name:"서베이",sub:"흐름 정리용"}
-  ],
-  papers:[
-    {r:"pos",y:"~2017",t:"On Learning to Think",n:"Schmidhuber. RNN 월드 모델과 컨트롤러가 서로 질문하는 구조",v:"arXiv 2015",k:"pre",u:ax("1511.09249")},
-    {r:"pos",y:"2019",t:"The Bitter Lesson",n:"Sutton. 사람 지식보다 계산을 쓰는 범용 방법이 결국 이긴다",v:"에세이 2019",k:"pre",u:"http://www.incompleteideas.net/IncIdeas/BitterLesson.html"},
-    {r:"pos",y:"2021",t:"Reward is Enough",n:"Silver, Sutton 등. 보상 최대화만으로 지능 전반을 설명할 수 있다는 가설",v:"Artificial Intelligence 2021",k:"journal",u:doi("10.1016/j.artint.2021.103535")},
-    {r:"pos",y:"2022",t:"A Path Towards Autonomous Machine Intelligence",n:"LeCun. JEPA와 월드 모델 중심의 자율 지능 설계",v:"OpenReview 2022",k:"pre",s:true},
-    {r:"pos",y:"2022",t:"The Alberta Plan for AI Research",n:"Sutton 등. 계속 학습하는 에이전트와 모델 기반 계획 로드맵",v:"arXiv 2022",k:"pre",u:ax("2208.11173")},
-    {r:"pos",y:"2025",t:"Critiques of World Models",n:"Eric Xing 등. 월드 모델의 목적을 행동 가능성 시뮬레이션으로 재정의, PAN 구조 제안",v:"arXiv 2025",k:"pre",u:ax("2507.05169")},
-    {r:"pos",y:"2025",t:"Welcome to the Era of Experience",n:"Silver, Sutton. 사람 데이터에서 스스로 겪는 경험으로 학습 축 이동",v:"프리프린트 2025",k:"pre",s:true,q:"Welcome to the Era of Experience Silver Sutton"},
-    {r:"pos",y:"2025",t:"Superintelligent Agents Pose Catastrophic Risks",n:"Bengio 등. 에이전트 대신 비에이전트형 Scientist AI 제안",v:"arXiv 2025",k:"pre",u:ax("2502.15657")},
-    {r:"pos",y:"2026",t:"Critique of Agent Model",n:"Eric Xing 등. agentic과 agentive 구분, 별도 월드 모델을 쓰는 GIC 구조 제안",v:"arXiv 2026",k:"pre",u:ax("2606.23991")},
-
-    {r:"lat",y:"~2017",t:"Dyna",n:"학습, 계획, 행동을 하나로 묶은 원조",v:"ACM SIGART Bulletin 1991",k:"journal",u:doi("10.1145/122344.122377")},
-    {r:"lat",y:"2018",t:"World Models",n:"VAE, MDN-RNN, 컨트롤러로 꿈속 학습",v:"NeurIPS 2018",k:"ai",u:ax("1803.10122")},
-    {r:"lat",y:"2019",t:"PlaNet",n:"픽셀에서 잠재 동역학을 배워 계획",v:"ICML 2019",k:"ai",u:ax("1811.04551")},
-    {r:"lat",y:"2020",t:"Dreamer",n:"RSSM 잠재 상상으로 행동 학습",v:"ICLR 2020",k:"ai",u:ax("1912.01603")},
-    {r:"lat",y:"2020",t:"SimPLe",n:"영상 예측 모델 기반 Atari 학습",v:"ICLR 2020",k:"ai",u:ax("1903.00374")},
-    {r:"lat",y:"2020",t:"MuZero",n:"규칙 없이 계획용 동역학 학습",v:"Nature 2020",k:"journal",u:doi("10.1038/s41586-020-03051-4")},
-    {r:"lat",y:"2021",t:"DreamerV2",n:"이산 잠재 변수로 Atari 인간 수준",v:"ICLR 2021",k:"ai",u:ax("2010.02193")},
-    {r:"lat",y:"2022",t:"TD-MPC",n:"잠재 공간 MPC와 가치 학습 결합",v:"ICML 2022",k:"ai",u:ax("2203.04955")},
-    {r:"lat",y:"2022",t:"DayDreamer",n:"실제 로봇에서 바로 월드 모델 학습",v:"CoRL 2022",k:"robo",u:ax("2206.14176")},
-    {r:"lat",y:"2023",t:"IRIS",n:"Transformer를 월드 모델로 사용",v:"ICLR 2023",k:"ai",u:ax("2209.00588")},
-    {r:"lat",y:"2024",t:"TD-MPC2",n:"다중 과제로 확장한 잠재 MPC",v:"ICLR 2024",k:"ai",u:ax("2310.16828")},
-    {r:"lat",y:"2024",t:"DIAMOND",n:"확산 모델 월드 모델로 Atari 학습",v:"NeurIPS 2024",k:"ai",u:ax("2405.12399")},
-    {r:"lat",y:"2025",t:"DreamerV3",n:"하나의 설정으로 다양한 과제, 마인크래프트 다이아몬드",v:"Nature 2025",k:"journal",u:doi("10.1038/s41586-025-08744-2")},
-    {r:"lat",y:"2025",t:"Dreamer 4",n:"Google DeepMind Hafner. 확장형 Transformer 월드 모델 안 상상 훈련, 오프라인 데이터만으로 마인크래프트 다이아몬드",v:"arXiv 2025",k:"pre",u:ax("2509.24527")},
-    {r:"lat",y:"2026",t:"Deep SPI",n:"월드 모델 기반 안전한 정책 개선",v:"ICLR 2026",k:"ai",u:ax("2510.12312")},
-
-    {r:"vid",y:"2023",t:"GAIA-1",n:"자율주행용 생성형 월드 모델",v:"arXiv 2023",k:"pre",u:ax("2309.17080")},
-    {r:"vid",y:"2024",t:"UniSim",n:"상호작용 가능한 실세계 시뮬레이터",v:"ICLR 2024",k:"ai",u:ax("2310.06114")},
-    {r:"vid",y:"2024",t:"Genie",n:"라벨 없는 영상에서 잠재 행동 추론",v:"ICML 2024",k:"ai",u:ax("2402.15391")},
-    {r:"vid",y:"2024",t:"Genie 2",n:"Google DeepMind. 플레이 가능한 3D 환경을 만드는 파운데이션 월드 모델",v:"DeepMind 블로그 2024",k:"pre",u:"https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/"},
-    {r:"vid",y:"2024",t:"Pandora",n:"MBZUAI, UCSD Xing, Hu. 자연어 행동과 영상 상태를 잇는 범용 월드 모델 시도",v:"arXiv 2024",k:"pre",s:true,q:"Pandora: Towards General World Model with Natural Language Actions and Video States"},
-    {r:"vid",y:"2024",t:"Sora 기술 보고서",n:"영상 생성 모델을 세계 시뮬레이터로",v:"OpenAI 2024",k:"pre",u:"https://openai.com/index/video-generation-models-as-world-simulators/"},
-    {r:"vid",y:"2025",t:"GameNGen",n:"확산 모델로 실시간 게임 엔진",v:"ICLR 2025",k:"ai",u:ax("2408.14837")},
-    {r:"vid",y:"2025",t:"Navigation World Models",n:"Meta FAIR, LeCun. 내비게이션 행동 조건 영상 월드 모델로 경로 계획",v:"CVPR 2025",k:"cv",u:ax("2412.03572")},
-    {r:"vid",y:"2025",t:"GAIA-2",n:"Wayve. 다중 카메라 제어형 자율주행 월드 모델",v:"arXiv 2025",k:"pre",u:ax("2503.20523")},
-    {r:"vid",y:"2025",t:"Genie 3",n:"Google DeepMind. 첫 실시간 상호작용 범용 월드 모델, Waymo World Model의 기반",v:"DeepMind 블로그 2025",k:"pre",u:"https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/"},
-    {r:"vid",y:"2025",t:"PAN",n:"MBZUAI Xing. LLM 잠재 동역학과 영상 확산 디코더를 결합한 GLP 구조",v:"arXiv 2025",k:"pre",u:ax("2511.09057")},
-    {r:"vid",y:"2025",t:"Marble",n:"World Labs, Fei-Fei Li. 텍스트, 이미지, 영상에서 편집 가능한 3D 세계 생성",v:"World Labs 블로그 2025",k:"pre",u:"https://www.worldlabs.ai/blog/marble-world-model"},
-    {r:"vid",y:"2025",t:"GWM-1",n:"Runway. Gen-4.5 기반 실시간 범용 월드 모델, 로봇용 버전 포함",v:"제품 발표 2025 (기사 링크)",k:"pre",u:"https://the-decoder.com/runway-unveils-first-general-world-model-alongside-major-gen-4-5-upgrades/"},
-    {r:"vid",y:"2025",t:"Cosmos WFM",n:"피지컬 AI용 월드 파운데이션 모델 플랫폼",v:"arXiv 2025",k:"pre",u:ax("2501.03575")},
-    {r:"vid",y:"2025",t:"Cosmos Predict 2.5 계열",n:"수술 월드 모델들의 기반 모델",v:"arXiv 2025",k:"pre",u:ax("2511.00062")},
-
-    {r:"jepa",y:"2023",t:"I-JEPA",n:"픽셀 대신 표현을 예측",v:"CVPR 2023",k:"cv",u:ax("2301.08243")},
-    {r:"jepa",y:"2024",t:"V-JEPA",n:"영상 특징 예측으로 표현 학습",v:"TMLR 2024",k:"journal",u:ax("2404.08471")},
-    {r:"jepa",y:"2025",t:"DINO-WM",n:"DINO 특징 위 월드 모델로 제로샷 계획",v:"ICML 2025",k:"ai",u:ax("2411.04983")},
-    {r:"jepa",y:"2025",t:"V-JEPA 2",n:"영상 표현에서 로봇 계획까지",v:"arXiv 2025",k:"pre",u:ax("2506.09985")},
-    {r:"jepa",y:"2025",t:"LeJEPA",n:"휴리스틱 없이 붕괴를 막는 JEPA 학습 이론, LeWM의 바탕",v:"arXiv 2025",k:"pre",s:true,q:"LeJEPA provable and scalable self-supervised learning without the heuristics"},
-    {r:"jepa",y:"2026",t:"VL-JEPA",n:"토큰 대신 텍스트 임베딩을 예측하는 비생성형 VLM",v:"ICLR 2026",k:"ai",u:ax("2512.10942")},
-    {r:"jepa",y:"2026",t:"LeWorldModel (LeWM)",n:"픽셀에서 끝까지 안정적으로 학습하는 JEPA 월드 모델, 단일 GPU",v:"arXiv 2026",k:"pre",u:ax("2603.19312")},
-
-    {r:"bridge",y:"2023",t:"Othello-GPT",n:"수만 보고 학습한 모델 안에 생긴 판 상태 표상",v:"ICLR 2023",k:"ai",u:ax("2210.13382")},
-    {r:"bridge",y:"2023",t:"RAP",n:"LLM을 월드 모델로 삼아 MCTS 계획",v:"EMNLP 2023",k:"other",u:ax("2305.14992")},
-    {r:"bridge",y:"2023",t:"Language Models Meet World Models",n:"체화 경험으로 LLM 보강",v:"NeurIPS 2023",k:"ai",u:ax("2305.10626")},
-    {r:"bridge",y:"2024",t:"Dynalang",n:"언어로 미래를 예측하는 월드 모델",v:"ICML 2024",k:"ai",u:ax("2308.01399")},
-    {r:"bridge",y:"2024",t:"Language Models Represent Space and Time",n:"LLM 내부의 시공간 표상",v:"ICLR 2024",k:"ai",u:ax("2310.02207")},
-    {r:"bridge",y:"2024",t:"WebDreamer",n:"LLM으로 웹 행동 결과를 미리 상상",v:"arXiv 2024",k:"pre",u:ax("2411.06559")},
-
-    {r:"llm",y:"2022",t:"Chain-of-Thought Prompting",n:"단계별 추론 유도",v:"NeurIPS 2022",k:"ai",u:ax("2201.11903")},
-    {r:"llm",y:"2023",t:"ReAct",n:"추론과 행동을 번갈아 하는 에이전트 루프",v:"ICLR 2023",k:"ai",u:ax("2210.03629")},
-    {r:"llm",y:"2023",t:"Toolformer",n:"도구 호출을 스스로 학습",v:"NeurIPS 2023",k:"ai",u:ax("2302.04761")},
-    {r:"llm",y:"2023",t:"Reflexion",n:"실패를 언어로 반성해 재시도",v:"NeurIPS 2023",k:"ai",u:ax("2303.11366")},
-    {r:"llm",y:"2023",t:"Tree of Thoughts",n:"여러 추론 경로를 탐색",v:"NeurIPS 2023",k:"ai",u:ax("2305.10601")},
-    {r:"llm",y:"2023",t:"Generative Agents",n:"기억과 계획을 가진 가상 주민",v:"UIST 2023",k:"other",u:ax("2304.03442")},
-    {r:"llm",y:"2024",t:"Voyager",n:"마인크래프트 평생 학습 에이전트",v:"TMLR 2024",k:"journal",u:ax("2305.16291")},
-    {r:"llm",y:"2024",t:"CodeAct",n:"코드를 행동 공간으로 사용",v:"ICML 2024",k:"ai",u:ax("2402.01030")},
-    {r:"llm",y:"2024",t:"SWE-agent",n:"에이전트용 인터페이스 설계가 성능을 좌우",v:"NeurIPS 2024",k:"ai",u:ax("2405.15793")},
-    {r:"llm",y:"2025",t:"OpenHands",n:"오픈 소스 코딩 에이전트 하네스",v:"ICLR 2025",k:"ai",u:ax("2407.16741")},
-
-    {r:"bench",y:"2023",t:"Mind2Web",n:"실제 웹사이트 작업 데이터셋",v:"NeurIPS 2023 D&B",k:"ai",u:ax("2306.06070")},
-    {r:"bench",y:"2024",t:"WebArena",n:"재현 가능한 웹 환경",v:"ICLR 2024",k:"ai",u:ax("2307.13854")},
-    {r:"bench",y:"2024",t:"SWE-bench",n:"실제 GitHub 이슈 해결",v:"ICLR 2024",k:"ai",u:ax("2310.06770")},
-    {r:"bench",y:"2024",t:"OSWorld",n:"실제 운영체제에서 컴퓨터 사용",v:"NeurIPS 2024 D&B",k:"ai",u:ax("2404.07972")},
-
-    {r:"emb",y:"2022",t:"SayCan",n:"LLM 계획과 로봇 실행 가능성 결합",v:"CoRL 2022",k:"robo",u:ax("2204.01691")},
-    {r:"emb",y:"2022",t:"Inner Monologue",n:"환경 피드백을 언어로 받아 재계획",v:"CoRL 2022",k:"robo",u:ax("2207.05608")},
-    {r:"emb",y:"2022",t:"Gato",n:"하나의 모델로 게임, 대화, 로봇",v:"TMLR 2022",k:"journal",u:ax("2205.06175")},
-    {r:"emb",y:"2023",t:"Code as Policies",n:"LLM이 로봇 제어 코드를 작성",v:"ICRA 2023",k:"robo",u:ax("2209.07753")},
-    {r:"emb",y:"2023",t:"RT-1",n:"대규모 실세계 로봇 Transformer",v:"RSS 2023",k:"robo",u:ax("2212.06817")},
-    {r:"emb",y:"2023",t:"Diffusion Policy",n:"확산 모델로 행동 생성",v:"RSS 2023",k:"robo",u:ax("2303.04137")},
-    {r:"emb",y:"2023",t:"PaLM-E",n:"체화 멀티모달 언어 모델",v:"ICML 2023",k:"ai",u:ax("2303.03378")},
-    {r:"emb",y:"2023",t:"RT-2",n:"웹 지식을 로봇 행동으로 옮긴 VLA",v:"CoRL 2023",k:"robo",u:ax("2307.15818")},
-    {r:"emb",y:"2024",t:"Octo",n:"오픈 범용 로봇 정책",v:"RSS 2024",k:"robo",u:ax("2405.12213")},
-    {r:"emb",y:"2024",t:"OpenVLA",n:"오픈 소스 7B VLA",v:"CoRL 2024",k:"robo",u:ax("2406.09246")},
-    {r:"emb",y:"2025",t:"π0",n:"flow matching 기반 범용 VLA",v:"RSS 2025",k:"robo",u:ax("2410.24164")},
-    {r:"emb",y:"2025",t:"GR00T N1",n:"휴머노이드 파운데이션 모델",v:"arXiv 2025",k:"pre",u:ax("2503.14734")},
-
-    {r:"survey",y:"2024",t:"Is Sora a World Simulator",n:"범용 월드 모델 서베이",v:"arXiv 2024",k:"pre",u:ax("2405.03520")},
-    {r:"survey",y:"2025",t:"World Models for Embodied AI",n:"체화 AI 관점 월드 모델 서베이",v:"arXiv 2025",k:"pre",u:ax("2510.16732")},
-    {r:"survey",y:"2026",t:"Understanding World or Predicting Future",n:"월드 모델의 두 갈래 정리",v:"ACM Computing Surveys 2026",k:"journal",u:doi("10.1145/3746449")},
-    {r:"survey",y:"2026",t:"World Action Models",n:"체화 AI의 다음 단계로서 세계 행동 모델",v:"arXiv 2026",k:"pre",u:ax("2605.12090")}
-  ]
-},
-surgical:{
-  flow:"수술 쪽은 2024년 MICCAI의 영상 생성 연구에서 출발해, 2025년에는 궤적이나 scene graph로 제어하는 조건부 생성으로 넘어갔고, 같은 해 Genie 방식을 가져온 첫 수술 월드 모델이 나왔습니다. 2025년 말부터는 NVIDIA Cosmos 기반 모델들이 로봇 정책을 학습시키고 평가하는 시뮬레이터로 쓰이기 시작했고, 2026년에는 실시간 상호작용과 다중 로봇 지원까지 확장됐습니다. 에이전트 쪽은 언어 계획과 저수준 정책을 나눈 SRT-H가 Science Robotics에 실리며 자율 수술의 기준점이 되었습니다.",
-  years:["2024","2025","2026"],
-  rows:[
-    {id:"gen",name:"수술 영상 생성",sub:"무조건, 조건부 생성"},
-    {id:"wm",name:"행동 조건 수술 월드 모델",sub:"상태 전이 모델링"},
-    {id:"robot",name:"월드 모델 기반 로봇 학습",sub:"정책 학습과 평가"},
-    {id:"agent",name:"수술 에이전트와 자율 수술",sub:"LLM 에이전트, 계층 정책"},
-    {id:"med",name:"인접 의료 월드 모델",sub:"초음파, 종양, EHR"},
-    {id:"found",name:"수술 기반 모델",sub:"월드 모델의 표현 기반"},
-    {id:"review",name:"리뷰, 로드맵, 특집",sub:"흐름 정리용"}
-  ],
-  papers:[
-    {r:"gen",y:"2024",t:"Endora",n:"내시경 영상 무조건 생성, 시뮬레이터 관점",v:"MICCAI 2024",k:"medconf",u:ax("2403.11050")},
-    {r:"gen",y:"2024",t:"VISAGE",n:"행동 그래프로 미래 프레임 생성",v:"MICCAI 2024",k:"medconf",s:true},
-    {r:"gen",y:"2024",t:"See, Predict, Plan (MS-PCD)",n:"단계 라벨 기반 절차 계획 생성",v:"MICCAI 2024",k:"medconf",s:true,q:"See, predict, plan: diffusion for procedure planning in robotic surgical videos"},
-    {r:"gen",y:"2024",t:"Interactive Generation of Laparoscopic Videos",n:"텍스트와 마스크로 상호작용 생성",v:"MICCAI Workshop 2024",k:"medconf",s:true,q:"Interactive generation of laparoscopic videos with diffusion models"},
-    {r:"gen",y:"2025",t:"SurGrID",n:"TU Darmstadt Mukhopadhyay. scene graph로 제어하는 수술 장면 생성, SG2VID와 SWoMo의 전신",v:"IJCARS 2025",k:"medjournal",u:doi("10.1007/s11548-025-03397-y")},
-    {r:"gen",y:"2025",t:"SurgSora",n:"객체 인식 궤적 제어 생성",v:"MICCAI 2025",k:"medconf",u:"https://github.com/DavisMeee/SurgSora"},
-    {r:"gen",y:"2025",t:"HieraSurg",n:"계층적 2단계 확산으로 제어",v:"MICCAI 2025",k:"medconf",u:"https://papers.miccai.org/miccai-2025/paper/0550_paper.pdf"},
-    {r:"gen",y:"2025",t:"Ophora",n:"안과 수술 텍스트 조건 생성, 16만 쌍 데이터",v:"MICCAI 2025",k:"medconf",u:"https://github.com/mar-cry/Ophora"},
-    {r:"gen",y:"2025",t:"SG2VID",n:"scene graph로 세밀한 제어",v:"MICCAI 2025",k:"medconf",u:"https://ssharvienkumar.github.io/SG2VID/"},
-    {r:"gen",y:"2025",t:"MoViS",n:"키포인트 움직임 유도 생성",v:"MICCAI Workshop 2025",k:"medconf",s:true,q:"MoViS motion-guided video generation for laparoscopic surgery"},
-    {r:"gen",y:"2025",t:"LLaMA-VG",n:"LLaMA 기반 내시경 영상 생성",v:"ISBI 2025",k:"medconf",s:true,q:"LLaMA-VG video vision LLaMA-based model for endoscopy video generation"},
-    {r:"gen",y:"2026",t:"Blob Representation",n:"기구학 기반 위치 인식 영상 생성",v:"IJCARS 2026",k:"medjournal",s:true,q:"Blob representation of robotic surgical scenes for position-aware video generation"},
-
-    {r:"wm",y:"2025",t:"Surgical Vision World Model",n:"Genie식 잠재 행동, 첫 수술 월드 모델",v:"MICCAI DEMI Workshop 2025",k:"medconf",u:ax("2503.02904")},
-    {r:"wm",y:"2025",t:"Towards Suturing World Models",n:"봉합 동작의 영상 예측 모델",v:"arXiv 2025",k:"pre",u:ax("2503.12531")},
-    {r:"wm",y:"2025",t:"SurgVeo 파일럿 연구",n:"범용 영상 모델의 수술 타당성을 외과의가 평가",v:"arXiv 2025",k:"pre",u:ax("2511.01775")},
-    {r:"wm",y:"2026",t:"SAW",n:"도구 궤적 조건 수술 행동 월드 모델",v:"arXiv 2026",k:"pre",u:ax("2603.13024")},
-    {r:"wm",y:"2026",t:"SWoMo",n:"신경-기호 백내장 수술 월드 모델",v:"MICCAI 2026",k:"medconf",u:"https://ssharvienkumar.github.io/SWoMo/"},
-    {r:"wm",y:"2026",t:"Surgical Procedural Planning as 3D World Modelling",n:"폐 절제 계획을 3D 월드 모델로",v:"CVPR 2026 Findings",k:"cv",s:true},
-    {r:"wm",y:"2026",t:"CrossScope",n:"두 스코프 영상을 함께 예측하는 월드 모델",v:"arXiv 2026",k:"pre",u:ax("2608.03211")},
-    {r:"wm",y:"2026",t:"SurgVista",n:"장기 기구-조직 동역학 월드 모델",v:"2026, 베뉴 미확인",k:"pre",s:true,q:"SurgVista long-horizon surgical world modeling instrument-tissue dynamics"},
-
-    {r:"robot",y:"2025",t:"Cosmos-Surg-dVRK",n:"월드 모델 안에서 수술 정책을 자동 평가",v:"IEEE RA-L (arXiv 2025)",k:"robo",u:ax("2510.16240")},
-    {r:"robot",y:"2025",t:"Cosmos-H-Surgical (SurgWorld)",n:"합성 영상과 의사 행동으로 수술 VLA 학습",v:"arXiv 2025",k:"pre",u:ax("2512.23162")},
-    {r:"robot",y:"2026",t:"Open-H-Embodiment",n:"9개 로봇 플랫폼 통합, 다중 기체 시뮬레이터",v:"arXiv 2026",k:"pre",u:ax("2604.21017")},
-    {r:"robot",y:"2026",t:"Cosmos-H-Dreams",n:"단일 GPU 실시간 상호작용 수술 시뮬레이터",v:"arXiv 2026",k:"pre",u:ax("2608.24199")},
-
-    {r:"agent",y:"2024",t:"Surgical Robot Transformer (SRT)",n:"모방 학습으로 봉합 기본 동작 자동화",v:"CoRL 2024",k:"robo",s:true,q:"Surgical Robot Transformer imitation learning for surgical tasks"},
-    {r:"agent",y:"2025",t:"SRT-H",n:"언어 계획과 저수준 정책 계층화, ex vivo 담낭 8건 모두 성공",v:"Science Robotics 2025",k:"robo",u:doi("10.1126/scirobotics.adt5254")},
-    {r:"agent",y:"2025",t:"CSAP-Assist",n:"다중 도구 협업 계획 멀티에이전트",v:"MICCAI 2025",k:"medconf",u:"https://papers.miccai.org/miccai-2025/0199-Paper0427.html"},
-    {r:"agent",y:"2025",t:"VISA",n:"음성 명령을 계층적 멀티에이전트로 수행",v:"arXiv 2025",k:"pre",u:ax("2511.07392")},
-    {r:"agent",y:"2026",t:"SurgRAW",n:"CoT 멀티에이전트 수술 영상 분석",v:"IEEE RA-L 2026",k:"robo",u:doi("10.1109/LRA.2026.3665443")},
-
-    {r:"med",y:"2024",t:"Cardiac Copilot",n:"심초음파 프로브 유도 월드 모델",v:"MICCAI 2024",k:"medconf",u:ax("2406.13165")},
-    {r:"med",y:"2025",t:"EchoWorld",n:"움직임 인식 프로브 유도",v:"CVPR 2025",k:"cv",u:doi("10.1109/cvpr52734.2025.02421")},
-    {r:"med",y:"2025",t:"CheXWorld",n:"흉부 X선 이미지 월드 모델링",v:"CVPR 2025",k:"cv",u:doi("10.1109/cvpr52734.2025.01935")},
-    {r:"med",y:"2025",t:"Medical World Model (MeWM)",n:"종양 치료 반응 시뮬레이션과 치료안 비교",v:"ICCV 2025",k:"cv",u:doi("10.1109/iccv51701.2025.00779")},
-    {r:"med",y:"2025",t:"TaDiff",n:"치료 조건 종단 MRI 생성",v:"IEEE TMI 2025",k:"medjournal",u:doi("10.1109/tmi.2025.3533038")},
-    {r:"med",y:"2025",t:"CLARITY",n:"잠재 공간 질병 궤적으로 치료 결정 지원",v:"arXiv 2025",k:"pre",u:ax("2512.08029")},
-    {r:"med",y:"2026",t:"EHRWorld",n:"EHR 장기 환자 궤적 시뮬레이션",v:"arXiv 2026",k:"pre",u:ax("2602.03569")},
-    {r:"med",y:"2026",t:"EchoJEPA",n:"심초음파 JEPA 파운데이션 모델",v:"arXiv 2026",k:"pre",u:ax("2602.02603")},
-    {r:"med",y:"2026",t:"Brain-WM",n:"교모세포종 치료와 MRI를 함께 예측",v:"arXiv 2026",k:"pre",u:ax("2603.07562")},
-    {r:"med",y:"2026",t:"DreamReg",n:"2D-3D 초음파 정합용 월드 모델",v:"arXiv 2026",k:"pre",u:ax("2606.18825")},
-
-    {r:"found",y:"2026",t:"SurgVISTA",n:"수술 영상 자기지도 파운데이션 모델",v:"npj Digital Medicine 2026",k:"medjournal",u:"https://www.nature.com/articles/s41746-026-02403-0"},
-    {r:"found",y:"2026",t:"SurgΣ",n:"인식, 추론, 월드 모델을 잇는 수술 모델 묶음",v:"arXiv 2026",k:"pre",u:ax("2603.16822")},
-
-    {r:"review",y:"2025",t:"Beyond Generative AI",n:"의료 월드 모델 능력을 L1에서 L4로 구분",v:"arXiv 2025",k:"pre",u:ax("2511.16333")},
-    {r:"review",y:"2025",t:"Surgical Digital Twin 서베이",n:"수술 디지털 트윈 총정리",v:"arXiv 2025",k:"pre",u:ax("2512.00019")},
-    {r:"review",y:"2026",t:"Medical World Models (Liu 등)",n:"의료 상태 표현, 동역학, 개입 정책",v:"arXiv 2026",k:"pre",u:ax("2606.16721")},
-    {r:"review",y:"2026",t:"Medical World Models in Healthcare",n:"엄격 기준 14편 리뷰, 임상 전환 조건",v:"arXiv 2026",k:"pre",u:ax("2607.25242")},
-    {r:"review",y:"2026",t:"Surgical Video Generation 서베이",n:"무조건, 조건부, 월드 모델링 3분류",v:"arXiv 2026",k:"pre",u:ax("2608.26214")},
-    {r:"review",y:"2026",t:"npj Digital Surgery 창간 사설",n:"체화 수술 인지와 디지털 트윈 전망",v:"npj Digital Surgery 2026",k:"medjournal",u:"https://www.nature.com/articles/s44484-025-00001-3"},
-    {r:"review",y:"2026",t:"IEEE TMI 월드 모델 특집",n:"의료 영상 멀티모달과 월드 모델 특집 공모",v:"IEEE TMI 2026",k:"medjournal",u:"https://ieeetmi.org/special-issue-world-model/"}
-  ]
-}};
-
-const scholar = q => "https://scholar.google.com/scholar?q=" + encodeURIComponent(q);
-const active = new Set(Object.keys(KINDS));
-let view = "general";
-
-function esc(s){return s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
-
-function render(){
-  const V = VIEWS[view];
-  document.getElementById("flow").textContent = V.flow;
-  document.querySelectorAll(".tab").forEach(b=>b.setAttribute("aria-selected", b.dataset.view===view ? "true":"false"));
-  let h = "<thead><tr><th scope='col'>카테고리 \\ 연도</th>" + V.years.map(y=>"<th scope='col'>"+y+"</th>").join("") + "</tr></thead><tbody>";
-  for(const row of V.rows){
-    h += "<tr><th scope='row'>"+esc(row.name)+"<small>"+esc(row.sub)+"</small></th>";
-    for(const y of V.years){
-      const ps = V.papers.filter(p=>p.r===row.id && p.y===y);
-      if(!ps.length){h += "<td class='empty'></td>"; continue;}
-      h += "<td>" + ps.map(p=>{
-        const url = p.u || scholar(p.q || p.t);
-        return "<a class='paper' data-k='"+p.k+"' style='--c:var("+KINDS[p.k].c+")' href='"+esc(url)+"' target='_blank' rel='noopener'>"
-          + "<span class='t'>"+esc(p.t)+(p.s?"<span class='s'>검색</span>":"")+"</span>"
-          + "<span class='n'>"+esc(p.n)+"</span>"
-          + "<span class='v'>"+esc(p.v)+"</span></a>";
-      }).join("") + "</td>";
-    }
-    h += "</tr>";
-  }
-  document.getElementById("matrix").innerHTML = h + "</tbody>";
-  buildLegend();
-  applyFilter();
-}
-
-function buildLegend(){
-  const V = VIEWS[view];
-  const used = [...new Set(V.papers.map(p=>p.k))];
-  const lg = document.getElementById("legend");
-  lg.innerHTML = "<span class='hint'>베뉴 종류</span>";
-  Object.keys(KINDS).filter(k=>used.includes(k)).forEach(k=>{
-    const b = document.createElement("button");
-    b.className = "chip"; b.dataset.k = k;
-    b.setAttribute("aria-pressed", active.has(k) ? "true":"false");
-    b.style.setProperty("--c","var("+KINDS[k].c+")");
-    b.innerHTML = "<i></i>"+KINDS[k].label;
-    b.addEventListener("click",()=>{ active.has(k)?active.delete(k):active.add(k); b.setAttribute("aria-pressed", active.has(k)?"true":"false"); applyFilter(); });
-    lg.appendChild(b);
-  });
-  const c = document.createElement("span"); c.className="count"; c.id="count"; lg.appendChild(c);
-}
-
-function applyFilter(){
-  let shown = 0, total = 0;
-  document.querySelectorAll(".paper").forEach(a=>{ total++; const on = active.has(a.dataset.k); a.hidden = !on; if(on) shown++; });
-  document.getElementById("count").textContent = "논문 " + shown + "편 표시 중 (전체 " + total + "편)";
-}
-
-document.querySelectorAll(".tab").forEach(b=>b.addEventListener("click",()=>{ view=b.dataset.view; history.replaceState(null,"","#"+view); render(); }));
-const start = (location.hash||"").slice(1);
-if(VIEWS[start]) view = start;
-render();
-</script>
 </body>
 </html>
