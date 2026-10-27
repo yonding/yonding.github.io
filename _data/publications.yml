@@ -1,0 +1,67 @@
+# Newest first. To add a paper, copy one block and edit it.
+#
+#   id        short slug, used as the anchor (#surgx) and for figure file names
+#   authors   list, in order; the name matching profile.me is emphasized automatically.
+#             Put a marker right after a name: * (corresponding) or † (equal contribution).
+#   blurb     one line under the title, in your own words. HTML allowed; wrap the hook in <em>.
+#   venue     full venue name, as it should read on the page
+#   links     label + url; leave url empty to show the label greyed out as "soon"
+#   figures   list of images, first one is the teaser
+#   fit       "contain" (default, whole figure on white) or "cover" (fills the frame)
+
+- id: surgcheck
+  title: "SurgCheck: Do Vision–Language Models Really Look at Images in Surgical VQA?"
+  authors: [Jongmin Shin†, Ka Young Kim†, Eunki Cho, Seong Tae Kim*, Namkee Oh*]
+  blurb: >-
+    <em>Take the names out and see what is left.</em> Every surgical frame gets a question with
+    entity names and a twin that points with a box, an arrow, a position or a description instead.
+    Five VLMs drop on the twin even though the image and the answer stay the same, so much of the
+    score comes from the wording rather than the image.
+  venue: Information Processing in Computer-Assisted Interventions (IPCAI), 2026
+  links:
+    - {label: arXiv, url: "https://arxiv.org/abs/2605.01911"}
+    - {label: Dataset, url: "https://github.com/ailab-kyunghee/SurgCheck/tree/gh-pages/data"}
+    - {label: Project page, url: "https://ailab-kyunghee.github.io/SurgCheck/"}
+  figures:
+    - {src: /assets/img/pubs/surgcheck-1.webp, alt: "Removing entity names from a question while keeping the image and answer fixed causes a large accuracy drop."}
+    - {src: /assets/img/pubs/surgcheck-2.webp, alt: "SurgCheck pipeline from scene graph to grounding cues, paired questions and LLM-judged evaluation."}
+    - {src: /assets/img/pubs/surgcheck-3.webp, alt: "The four grounding cues: red box, red arrow, spatial position and periphrasis."}
+    - {src: /assets/img/pubs/surgcheck-4.webp, alt: "Text-only ablation: action and target scores barely drop without the image."}
+
+- id: ssg-com
+  title: "Towards Holistic Surgical Scene Graph"
+  authors: [Jongmin Shin†, Enki Cho†, Ka Young Kim†, Jung Yong Kim, Seong Tae Kim*, Namkee Oh*]
+  blurb: >-
+    <em>Which hand holds the tool, and what it does to which tissue.</em> Endoscapes-SG201 adds
+    tool, action, target and hand identity to surgical scene graphs, and SSG-Com learns these
+    relations to improve critical view of safety assessment and action triplet recognition.
+  venue: Medical Image Computing and Computer Assisted Intervention (MICCAI), 2025
+  links:
+    - {label: arXiv, url: "https://arxiv.org/abs/2507.15541"}
+    - {label: Code, url: "https://github.com/ailab-kyunghee/SSG-Com"}
+    - {label: Poster, url: "https://ailab-kyunghee.github.io/SSG-Com/static/pdf/miccai25_ssg-com_poster.pdf"}
+    - {label: Project page, url: "https://ailab-kyunghee.github.io/SSG-Com/"}
+  figures:
+    - {src: /assets/img/pubs/ssg-com-1.webp, alt: "Motivation: a scene graph that knows the tools, their actions and which hand operates them."}
+    - {src: /assets/img/pubs/ssg-com-2.webp, alt: "Endoscapes-SG201 construction: refined boxes, six tool classes, action labels and hand identity."}
+    - {src: /assets/img/pubs/ssg-com-3.webp, alt: "SSG-Com overall architecture."}
+    - {src: /assets/img/pubs/ssg-com-4.webp, alt: "Qualitative scene graphs from LG-CVS and SSG-Com."}
+
+- id: surgx
+  title: "SurgX: Neuron-Concept Association for Explainable Surgical Phase Recognition"
+  authors: [Ka Young Kim, Hyeon Bae Kim, Seong Tae Kim*]
+  blurb: >-
+    <em>Ask the neurons what they saw.</em> Neurons of a surgical phase recognition model are tied
+    to surgical concepts through representative sequences and a surgery-specific concept set, so
+    each prediction can be explained by the concepts of the neurons that drove it.
+  venue: Medical Image Computing and Computer Assisted Intervention (MICCAI), 2025
+  links:
+    - {label: arXiv, url: "https://arxiv.org/abs/2507.15418"}
+    - {label: Code, url: "https://github.com/ailab-kyunghee/SurgX"}
+    - {label: Poster, url: "https://ailab-kyunghee.github.io/SurgX/static/pdf/SurgX_Poster.pdf"}
+    - {label: Project page, url: "https://ailab-kyunghee.github.io/SurgX/"}
+  figures:
+    - {src: /assets/img/pubs/surgx-1.webp, alt: "SurgX explains a phase prediction through the concepts of important neurons."}
+    - {src: /assets/img/pubs/surgx-2.webp, alt: "Neuron-concept annotation: representative sequence selection, concept set selection and association."}
+    - {src: /assets/img/pubs/surgx-3.webp, alt: "Explaining a prediction with the contributions of neurons in the penultimate layer."}
+    - {src: /assets/img/pubs/surgx-4.webp, alt: "Explanation examples for correct predictions and mispredictions."}

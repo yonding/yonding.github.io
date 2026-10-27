@@ -1,0 +1,52 @@
+# Everything on the page that is about you. Edit here, not in index.html.
+
+name: Ka Young Kim
+# Your name as it appears in author lists; it gets emphasized in publications.
+me: Ka Young Kim
+
+role: Master's student · AMI Lab, Kyung Hee University
+
+photo: /assets/img/portrait.jpg
+photo_alt: Ka Young Kim
+
+# One line about what you are doing right now. HTML allowed. Leave empty to hide.
+now: ""
+
+links:
+  - label: Email
+    url: mailto:uwrgoy7584@khu.ac.kr
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=73AXBeMAAAAJ
+  - label: GitHub
+    url: https://github.com/yonding
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/ka-young-%E2%80%8Dkim-37605b263/
+  - label: Paper Maps
+    url: /research/
+
+scholar: https://scholar.google.com/citations?user=73AXBeMAAAAJ
+
+# Legend for the author markers used in publications.yml. HTML allowed. Empty to hide.
+pub_legend: "<sup>*</sup> Corresponding author &nbsp;&middot;&nbsp; <sup>†</sup> Equal contribution"
+
+# Paragraphs. HTML allowed.
+bio:
+  - >-
+    I am a Master's student at
+    <a href="https://www.khu.ac.kr/eng/user/main/view.do">Kyung Hee University</a>, advised by Prof.
+    <a href="https://ami.khu.ac.kr/people/pi/">Seong Tae Kim</a> in the
+    <a href="https://ami.khu.ac.kr/">AugMented Intelligence (AMI) Laboratory</a>.
+    My research focuses on AI in healthcare, particularly computer vision methods
+    for understanding and assisting laparoscopic and robotic surgery.
+  - >-
+    I am especially interested in enabling AI to understand surgical scenes and to interact
+    with the people in the operating room. My recent work covers surgical scene graphs,
+    concept-based explanations of surgical phase recognition, and benchmarks that test
+    whether vision-language models really look at the surgical image.
+
+# Newest first.
+education:
+  - {degree: "M.S. student", school: "Kyung Hee University, South Korea", date: "Mar 2024 – Present"}
+  - {degree: "B.S.", school: "Kyung Hee University, South Korea", date: "Mar 2019 – Feb 2024"}
+
+footer: Ka Young Kim · Kyung Hee University
