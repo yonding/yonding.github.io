@@ -38,7 +38,7 @@ h1{font-size:clamp(26px,4vw,40px);line-height:1.15;font-weight:700;margin:0 0 10
 .tab{font:inherit;font-weight:600;padding:9px 16px;border:1.5px solid var(--ink);background:transparent;color:var(--ink);border-radius:999px;cursor:pointer}
 .tab[aria-selected="true"]{background:var(--ink);color:var(--bg)}
 .tab:focus-visible,.chip:focus-visible,.paper:focus-visible{outline:3px solid var(--k-ai);outline-offset:2px}
-.flow{max-width:80ch;margin:0 0 18px;padding:14px 16px;background:var(--surface);border-radius:10px;border:1px solid var(--line)}
+.flow{width:100%;margin:0 0 18px;padding:14px 16px;background:var(--surface);border-radius:10px;border:1px solid var(--line)}
 .flow p{margin:0}
 .legend{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:16px}
 .legend .hint{color:var(--muted);font-size:13px;margin-right:4px}
@@ -70,14 +70,20 @@ footer p{margin:0 0 6px}
   tbody th{width:112px;min-width:112px;font-size:13px}
   td{min-width:160px;width:160px}
 }
+.head{display:flex;align-items:center;justify-content:space-between;gap:12px 24px;flex-wrap:wrap;margin-bottom:12px}
+.head h1{margin:0}
+.head .tabs{margin-bottom:0}
+.stack{display:grid;grid-template-columns:minmax(0,1fr);gap:7px}
+.stack .paper{margin-bottom:0}
 </style>
 </head>
 <body>
 <main>
+  <header class="head">
   <h1>Surgical AI 논문 지도</h1>
-  <p class="lede">내시경, 복강경, 로봇 수술 영상처럼 수술 시야 안(internal)을 이해하고 수술 로봇을 움직이는 AI 연구를 모았습니다. 수술실 공간 전체를 다루는 연구는 Operating Room AI 논문 지도에 따로 정리했습니다. 가로축은 연도, 세로축은 연구 흐름이며, 논문 이름을 누르면 원문이 새 탭에서 열립니다. ‘검색’ 표시는 원문 링크를 확인하지 못해 Google Scholar 검색으로 연결됩니다.</p>
-
   <div class="tabs" role="tablist" id="tabs"></div>
+  </header>
+  <p class="lede">내시경, 복강경, 로봇 수술 영상처럼 수술 시야 안(internal)을 이해하고 수술 로봇을 움직이는 AI 연구를 모았습니다. 수술실 공간 전체를 다루는 연구는 Operating Room AI 논문 지도에 따로 정리했습니다.</p>
 
   <div id="panel" role="tabpanel">
     <div class="flow"><p id="flow"></p></div>
@@ -133,11 +139,11 @@ function render(){
     for(const y of V.years){
       const ps = V.papers.filter(p=>p.r===row.id && p.y===y);
       if(!ps.length){h += "<td class='empty'></td>"; continue;}
-      h += "<td>" + ps.map(p=>
+      h += "<td><div class='stack'>" + ps.map(p=>
         "<a class='paper' data-k='"+p.k+"' style='--c:var("+KINDS[p.k].c+")' href='"+esc(p.u)+"' target='_blank' rel='noopener noreferrer'>"
         + "<span class='t'>"+esc(p.t)+(p.s?"<span class='s'>"+esc(p.s)+"</span>":"")+"</span>"
         + "<span class='n'>"+esc(p.n)+"</span>"
-        + "<span class='v'>"+esc(p.v)+"</span></a>").join("") + "</td>";
+        + "<span class='v'>"+esc(p.v)+"</span></a>").join("") + "</div></td>";
     }
     h += "</tr>";
   }
@@ -163,10 +169,29 @@ function buildLegend(){
   const c = document.createElement("span"); c.className="count"; c.id="count"; lg.appendChild(c);
 }
 
+// How many card columns a cell needs for n visible papers: [at least n papers, columns].
+// The widest cell in a year sets the column count for every cell in that year.
+const COL_STEPS = [[10, 4], [6, 3], [3, 2]];
+const CARD_W = 162, CARD_GAP = 7, CELL_PAD = 16;
+function colsFor(n){ for(const [min, c] of COL_STEPS){ if(n >= min) return c; } return 1; }
 function applyFilter(){
   let shown=0,total=0;
   document.querySelectorAll(".paper").forEach(a=>{ total++; const on=active.has(a.dataset.k); a.hidden=!on; if(on) shown++; });
   document.getElementById("count").textContent = "논문 "+shown+"편 표시 중 (전체 "+total+"편)";
+  const stacks = [...document.querySelectorAll("td .stack")];
+  const visible = st => st.querySelectorAll(".paper:not([hidden])").length;
+  const colCount = {};
+  stacks.forEach(st=>{
+    const i = st.parentElement.cellIndex;
+    colCount[i] = Math.max(colCount[i] || 1, colsFor(visible(st)));
+  });
+  document.querySelectorAll("#matrix tbody td").forEach(td=>{
+    const c = colCount[td.cellIndex] || 1;
+    const w = (c * CARD_W + (c - 1) * CARD_GAP + CELL_PAD) + "px";
+    td.style.width = w; td.style.minWidth = w;
+    const st = td.querySelector(".stack");
+    if(st) st.style.gridTemplateColumns = "repeat(" + c + ", minmax(0, 1fr))";
+  });
 }
 
 buildTabs();
