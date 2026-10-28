@@ -4,7 +4,7 @@ name: Ka Young Kim
 # Your name as it appears in author lists; it gets emphasized in publications.
 me: Ka Young Kim
 
-role: Master's student · AMI Lab, Kyung Hee University
+role: Ph.D. student · CAMP, Technical University of Munich
 
 photo: /assets/img/portrait.jpg
 photo_alt: Ka Young Kim
@@ -30,13 +30,17 @@ pub_legend: "<sup>*</sup> Corresponding author &nbsp;&middot;&nbsp; <sup>†</su
 # Paragraphs. HTML allowed.
 bio:
   - >-
-    I am a Master's student at
-    <a href="https://www.khu.ac.kr/eng/user/main/view.do">Kyung Hee University</a>, advised by Prof.
-    <a href="https://ami.khu.ac.kr/people/pi/">Seong Tae Kim</a> in the
-    <a href="https://ami.khu.ac.kr/">AugMented Intelligence (AMI) Laboratory</a>.
+    I am a Ph.D. student at the
+    <a href="https://www.tum.de/en/">Technical University of Munich (TUM)</a>, advised by Prof.
+    <a href="https://www.cs.cit.tum.de/camp/">Nassir Navab</a> at the Chair for
+    <a href="https://www.cs.cit.tum.de/camp/">Computer Aided Medical Procedures (CAMP)</a>.
     My research focuses on AI in healthcare, particularly computer vision methods
     for understanding and assisting laparoscopic and robotic surgery.
   - >-
+    Before joining TUM, I received my M.S. from
+    <a href="https://www.khu.ac.kr/eng/user/main/view.do">Kyung Hee University</a> under Prof.
+    <a href="https://ami.khu.ac.kr/people/pi/">Seong Tae Kim</a> in the
+    <a href="https://ami.khu.ac.kr/">AugMented Intelligence (AMI) Laboratory</a>.
     I am especially interested in enabling AI to understand surgical scenes and to interact
     with the people in the operating room. My recent work covers surgical scene graphs,
     concept-based explanations of surgical phase recognition, and benchmarks that test
@@ -44,7 +48,8 @@ bio:
 
 # Newest first.
 education:
-  - {degree: "M.S. student", school: "Kyung Hee University, South Korea", date: "Mar 2024 – Present"}
+  - {degree: "Ph.D. student", school: "Technical University of Munich, Germany", date: "2026 – Present"}
+  - {degree: "M.S.", school: "Kyung Hee University, South Korea", date: "Mar 2024 – 2026"}
   - {degree: "B.S.", school: "Kyung Hee University, South Korea", date: "Mar 2019 – Feb 2024"}
 
-footer: Ka Young Kim · Kyung Hee University
+footer: Ka Young Kim · Technical University of Munich
