@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2203.11937"
+doi: ""
+lookup: "4D-OR"
 title: "4D-OR"
 summary: "TUM CAMP. Simulated knee replacement, semantic scene graphs"
 venue: "MICCAI 2022"

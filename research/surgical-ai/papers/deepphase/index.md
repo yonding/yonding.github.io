@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "1807.10565"
+doi: ""
+lookup: "DeepPhase"
 title: "DeepPhase"
 summary: "Digital Surgery, UCL (Stoyanov). Cataract surgery phase recognition"
 venue: "MICCAI 2018"

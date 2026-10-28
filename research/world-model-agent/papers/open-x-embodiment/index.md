@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2310.08864"
+doi: ""
+lookup: "Open X-Embodiment"
 title: "Open X-Embodiment"
 summary: "Unified data across 22 robot types and RT-X"
 venue: "ICRA 2024"

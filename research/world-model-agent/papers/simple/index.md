@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "1903.00374"
+doi: ""
+lookup: "SimPLe"
 title: "SimPLe"
 summary: "Atari learning based on a video prediction model"
 venue: "ICLR 2020"

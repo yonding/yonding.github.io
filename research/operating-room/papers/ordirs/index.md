@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2503.21054"
+doi: ""
+lookup: "ORDiRS"
 title: "ORDiRS"
 summary: "JHU (Unberath). Digital-twin reasoning segmentation"
 venue: "MICCAI 2025"

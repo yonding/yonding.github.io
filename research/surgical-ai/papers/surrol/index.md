@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2108.13035"
+doi: ""
+lookup: "SurRoL"
 title: "SurRoL"
 summary: "CUHK (Dou, Heng). dVRK-compatible RL simulator"
 venue: "IROS 2021"

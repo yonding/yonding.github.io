@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2508.07968"
+doi: ""
+lookup: "TrackOR"
 title: "TrackOR"
 summary: "TUM CAMP. Tracking with 3D geometric signatures"
 venue: "arXiv 2025"

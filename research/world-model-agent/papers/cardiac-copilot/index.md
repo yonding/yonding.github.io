@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2406.13165"
+doi: ""
+lookup: "Cardiac Copilot"
 title: "Cardiac Copilot"
 summary: "World model for echocardiography probe guidance"
 venue: "MICCAI 2024"

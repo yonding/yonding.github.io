@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Genie 2"
 title: "Genie 2"
 summary: "Google DeepMind. Foundation world model that creates playable 3D environments"
 venue: "DeepMind blog 2024"

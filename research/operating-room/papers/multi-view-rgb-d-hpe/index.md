@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "1701.07372"
+doi: ""
+lookup: "Multi-view RGB-D HPE"
 title: "Multi-view RGB-D HPE"
 summary: "Strasbourg CAMMA. Depth-based multi-view 3D pose"
 venue: "WACV 2017"

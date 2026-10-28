@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "NeRF-OR"
 title: "NeRF-OR"
 summary: "Univ. of Twente. sparse-view RGB-D NeRF"
 venue: "IJCARS 2024"

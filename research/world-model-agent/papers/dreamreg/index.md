@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2606.18825"
+doi: ""
+lookup: "DreamReg"
 title: "DreamReg"
 summary: "World model for 2D to 3D ultrasound registration"
 venue: "arXiv 2026"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "HecVL hierarchical video-language pretraining for zero-shot surgical phase recognition"
 title: "HecVL"
 summary: "Strasbourg CAMMA, TUM. Hierarchical video-language pre-training, zero-shot phase recognition"
 venue: "MICCAI 2024"

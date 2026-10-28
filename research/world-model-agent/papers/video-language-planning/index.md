@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2310.10625"
+doi: ""
+lookup: "Video Language Planning"
 title: "Video Language Planning"
 summary: "Long-horizon planning combining video models and VLMs"
 venue: "ICLR 2024"

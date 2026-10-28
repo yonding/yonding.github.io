@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2307.13854"
+doi: ""
+lookup: "WebArena"
 title: "WebArena"
 summary: "Reproducible web environments"
 venue: "ICLR 2024"

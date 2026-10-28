@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2304.03442"
+doi: ""
+lookup: "Generative Agents"
 title: "Generative Agents"
 summary: "Virtual residents with memory and planning"
 venue: "UIST 2023"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2412.03572"
+doi: ""
+lookup: "Navigation World Models"
 title: "Navigation World Models"
 summary: "Meta FAIR, LeCun. Plans routes with a navigation-action-conditioned video world model"
 venue: "CVPR 2025"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2208.02049"
+doi: ""
+lookup: "AutoLaparo"
 title: "AutoLaparo"
 summary: "CUHK. Hysterectomy phases, laparoscope motion and segmentation in one dataset"
 venue: "MICCAI 2022"

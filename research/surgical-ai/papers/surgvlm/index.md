@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2506.02555"
+doi: ""
+lookup: "SurgVLM"
 title: "SurgVLM"
 summary: "Large surgical VLM and evaluation benchmark"
 venue: "arXiv 2025"

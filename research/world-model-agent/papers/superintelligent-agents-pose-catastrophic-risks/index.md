@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2502.15657"
+doi: ""
+lookup: "Superintelligent Agents Pose Catastrophic Risks"
 title: "Superintelligent Agents Pose Catastrophic Risks"
 summary: "Bengio et al. Proposes a non-agentic Scientist AI instead of agents"
 venue: "arXiv 2025"

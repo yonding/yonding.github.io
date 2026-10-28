@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Surgical Procedural Planning as 3D World Modelling"
 title: "Surgical Procedural Planning as 3D World Modelling"
 summary: "Lung resection planning as a 3D world model"
 venue: "CVPR 2026 Findings"

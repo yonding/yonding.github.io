@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: "10.1126/scirobotics.abj2908"
+lookup: "STAR Autonomous Anastomosis"
 title: "STAR Autonomous Anastomosis"
 summary: "JHU (Krieger). Laparoscopic intestinal anastomosis without human help"
 venue: "Science Robotics 2022"

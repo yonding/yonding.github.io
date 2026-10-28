@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "SKiT"
 title: "SKiT"
 summary: "KCL (Ourselin). Long-term Transformer that keeps only key information"
 venue: "ICCV 2023"

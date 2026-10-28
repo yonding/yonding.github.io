@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2303.17580"
+doi: ""
+lookup: "HuggingGPT"
 title: "HuggingGPT"
 summary: "An LLM orchestrates many AI models as tools"
 venue: "NeurIPS 2023"

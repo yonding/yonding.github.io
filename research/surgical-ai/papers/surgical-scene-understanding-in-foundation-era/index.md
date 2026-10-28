@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2502.14886"
+doi: ""
+lookup: "Surgical Scene Understanding in Foundation Era"
 title: "Surgical Scene Understanding in Foundation Era"
 summary: "Review of surgical scene understanding in the foundation model era"
 venue: "arXiv 2025"

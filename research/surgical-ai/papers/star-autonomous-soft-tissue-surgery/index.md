@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: "10.1126/scitranslmed.aad9398"
+lookup: "STAR Autonomous Soft-Tissue Surgery"
 title: "STAR Autonomous Soft-Tissue Surgery"
 summary: "Children's National (Krieger et al.). First supervised autonomous soft-tissue suturing (2016)"
 venue: "Sci Transl Med 2016"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Procedure-Aware Surgical Video-language Pretraining with Hierarchical Knowledge Augmentation"
 title: "PeskaVLP"
 summary: "Strasbourg CAMMA, TUM. Procedure-aware video-language pre-training with hierarchical knowledge augmentation"
 venue: "NeurIPS 2024"

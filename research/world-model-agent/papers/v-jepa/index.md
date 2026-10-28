@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2404.08471"
+doi: ""
+lookup: "V-JEPA"
 title: "V-JEPA"
 summary: "Representation learning by predicting video features"
 venue: "TMLR 2024"

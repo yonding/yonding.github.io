@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2601.09698"
+doi: ""
+lookup: "CoMPose"
 title: "CoMPose"
 summary: "TUM CAMP. Hypergraph cover optimization for multi-view 3D human pose"
 venue: "arXiv 2026"

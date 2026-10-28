@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2205.00445"
+doi: ""
+lookup: "MRKL Systems"
 title: "MRKL Systems"
 summary: "Proposes an architecture linking LLMs with external modules"
 venue: "arXiv 2022"

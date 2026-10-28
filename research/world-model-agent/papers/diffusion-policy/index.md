@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2303.04137"
+doi: ""
+lookup: "Diffusion Policy"
 title: "Diffusion Policy"
 summary: "Generates actions with a diffusion model"
 venue: "RSS 2023"

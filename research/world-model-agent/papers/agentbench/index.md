@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2308.03688"
+doi: ""
+lookup: "AgentBench"
 title: "AgentBench"
 summary: "Evaluates LLM agents across 8 environments"
 venue: "ICLR 2024"

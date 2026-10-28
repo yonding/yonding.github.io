@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: "10.1080/21681163.2022.2152377"
+lookup: "Know your sensORs"
 title: "Know your sensORs"
 summary: "TUM CAMP. Comparing sensor modalities"
 venue: "MICCAI AE-CAI WS 2022"

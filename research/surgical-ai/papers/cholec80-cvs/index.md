@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: "10.1038/s41597-023-02073-7"
+lookup: "Cholec80-CVS"
 title: "Cholec80-CVS"
 summary: "Univ. de los Andes (Giraldo). CVS criteria labels added to Cholec80"
 venue: "Scientific Data 2023"

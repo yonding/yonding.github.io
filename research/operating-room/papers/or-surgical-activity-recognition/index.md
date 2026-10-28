@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2006.16166"
+doi: ""
+lookup: "OR Surgical Activity Recognition"
 title: "OR Surgical Activity Recognition"
 summary: "Intuitive Surgical. 400 ToF videos of robotic surgery"
 venue: "MICCAI 2020"

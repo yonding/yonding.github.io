@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2307.07924"
+doi: ""
+lookup: "ChatDev"
 title: "ChatDev"
 summary: "Multi-agent virtual software company"
 venue: "ACL 2024"

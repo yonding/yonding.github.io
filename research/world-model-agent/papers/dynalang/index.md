@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2308.01399"
+doi: ""
+lookup: "Dynalang"
 title: "Dynalang"
 summary: "A world model that predicts the future through language"
 venue: "ICML 2024"

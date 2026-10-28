@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "LLaMA-VG video vision LLaMA-based model for endoscopy video generation"
 title: "LLaMA-VG"
 summary: "LLaMA-based endoscopy video generation"
 venue: "ISBI 2025"

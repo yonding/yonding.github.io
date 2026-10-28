@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "1811.04551"
+doi: ""
+lookup: "PlaNet"
 title: "PlaNet"
 summary: "Learns latent dynamics from pixels and plans"
 venue: "ICML 2019"

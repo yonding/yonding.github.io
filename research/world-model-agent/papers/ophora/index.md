@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Ophora"
 title: "Ophora"
 summary: "Text-conditioned ophthalmic surgery generation with 160K pairs"
 venue: "MICCAI 2025"

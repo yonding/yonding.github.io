@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Video-based surgical skill assessment using 3D convolutional neural networks Funke"
 title: "3D CNN Skill Assessment"
 summary: "NCT Dresden. Classifying surgical skill from video alone"
 venue: "IJCARS 2019"

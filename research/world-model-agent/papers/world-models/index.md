@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "1803.10122"
+doi: ""
+lookup: "World Models"
 title: "World Models"
 summary: "Learning in a dream with a VAE, an MDN-RNN and a controller"
 venue: "NeurIPS 2018"

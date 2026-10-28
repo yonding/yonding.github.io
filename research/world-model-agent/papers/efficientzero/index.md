@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2111.00210"
+doi: ""
+lookup: "EfficientZero"
 title: "EfficientZero"
 summary: "MuZero with little data, Atari 100k"
 venue: "NeurIPS 2021"

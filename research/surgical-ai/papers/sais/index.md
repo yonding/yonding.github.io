@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: "10.1038/s41551-023-01010-8"
+lookup: "SAIS"
 title: "SAIS"
 summary: "USC, Caltech, NVIDIA. Decoding phases, gestures and skill from robotic surgery video"
 venue: "Nature BME 2023"

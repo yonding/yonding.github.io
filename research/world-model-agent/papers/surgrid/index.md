@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: "10.1007/s11548-025-03397-y"
+lookup: "SurGrID"
 title: "SurGrID"
 summary: "TU Darmstadt, Mukhopadhyay. Surgical scene generation controlled by scene graphs, the precursor of SG2VID and SWoMo"
 venue: "IJCARS 2025"

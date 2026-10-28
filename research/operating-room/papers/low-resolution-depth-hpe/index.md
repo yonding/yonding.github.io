@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2007.08340"
+doi: ""
+lookup: "Low-Resolution Depth HPE"
 title: "Low-Resolution Depth HPE"
 summary: "Strasbourg CAMMA. Privacy-preserving pose from low-resolution depth"
 venue: "MICCAI 2019"

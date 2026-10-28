@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2404.07031"
+doi: ""
+lookup: "ORacle"
 title: "ORacle"
 summary: "TUM CAMP. Knowledge-guided large VLM"
 venue: "MICCAI 2024"

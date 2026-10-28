@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Nontechnical Skills via Deep Learning"
 title: "Nontechnical Skills via Deep Learning"
 summary: "Harvard BWH (Zenati). Linking team motion to NOTSS scores"
 venue: "JAMA Netw Open 2024"

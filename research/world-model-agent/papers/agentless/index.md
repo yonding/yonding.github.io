@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2407.01489"
+doi: ""
+lookup: "Agentless"
 title: "Agentless"
 summary: "Solves SWE tasks with a simple pipeline instead of a complex agent"
 venue: "arXiv 2024"

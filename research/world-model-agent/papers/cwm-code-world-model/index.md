@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2510.02387"
+doi: ""
+lookup: "CWM (Code World Model)"
 title: "CWM (Code World Model)"
 summary: "Meta FAIR. 32B LLM mid-trained on code execution traces as a world model of programs"
 venue: "arXiv 2025"

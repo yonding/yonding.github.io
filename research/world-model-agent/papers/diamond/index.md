@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2405.12399"
+doi: ""
+lookup: "DIAMOND"
 title: "DIAMOND"
 summary: "Atari learning with a diffusion world model"
 venue: "NeurIPS 2024"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2505.12705"
+doi: ""
+lookup: "DreamGen"
 title: "DreamGen"
 summary: "NVIDIA. Generalizing robot learning with synthetic trajectories from video world models"
 venue: "arXiv 2025"

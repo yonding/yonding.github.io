@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2405.14573"
+doi: ""
+lookup: "AndroidWorld"
 title: "AndroidWorld"
 summary: "Google DeepMind. Dynamic benchmark for agents on Android"
 venue: "ICLR 2025"

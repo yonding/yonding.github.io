@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "1811.12296"
+doi: ""
+lookup: "MVOR-Faces"
 title: "MVOR-Faces"
 summary: "Strasbourg CAMMA. Comparing OR face detectors and self-supervised adaptation"
 venue: "IJCARS 2019"

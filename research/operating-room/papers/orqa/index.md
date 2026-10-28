@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2505.12890"
+doi: ""
+lookup: "ORQA"
 title: "ORQA"
 summary: "TUM CAMP. Multimodal OR foundation model and QA benchmark"
 venue: "npj Digit Med 2026"

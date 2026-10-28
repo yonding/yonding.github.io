@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2603.09466"
+doi: ""
+lookup: "TopoOR"
 title: "TopoOR"
 summary: "Unconfirmed. Topological scene representation"
 venue: "MICCAI 2026"

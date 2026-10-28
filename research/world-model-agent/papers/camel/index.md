@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2303.17760"
+doi: ""
+lookup: "CAMEL"
 title: "CAMEL"
 summary: "Collaboration between two role-playing agents"
 venue: "NeurIPS 2023"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2109.03223"
+doi: ""
+lookup: "CholecT50 (Rendezvous)"
 title: "CholecT50 (Rendezvous)"
 summary: "Strasbourg CAMMA. 100 instrument-verb-target triplets over 50 videos"
 venue: "MedIA 2022"

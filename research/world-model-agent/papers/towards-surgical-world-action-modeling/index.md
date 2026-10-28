@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2608.20284"
+doi: ""
+lookup: "Towards Surgical World-Action Modeling"
 title: "Towards Surgical World-Action Modeling"
 summary: "Jointly forecasts future visual states and instrument trajectories for motion planning"
 venue: "MICCAI 2026"

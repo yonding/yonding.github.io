@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2406.06485"
+doi: ""
+lookup: "Can LMs Serve as Text-Based World Simulators"
 title: "Can LMs Serve as Text-Based World Simulators"
 summary: "Evaluates LLMs as text-based world simulators"
 venue: "ACL 2024"

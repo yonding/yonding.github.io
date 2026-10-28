@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2511.01775"
+doi: ""
+lookup: "SurgVeo pilot study"
 title: "SurgVeo pilot study"
 summary: "Surgeons assess the surgical plausibility of general video models"
 venue: "arXiv 2025"

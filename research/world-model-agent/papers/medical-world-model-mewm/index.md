@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: "10.1109/iccv51701.2025.00779"
+lookup: "Medical World Model (MeWM)"
 title: "Medical World Model (MeWM)"
 summary: "Simulates tumor treatment response and compares treatment plans"
 venue: "ICCV 2025"

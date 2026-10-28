@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: "10.1109/tmi.2025.3533038"
+lookup: "TaDiff"
 title: "TaDiff"
 summary: "Treatment-conditioned longitudinal MRI generation"
 venue: "IEEE TMI 2025"

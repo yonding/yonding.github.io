@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Recognizing surgical activities with recurrent neural networks DiPietro"
 title: "RNN for Surgical Activities"
 summary: "JHU. Recognizing robotic surgical gestures and maneuvers with RNNs (2016)"
 venue: "MICCAI 2016"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Pose optimization of a C-arm imaging device to reduce intraoperative radiation exposure of staff and patient"
 title: "C-arm Pose Optimization"
 summary: "Strasbourg CAMMA. C-arm pose optimization to reduce staff and patient exposure"
 venue: "ICRA 2017"

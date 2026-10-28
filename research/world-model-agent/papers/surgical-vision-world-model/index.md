@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2503.02904"
+doi: ""
+lookup: "Surgical Vision World Model"
 title: "Surgical Vision World Model"
 summary: "Genie-style latent actions, the first surgical world model"
 venue: "MICCAI DEMI Workshop 2025"

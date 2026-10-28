@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2512.10942"
+doi: ""
+lookup: "VL-JEPA"
 title: "VL-JEPA"
 summary: "A non-generative VLM that predicts text embeddings instead of tokens"
 venue: "ICLR 2026"

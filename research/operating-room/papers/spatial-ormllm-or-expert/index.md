@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2508.08199"
+doi: ""
+lookup: "Spatial-ORMLLM (OR-Expert)"
 title: "Spatial-ORMLLM (OR-Expert)"
 summary: "Hunan Univ., ShanghaiTech. 3D spatial reasoning from RGB only"
 venue: "ACM MM 2026"

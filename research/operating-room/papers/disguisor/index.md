@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2307.14241"
+doi: ""
+lookup: "DisguisOR"
 title: "DisguisOR"
 summary: "TUM CAMP. Face anonymization with 3D meshes"
 venue: "IJCARS 2023"

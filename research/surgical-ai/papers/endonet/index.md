@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "EndoNet a deep architecture for recognition tasks on laparoscopic videos"
 title: "EndoNet"
 summary: "Strasbourg CAMMA. The starting point, a CNN recognizing phases and tools together"
 venue: "IEEE TMI 2017"

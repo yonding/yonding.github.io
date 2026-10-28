@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "1808.08180"
+doi: ""
+lookup: "MVOR"
 title: "MVOR"
 summary: "Strasbourg CAMMA. Multi-view RGB-D from real surgeries, 2D/3D pose"
 venue: "MICCAI-LABELS WS 2018"

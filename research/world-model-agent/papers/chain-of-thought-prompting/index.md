@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2201.11903"
+doi: ""
+lookup: "Chain-of-Thought Prompting"
 title: "Chain-of-Thought Prompting"
 summary: "Eliciting step-by-step reasoning"
 venue: "NeurIPS 2022"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "TraSeTR track-to-segment transformer with contrastive query for instance-level instrument segmentation in robotic surgery"
 title: "TraSeTR"
 summary: "CUHK. Instrument segmentation with a tracking-based Transformer"
 venue: "ICRA 2022"

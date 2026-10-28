@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2404.02041"
+doi: ""
+lookup: "SelfPose3d"
 title: "SelfPose3d"
 summary: "Strasbourg CAMMA. Self-supervised multi-view multi-person 3D pose"
 venue: "CVPR 2024"

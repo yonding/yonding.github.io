@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2502.08299"
+doi: ""
+lookup: "Team-OR"
 title: "Team-OR"
 summary: "CAMMA, Bern Univ. Hosp. Team briefing detection"
 venue: "IPCAI 2025"

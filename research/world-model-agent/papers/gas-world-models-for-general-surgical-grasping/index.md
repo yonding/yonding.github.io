@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2405.17940"
+doi: ""
+lookup: "GAS (World Models for General Surgical Grasping)"
 title: "GAS (World Models for General Surgical Grasping)"
 summary: "CUHK (Samuel Au). World-model-based RL that grasps unseen surgical objects on a real robot"
 venue: "RSS 2024"

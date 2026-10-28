@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Computer vision analysis of intraoperative video automated recognition of operative steps in laparoscopic sleeve gastrectomy"
 title: "SleeveNet"
 summary: "MGH. Clinical study on phase recognition in sleeve gastrectomy"
 venue: "Ann Surg 2019"

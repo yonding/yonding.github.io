@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2310.12931"
+doi: ""
+lookup: "Eureka"
 title: "Eureka"
 summary: "LLMs design reward functions"
 venue: "ICLR 2024"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "LLM-Embedded Robotic Scrub Nurse"
 title: "LLM-Embedded Robotic Scrub Nurse"
 summary: "Unconfirmed. LLM with multimodal input"
 venue: "Adv Intell Syst 2026"

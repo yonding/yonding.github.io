@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2310.08560"
+doi: ""
+lookup: "MemGPT"
 title: "MemGPT"
 summary: "Manages context and memory like an operating system"
 venue: "arXiv 2023"

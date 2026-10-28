@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Surgical Robot Transformer imitation learning for surgical tasks"
 title: "Surgical Robot Transformer (SRT)"
 summary: "JHU, Stanford. Automating basic suturing motions with imitation learning"
 venue: "CoRL 2024"

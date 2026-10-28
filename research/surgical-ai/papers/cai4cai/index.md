@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "CAI4CAI the rise of contextual artificial intelligence in computer assisted interventions"
 title: "CAI4CAI"
 summary: "KCL, TUM et al. Review of context-aware AI for computer-assisted interventions"
 venue: "Proc IEEE 2020"

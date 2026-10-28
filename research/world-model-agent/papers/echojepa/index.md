@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2602.02603"
+doi: ""
+lookup: "EchoJEPA"
 title: "EchoJEPA"
 summary: "JEPA foundation model for echocardiography"
 venue: "arXiv 2026"

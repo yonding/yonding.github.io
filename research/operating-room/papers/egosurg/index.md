@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2510.04802"
+doi: ""
+lookup: "EgoSurg"
 title: "EgoSurg"
 summary: "JHU (Unberath). Synthesizing egocentric views from ceiling cameras"
 venue: "arXiv 2025"

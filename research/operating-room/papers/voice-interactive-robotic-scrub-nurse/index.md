@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Voice-interactive Robotic Scrub Nurse"
 title: "Voice-interactive Robotic Scrub Nurse"
 summary: "Unconfirmed. Instrument handover with a π0.5 VLA"
 venue: "J Robot Surg 2026"

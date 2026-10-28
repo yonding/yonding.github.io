@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2207.07894"
+doi: ""
+lookup: "Multi-Modal Unsupervised Pre-Training"
 title: "Multi-Modal Unsupervised Pre-Training"
 summary: "Intuitive Surgical. Multimodal unsupervised pre-training"
 venue: "MICCAI 2022"

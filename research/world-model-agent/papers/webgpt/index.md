@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2112.09332"
+doi: ""
+lookup: "WebGPT"
 title: "WebGPT"
 summary: "Question answering with a search browser"
 venue: "arXiv 2021"

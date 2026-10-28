@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2407.12998"
+doi: ""
+lookup: "Surgical Robot Transformer (SRT)"
 title: "Surgical Robot Transformer (SRT)"
 summary: "JHU (Krieger), Stanford. Imitation learning of tissue lifting, needle handling and knot tying on the da Vinci"
 venue: "CoRL 2024"

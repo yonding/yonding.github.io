@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2602.13633"
+doi: ""
+lookup: "Intraoperative Understanding Foundation Model"
 title: "Intraoperative Understanding Foundation Model"
 summary: "General surgical understanding model across procedure types"
 venue: "arXiv 2026"

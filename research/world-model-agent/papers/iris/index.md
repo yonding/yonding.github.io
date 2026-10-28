@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2209.00588"
+doi: ""
+lookup: "IRIS"
 title: "IRIS"
 summary: "Uses a Transformer as the world model"
 venue: "ICLR 2023"

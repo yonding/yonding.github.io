@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2511.00062"
+doi: ""
+lookup: "Cosmos Predict 2.5"
 title: "Cosmos Predict 2.5"
 summary: "Base model for many surgical world models"
 venue: "arXiv 2025"

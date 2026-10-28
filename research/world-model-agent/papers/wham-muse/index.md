@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: "10.1038/s41586-025-08600-3"
+lookup: "WHAM (Muse)"
 title: "WHAM (Muse)"
 summary: "Microsoft Research. World and human action model that generates consistent, editable gameplay"
 venue: "Nature 2025"

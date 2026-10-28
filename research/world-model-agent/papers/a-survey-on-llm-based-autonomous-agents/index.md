@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2308.11432"
+doi: ""
+lookup: "A Survey on LLM-based Autonomous Agents"
 title: "A Survey on LLM-based Autonomous Agents"
 summary: "Overview of construction, applications and evaluation"
 venue: "Frontiers of Computer Science 2024"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "See it with your own eyes markerless mobile augmented reality for radiation awareness in the hybrid room"
 title: "See It With Your Own Eyes"
 summary: "Strasbourg CAMMA. AR for radiation exposure in hybrid ORs (2016)"
 venue: "IEEE TBME 2016"

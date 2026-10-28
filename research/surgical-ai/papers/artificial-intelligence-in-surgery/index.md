@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Artificial intelligence in surgery Varghese Harrison O'Grady Topol Nature Medicine"
 title: "Artificial Intelligence in Surgery"
 summary: "Varghese, Topol et al. Comprehensive review of surgical AI"
 venue: "Nature Medicine 2024"

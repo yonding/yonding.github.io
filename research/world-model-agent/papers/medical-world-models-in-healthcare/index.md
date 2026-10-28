@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2607.25242"
+doi: ""
+lookup: "Medical World Models in Healthcare"
 title: "Medical World Models in Healthcare"
 summary: "Review of 14 papers under strict criteria and conditions for clinical translation"
 venue: "arXiv 2026"

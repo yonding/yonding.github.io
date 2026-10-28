@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "GWM-1"
 title: "GWM-1"
 summary: "Runway. Real-time general world model based on Gen-4.5, including a robotics version"
 venue: "Product announcement 2025 (news article)"

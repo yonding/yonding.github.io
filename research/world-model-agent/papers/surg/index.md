@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2603.16822"
+doi: ""
+lookup: "SurgΣ"
 title: "SurgΣ"
 summary: "A suite of surgical models linking perception, reasoning and world models"
 venue: "arXiv 2026"

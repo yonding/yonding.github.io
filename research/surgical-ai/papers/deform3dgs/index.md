@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2405.17835"
+doi: ""
+lookup: "Deform3DGS"
 title: "Deform3DGS"
 summary: "NUS (Jin), CUHK (Dou). Fast reconstruction with 3D Gaussian Splatting"
 venue: "MICCAI 2024"

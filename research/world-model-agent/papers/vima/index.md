@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2210.03094"
+doi: ""
+lookup: "VIMA"
 title: "VIMA"
 summary: "Robot manipulation with multimodal prompts"
 venue: "ICML 2023"

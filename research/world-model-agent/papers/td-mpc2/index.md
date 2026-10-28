@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2310.16828"
+doi: ""
+lookup: "TD-MPC2"
 title: "TD-MPC2"
 summary: "Latent MPC scaled to many tasks"
 venue: "ICLR 2024"

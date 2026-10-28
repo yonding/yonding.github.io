@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2210.03629"
+doi: ""
+lookup: "ReAct"
 title: "ReAct"
 summary: "An agent loop that interleaves reasoning and acting"
 venue: "ICLR 2023"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "The Bitter Lesson"
 title: "The Bitter Lesson"
 summary: "Sutton. General methods that leverage computation eventually beat human knowledge"
 venue: "Essay 2019"

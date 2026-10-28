@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2606.13332"
+doi: ""
+lookup: "OR-Action"
 title: "OR-Action"
 summary: "Unconfirmed. Fine-grained role-specific action benchmark"
 venue: "arXiv 2026"

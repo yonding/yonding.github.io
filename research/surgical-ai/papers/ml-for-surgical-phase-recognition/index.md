@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Machine learning for surgical phase recognition a systematic review Garrow"
 title: "ML for Surgical Phase Recognition"
 summary: "Garrow et al. Systematic review of phase recognition"
 venue: "Ann Surg 2021"

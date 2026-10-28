@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "SV-RCNet workflow recognition from surgical videos using recurrent convolutional network"
 title: "SV-RCNet"
 summary: "CUHK. CNN and LSTM trained jointly end to end"
 venue: "IEEE TMI 2018"

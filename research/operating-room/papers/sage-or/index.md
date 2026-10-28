@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2608.15336"
+doi: ""
+lookup: "SAGE-OR"
 title: "SAGE-OR"
 summary: "Unconfirmed. Semi-supervised adaptive SGG"
 venue: "arXiv 2026"

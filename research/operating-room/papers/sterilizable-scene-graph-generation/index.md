@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2608.16469"
+doi: ""
+lookup: "Sterilizable Scene Graph Generation"
 title: "Sterilizable Scene Graph Generation"
 summary: "TU Darmstadt (Mukhopadhyay). Lightweight NCA-based SGG built for deployment in the OR"
 venue: "arXiv 2026"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "SurgVISTA"
 title: "SurgVISTA"
 summary: "Self-supervised foundation model for surgical video"
 venue: "npj Digit Med 2026"

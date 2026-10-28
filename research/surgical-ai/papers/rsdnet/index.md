@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "RSDNet learning to predict remaining surgery duration from laparoscopic videos without manual annotations"
 title: "RSDNet"
 summary: "Strasbourg CAMMA. Predicting remaining surgery duration without labels"
 venue: "IEEE TMI 2019"

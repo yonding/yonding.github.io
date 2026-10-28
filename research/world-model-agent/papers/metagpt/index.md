@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2308.00352"
+doi: ""
+lookup: "MetaGPT"
 title: "MetaGPT"
 summary: "Multi-agent system following standard operating procedures"
 venue: "ICLR 2024"

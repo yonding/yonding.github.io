@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "1808.04440"
+doi: ""
+lookup: "FaceOff"
 title: "FaceOff"
 summary: "Digital Surgery, UCL WEISS. OR video anonymization"
 venue: "MICCAI OR 2.0 WS 2018"

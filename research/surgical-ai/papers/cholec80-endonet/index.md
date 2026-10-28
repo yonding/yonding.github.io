@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "EndoNet a deep architecture for recognition tasks on laparoscopic videos"
 title: "Cholec80 (EndoNet)"
 summary: "Strasbourg CAMMA. 80 cholecystectomies, the standard benchmark for phase and tool labels"
 venue: "IEEE TMI 2017"

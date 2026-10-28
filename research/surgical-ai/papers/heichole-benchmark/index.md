@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: "10.1016/j.media.2023.102770"
+lookup: "HeiChole Benchmark"
 title: "HeiChole Benchmark"
 summary: "NCT Dresden, Heidelberg. Multi-center benchmark for phase, action and skill"
 venue: "MedIA 2023"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Scaling Instructable Agents Across Many Simulated Worlds SIMA"
 title: "SIMA"
 summary: "Google DeepMind. Agents that follow language instructions across many 3D games"
 venue: "arXiv 2024"

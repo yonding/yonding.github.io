@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: "10.1097/SLA.0000000000004351"
+lookup: "DeepCVS"
 title: "DeepCVS"
 summary: "Strasbourg CAMMA, IHU. Automatic CVS assessment in cholecystectomy"
 venue: "Ann Surg 2022"

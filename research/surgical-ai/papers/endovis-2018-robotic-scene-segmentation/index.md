@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "2018 Robotic Scene Segmentation Challenge Allan"
 title: "EndoVis 2018 Robotic Scene Segmentation"
 summary: "EndoVis consortium. Full-scene segmentation challenge for robotic surgery"
 venue: "arXiv 2020"

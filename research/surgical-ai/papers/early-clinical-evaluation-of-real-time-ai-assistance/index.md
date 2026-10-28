@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: "10.1093/bjs/znad353"
+lookup: "Early Clinical Evaluation of Real-time AI Assistance"
 title: "Early Clinical Evaluation of Real-time AI Assistance"
 summary: "Strasbourg CAMMA, IHU. Intraoperative CVS assistance in real use"
 venue: "Br J Surg 2024"

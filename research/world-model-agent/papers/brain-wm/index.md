@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2603.07562"
+doi: ""
+lookup: "Brain-WM"
 title: "Brain-WM"
 summary: "Jointly predicts glioblastoma treatment and MRI"
 venue: "arXiv 2026"

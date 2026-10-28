@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "LerPlane neural representations for fast 4D reconstruction of deformable tissues"
 title: "LerPlane"
 summary: "Fast deformable tissue reconstruction with 4D plane factorization"
 venue: "MICCAI 2023"

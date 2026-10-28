@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "IEEE TMI special issue on world models"
 title: "IEEE TMI special issue on world models"
 summary: "Call for papers on multimodal medical imaging and world models"
 venue: "IEEE TMI 2026"

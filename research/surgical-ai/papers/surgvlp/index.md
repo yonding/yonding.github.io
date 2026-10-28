@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2307.15220"
+doi: ""
+lookup: "SurgVLP"
 title: "SurgVLP"
 summary: "Strasbourg CAMMA, TUM. Vision-language pre-training on surgical lecture videos"
 venue: "MedIA 2025"

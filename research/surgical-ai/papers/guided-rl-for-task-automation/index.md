@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Demonstration-Guided Reinforcement Learning with Efficient Exploration for Task Automation of Surgical Robot"
 title: "Guided RL for Task Automation"
 summary: "CUHK (Dou). Automating surgical tasks with demonstration-guided RL"
 venue: "ICRA 2023"

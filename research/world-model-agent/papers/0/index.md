@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2410.24164"
+doi: ""
+lookup: "π0"
 title: "π0"
 summary: "General VLA based on flow matching"
 venue: "RSS 2025"

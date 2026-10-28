@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2209.01435"
+doi: ""
+lookup: "Deep Learning on Surgical Data Survey"
 title: "Deep Learning on Surgical Data Survey"
 summary: "Survey of instrument detection, segmentation and depth estimation"
 venue: "arXiv 2022"

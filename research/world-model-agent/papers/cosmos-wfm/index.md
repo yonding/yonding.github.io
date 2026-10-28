@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2501.03575"
+doi: ""
+lookup: "Cosmos WFM"
 title: "Cosmos WFM"
 summary: "World foundation model platform for physical AI"
 venue: "arXiv 2025"

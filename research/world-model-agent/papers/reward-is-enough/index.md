@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: "10.1016/j.artint.2021.103535"
+lookup: "Reward is Enough"
 title: "Reward is Enough"
 summary: "Silver, Sutton et al. The hypothesis that reward maximization alone can explain intelligence"
 venue: "Artificial Intelligence 2021"

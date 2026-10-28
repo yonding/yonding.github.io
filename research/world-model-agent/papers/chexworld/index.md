@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: "10.1109/cvpr52734.2025.01935"
+lookup: "CheXWorld"
 title: "CheXWorld"
 summary: "World modeling for chest X-ray images"
 venue: "CVPR 2025"

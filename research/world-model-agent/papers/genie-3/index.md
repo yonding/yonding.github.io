@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Genie 3"
 title: "Genie 3"
 summary: "Google DeepMind. The first real-time interactive general world model and the basis of the Waymo World Model"
 venue: "DeepMind blog 2025"

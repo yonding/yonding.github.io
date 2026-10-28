@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2103.09712"
+doi: ""
+lookup: "Trans-SVNet"
 title: "Trans-SVNet"
 summary: "CUHK. First Transformer for surgical workflow"
 venue: "MICCAI 2021"

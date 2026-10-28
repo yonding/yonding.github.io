@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2206.15255"
+doi: ""
+lookup: "EndoNeRF"
 title: "EndoNeRF"
 summary: "CUHK (Dou). First neural rendering reconstruction of deformable tissue"
 venue: "MICCAI 2022"

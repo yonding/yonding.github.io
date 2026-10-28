@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2511.07392"
+doi: ""
+lookup: "VISA"
 title: "VISA"
 summary: "Executes voice commands with hierarchical multi-agents"
 venue: "arXiv 2025"

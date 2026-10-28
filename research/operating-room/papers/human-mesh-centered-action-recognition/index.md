@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Human Mesh-centered Action Recognition"
 title: "Human Mesh-centered Action Recognition"
 summary: "Stanford (Yeung-Levy). OR action recognition from human meshes"
 venue: "AI Surgery 2024"

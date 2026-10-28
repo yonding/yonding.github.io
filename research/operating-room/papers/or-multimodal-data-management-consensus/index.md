@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "OR Multimodal Data Management Consensus"
 title: "OR Multimodal Data Management Consensus"
 summary: "IHU Strasbourg (inferred). International expert roadmap"
 venue: "Ann Surg Open 2024"

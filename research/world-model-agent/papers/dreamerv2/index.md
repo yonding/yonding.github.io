@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2010.02193"
+doi: ""
+lookup: "DreamerV2"
 title: "DreamerV2"
 summary: "Human-level Atari with discrete latent variables"
 venue: "ICLR 2021"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2405.14205"
+doi: ""
+lookup: "WKM"
 title: "WKM"
 summary: "World knowledge model for agent planning"
 venue: "NeurIPS 2024"

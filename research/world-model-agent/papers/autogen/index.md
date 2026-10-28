@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2308.08155"
+doi: ""
+lookup: "AutoGen"
 title: "AutoGen"
 summary: "Conversational multi-agent framework"
 venue: "COLM 2024"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2412.05187"
+doi: ""
+lookup: "SurgBox"
 title: "SurgBox"
 summary: "Unconfirmed. Agent sandbox for the OR"
 venue: "arXiv 2024"

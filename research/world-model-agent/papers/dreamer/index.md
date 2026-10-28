@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "1912.01603"
+doi: ""
+lookup: "Dreamer"
 title: "Dreamer"
 summary: "Learns behaviors through latent imagination with an RSSM"
 venue: "ICLR 2020"

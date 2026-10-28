@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Multilateral surgical pattern cutting in 2D orthotropic gauze with deep reinforcement learning policies for tensioning"
 title: "Deep RL Pattern Cutting"
 summary: "UC Berkeley (Goldberg). Pattern cutting with deep RL tensioning"
 venue: "ICRA 2017"

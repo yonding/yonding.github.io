@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2303.13293"
+doi: ""
+lookup: "LABRAD-OR"
 title: "LABRAD-OR"
 summary: "TUM CAMP. Memory scene graphs"
 venue: "MICCAI 2023"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Accurate and interpretable evaluation of surgical skills from kinematic data using fully convolutional neural networks"
 title: "FCN Skill Evaluation from Kinematics"
 summary: "Univ. de Haute-Alsace. Interpretable skill assessment from kinematics"
 venue: "IJCARS 2019"

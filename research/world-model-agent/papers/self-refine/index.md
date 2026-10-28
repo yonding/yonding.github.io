@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2303.17651"
+doi: ""
+lookup: "Self-Refine"
 title: "Self-Refine"
 summary: "Iterative refinement through self-feedback"
 venue: "NeurIPS 2023"

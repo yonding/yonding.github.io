@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "CholecTriplet2021 a benchmark challenge for surgical action triplet recognition"
 title: "CholecTriplet2021 Challenge"
 summary: "Strasbourg CAMMA and others. Summary of the triplet recognition challenge"
 venue: "MedIA 2023"

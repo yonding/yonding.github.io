@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2504.12552"
+doi: ""
+lookup: "SafeOR"
 title: "SafeOR"
 summary: "JHU (Unberath). Digital-twin event detection"
 venue: "MIDL 2025"

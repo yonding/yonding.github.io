@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "SG2VID"
 title: "SG2VID"
 summary: "Fine-grained control with scene graphs"
 venue: "MICCAI 2025"

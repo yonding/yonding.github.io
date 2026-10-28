@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2510.16732"
+doi: ""
+lookup: "World Models for Embodied AI"
 title: "World Models for Embodied AI"
 summary: "Survey of world models from an embodied AI perspective"
 venue: "arXiv 2025"

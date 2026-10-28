@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2406.09455"
+doi: ""
+lookup: "Pandora"
 title: "Pandora"
 summary: "MBZUAI, UCSD, Xing and Hu. Toward a general world model linking natural-language actions and video states"
 venue: "arXiv 2024"

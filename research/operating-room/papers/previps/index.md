@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "PreViPS"
 title: "PreViPS"
 summary: "CAMMA, Intuitive. Pre-training on multi-view video and pose"
 venue: "Mach Vis Appl 2026"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2005.05960"
+doi: ""
+lookup: "Plan2Explore"
 title: "Plan2Explore"
 summary: "Reward-free exploration with a world model"
 venue: "ICML 2020"

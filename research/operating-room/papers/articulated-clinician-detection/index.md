@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "1602.03468"
+doi: ""
+lookup: "Articulated Clinician Detection"
 title: "Articulated Clinician Detection"
 summary: "Strasbourg CAMMA. RGB-D 3D Pictorial Structures"
 venue: "MedIA 2017"

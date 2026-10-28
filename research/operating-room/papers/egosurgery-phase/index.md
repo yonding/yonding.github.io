@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2405.19644"
+doi: ""
+lookup: "EgoSurgery-Phase"
 title: "EgoSurgery-Phase"
 summary: "Keio Univ. Egocentric open surgery video with gaze"
 venue: "MICCAI 2024"

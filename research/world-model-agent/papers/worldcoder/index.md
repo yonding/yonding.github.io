@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2402.12275"
+doi: ""
+lookup: "WorldCoder"
 title: "WorldCoder"
 summary: "LLMs write world models as code"
 venue: "NeurIPS 2024"

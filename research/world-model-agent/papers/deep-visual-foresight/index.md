@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "1610.00696"
+doi: ""
+lookup: "Deep Visual Foresight"
 title: "Deep Visual Foresight"
 summary: "Robots plan object manipulation through video prediction"
 venue: "ICRA 2017"

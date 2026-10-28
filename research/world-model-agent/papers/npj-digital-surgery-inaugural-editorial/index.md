@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "npj Digital Surgery inaugural editorial"
 title: "npj Digital Surgery inaugural editorial"
 summary: "Outlook on embodied surgical cognition and digital twins"
 venue: "npj Digital Surgery 2026"

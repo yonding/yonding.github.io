@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "SWoMo"
 title: "SWoMo"
 summary: "Neuro-symbolic world model for cataract surgery"
 venue: "MICCAI 2026"

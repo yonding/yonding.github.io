@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2405.17398"
+doi: ""
+lookup: "Vista"
 title: "Vista"
 summary: "Generalizable high-fidelity driving world model"
 venue: "NeurIPS 2024"

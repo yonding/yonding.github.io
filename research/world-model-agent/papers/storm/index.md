@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "STORM"
 title: "STORM"
 summary: "Efficient stochastic Transformer world model"
 venue: "NeurIPS 2023"

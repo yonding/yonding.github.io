@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2209.11302"
+doi: ""
+lookup: "ProgPrompt"
 title: "ProgPrompt"
 summary: "Robot planning with program-style prompts"
 venue: "ICRA 2023"

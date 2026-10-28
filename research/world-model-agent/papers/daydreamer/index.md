@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2206.14176"
+doi: ""
+lookup: "DayDreamer"
 title: "DayDreamer"
 summary: "Learns a world model directly on real robots"
 venue: "CoRL 2022"

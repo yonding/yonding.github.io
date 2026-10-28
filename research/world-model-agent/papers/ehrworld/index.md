@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2602.03569"
+doi: ""
+lookup: "EHRWorld"
 title: "EHRWorld"
 summary: "Simulates long-horizon patient trajectories from EHR"
 venue: "arXiv 2026"

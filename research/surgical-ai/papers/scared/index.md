@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Stereo Correspondence and Reconstruction of Endoscopic Data Challenge SCARED"
 title: "SCARED"
 summary: "EndoVis consortium. Endoscopic stereo depth and reconstruction challenge"
 venue: "arXiv 2021"

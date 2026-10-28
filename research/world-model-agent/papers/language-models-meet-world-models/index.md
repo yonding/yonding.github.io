@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2305.10626"
+doi: ""
+lookup: "Language Models Meet World Models"
 title: "Language Models Meet World Models"
 summary: "Augments LLMs with embodied experience"
 venue: "NeurIPS 2023"

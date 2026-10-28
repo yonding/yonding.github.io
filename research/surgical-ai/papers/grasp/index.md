@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2401.11174"
+doi: ""
+lookup: "GraSP"
 title: "GraSP"
 summary: "Univ. de los Andes (Arbeláez). Holistic multi-granular prostatectomy benchmark"
 venue: "MedIA 2025"

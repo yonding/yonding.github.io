@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Temporal convolutional networks for action segmentation and detection Lea"
 title: "Temporal Convolutional Networks"
 summary: "JHU. TCN for action segmentation, evaluated on JIGSAWS"
 venue: "CVPR 2017"

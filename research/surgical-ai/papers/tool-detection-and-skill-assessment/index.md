@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Tool detection and operative skill assessment in surgical videos using region-based convolutional neural networks"
 title: "Tool Detection and Skill Assessment"
 summary: "Stanford (Yeung, Fei-Fei Li). Skill assessment from spatial tool detection, m2cai16-tool-locations"
 venue: "WACV 2018"

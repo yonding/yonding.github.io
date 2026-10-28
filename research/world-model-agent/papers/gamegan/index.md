@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2005.12126"
+doi: ""
+lookup: "GameGAN"
 title: "GameGAN"
 summary: "NVIDIA. Imitates a game engine from gameplay video alone"
 venue: "CVPR 2020"

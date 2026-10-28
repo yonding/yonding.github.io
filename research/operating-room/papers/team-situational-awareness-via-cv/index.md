@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Team Situational Awareness via CV"
 title: "Team Situational Awareness via CV"
 summary: "Harvard BWH. Team motion metrics during time-out"
 venue: "IEEE CogSIMA 2022"

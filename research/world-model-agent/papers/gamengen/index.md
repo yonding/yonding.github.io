@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2408.14837"
+doi: ""
+lookup: "GameNGen"
 title: "GameNGen"
 summary: "A real-time game engine built from a diffusion model"
 venue: "ICLR 2025"

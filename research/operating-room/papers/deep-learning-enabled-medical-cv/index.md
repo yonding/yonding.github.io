@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Deep Learning-enabled Medical CV"
 title: "Deep Learning-enabled Medical CV"
 summary: "Stanford and others. Medical CV review including the OR"
 venue: "npj Digit Med 2021"

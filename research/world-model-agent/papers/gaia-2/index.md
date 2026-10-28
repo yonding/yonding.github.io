@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2503.20523"
+doi: ""
+lookup: "GAIA-2"
 title: "GAIA-2"
 summary: "Wayve. Controllable multi-camera world model for autonomous driving"
 venue: "arXiv 2025"

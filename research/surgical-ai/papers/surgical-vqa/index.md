@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2206.11053"
+doi: ""
+lookup: "Surgical-VQA"
 title: "Surgical-VQA"
 summary: "NUS, Imperial, CUHK (Ren). First definition of surgical visual question answering"
 venue: "MICCAI 2022"

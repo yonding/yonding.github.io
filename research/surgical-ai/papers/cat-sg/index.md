@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2506.21813"
+doi: ""
+lookup: "CAT-SG"
 title: "CAT-SG"
 summary: "TUM CAMP, Carl Zeiss. Large dynamic scene graph dataset for cataract surgery, with the CatSGG model"
 venue: "MICCAI 2025"

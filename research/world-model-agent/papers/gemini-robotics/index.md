@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2503.20020"
+doi: ""
+lookup: "Gemini Robotics"
 title: "Gemini Robotics"
 summary: "Google DeepMind. Embodied reasoning and VLA built on Gemini"
 venue: "arXiv 2025"

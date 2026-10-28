@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2411.06559"
+doi: ""
+lookup: "WebDreamer"
 title: "WebDreamer"
 summary: "Uses an LLM to imagine the outcomes of web actions in advance"
 venue: "arXiv 2024"

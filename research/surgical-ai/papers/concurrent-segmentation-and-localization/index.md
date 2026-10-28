@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Concurrent segmentation and localization for tracking of surgical instruments Laina"
 title: "Concurrent Segmentation and Localization"
 summary: "TUM CAMP. Joint instrument segmentation and 2D pose estimation"
 venue: "MICCAI 2017"

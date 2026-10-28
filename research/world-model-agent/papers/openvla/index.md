@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2406.09246"
+doi: ""
+lookup: "OpenVLA"
 title: "OpenVLA"
 summary: "Open-source 7B VLA"
 venue: "CoRL 2024"

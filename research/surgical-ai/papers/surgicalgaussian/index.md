@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2407.05023"
+doi: ""
+lookup: "SurgicalGaussian"
 title: "SurgicalGaussian"
 summary: "High-quality reconstruction with deformable 3D Gaussians"
 venue: "arXiv 2024"

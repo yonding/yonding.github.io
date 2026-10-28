@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2501.11347"
+doi: ""
+lookup: "EndoChat"
 title: "EndoChat"
 summary: "CUHK (Ren), CAMMA, TUM. Grounded MLLM for endoscopic surgery"
 venue: "MedIA 2026"

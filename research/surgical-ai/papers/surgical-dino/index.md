@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Surgical-DINO adapter learning of foundation models for depth estimation in endoscopic surgery"
 title: "Surgical-DINO"
 summary: "CUHK (Ren). Endoscopic depth estimation with DINOv2 adapters"
 venue: "IJCARS 2024"

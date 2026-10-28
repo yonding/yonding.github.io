@@ -32,6 +32,11 @@ h1{font-size:clamp(24px,4vw,34px);line-height:1.2;letter-spacing:-0.02em;margin:
 .notes pre{overflow-x:auto}
 .edit{display:inline-block;margin-top:14px;font-size:14px;color:var(--muted)}
 .edit:hover{color:var(--accent)}
+.cite{display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 10px;margin:0 0 18px;padding:12px 16px;background:var(--surface);border:1px solid var(--line);border-radius:10px}
+.cite .num{font-size:22px;font-weight:700;letter-spacing:-0.01em}
+.cite .lbl{color:var(--muted);font-size:14px}
+.cite .src{color:var(--muted);font-size:12.5px;width:100%}
+.cite .src a{color:inherit}
 </style>
 </head>
 <body>
@@ -44,6 +49,10 @@ h1{font-size:clamp(24px,4vw,34px);line-height:1.2;letter-spacing:-0.02em;margin:
     <a class="btn primary" href="{{ page.pdf }}" target="_blank" rel="noopener">{{ page.pdf_label }}</a>
     <a class="btn" href="{{ page.paper_url }}" target="_blank" rel="noopener">Paper page</a>
   </div>
+  <div class="cite" id="cite" data-arxiv="{{ page.arxiv }}" data-doi="{{ page.doi }}" data-lookup="{{ page.lookup | escape }}">
+    <span class="num" id="cite-num">…</span><span class="lbl">citations</span>
+    <span class="src" id="cite-src">Loading the latest count</span>
+  </div>
   <section class="notes">
     <h2 class="label">My notes</h2>
     {% assign body = content | strip_html | strip %}
@@ -51,5 +60,35 @@ h1{font-size:clamp(24px,4vw,34px);line-height:1.2;letter-spacing:-0.02em;margin:
   </section>
   <a class="edit" href="https://github.com/yonding/yonding.github.io/edit/main/{{ page.path }}" target="_blank" rel="noopener">Edit notes on GitHub</a>
 </main>
+<script>
+(function(){
+  var box=document.getElementById("cite"), num=document.getElementById("cite-num"), src=document.getElementById("cite-src");
+  var arxiv=box.dataset.arxiv, doi=box.dataset.doi, lookup=box.dataset.lookup;
+  var key="cite:"+(arxiv||doi||lookup), DAY=86400000;
+  function esc(t){return String(t).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];});}
+  function show(r){
+    num.textContent=Number(r.count).toLocaleString("en-US");
+    var when=new Date(r.at).toLocaleDateString("en-US",{year:"numeric",month:"short",day:"numeric"});
+    var h="Source: <a href='"+esc(r.link)+"' target='_blank' rel='noopener'>"+esc(r.source)+"</a>, checked "+when;
+    if(r.matched) h+=". Matched by title: “"+esc(r.matched)+"”";
+    src.innerHTML=h;
+  }
+  function fail(){
+    num.textContent="–";
+    src.innerHTML="Couldn’t load the count right now. <a href='https://scholar.google.com/scholar?q="+encodeURIComponent(lookup)+"' target='_blank' rel='noopener'>Check Google Scholar</a>";
+  }
+  try{var c=JSON.parse(localStorage.getItem(key)||"null"); if(c&&Date.now()-c.at<DAY){show(c);return;}}catch(e){}
+  function save(r){r.at=Date.now();try{localStorage.setItem(key,JSON.stringify(r));}catch(e){} show(r);}
+  function j(u){return fetch(u).then(function(x){if(!x.ok)throw new Error(x.status);return x.json();});}
+  var S2="https://api.semanticscholar.org/graph/v1/paper/", F="?fields=citationCount,title,url";
+  var tries=[];
+  if(arxiv) tries.push(function(){return j(S2+"arXiv:"+encodeURIComponent(arxiv)+F).then(function(d){return {count:d.citationCount,source:"Semantic Scholar",link:d.url};});});
+  if(doi) tries.push(function(){return j(S2+"DOI:"+encodeURIComponent(doi)+F).then(function(d){return {count:d.citationCount,source:"Semantic Scholar",link:d.url};});});
+  tries.push(function(){return j(S2+"search/match?query="+encodeURIComponent(lookup)+"&fields=citationCount,title,url").then(function(d){var p=d.data&&d.data[0];if(!p)throw 0;return {count:p.citationCount,source:"Semantic Scholar",link:p.url,matched:p.title};});});
+  if(doi) tries.push(function(){return j("https://api.openalex.org/works/doi:"+encodeURIComponent(doi)).then(function(d){return {count:d.cited_by_count,source:"OpenAlex",link:d.id};});});
+  tries.push(function(){return j("https://api.openalex.org/works?per-page=1&search="+encodeURIComponent(lookup)).then(function(d){var p=d.results&&d.results[0];if(!p)throw 0;return {count:p.cited_by_count,source:"OpenAlex",link:p.id,matched:p.display_name};});});
+  (function next(i){ if(i>=tries.length){fail();return;} tries[i]().then(function(r){ if(r.count==null) throw 0; save(r); }).catch(function(){ next(i+1); }); })(0);
+})();
+</script>
 </body>
 </html>

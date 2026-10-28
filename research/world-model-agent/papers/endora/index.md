@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2403.11050"
+doi: ""
+lookup: "Endora"
 title: "Endora"
 summary: "Unconditional endoscopy video generation framed as a simulator"
 venue: "MICCAI 2024"

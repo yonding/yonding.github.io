@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2303.10944"
+doi: ""
+lookup: "Pix2SG"
 title: "Pix2SG"
 summary: "TUM CAMP. Location-free SGG"
 venue: "CVPR MULA WS 2025"

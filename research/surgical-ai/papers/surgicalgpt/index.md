@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "SurgicalGPT end-to-end language-vision GPT for visual question answering in surgery"
 title: "SurgicalGPT"
 summary: "NUS, CUHK (Ren). GPT-based surgical VQA"
 venue: "MICCAI 2023"

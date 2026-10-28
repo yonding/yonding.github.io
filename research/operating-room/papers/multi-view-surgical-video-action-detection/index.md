@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Multi-view Surgical Video Action Detection via Mixed Global View Attention"
 title: "Multi-view Surgical Video Action Detection"
 summary: "Intuitive Surgical. Mixed Global View Attention"
 venue: "MICCAI 2021"

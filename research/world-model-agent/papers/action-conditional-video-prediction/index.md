@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "1507.08750"
+doi: ""
+lookup: "Action-Conditional Video Prediction"
 title: "Action-Conditional Video Prediction"
 summary: "Early work on action-conditioned next-frame prediction in Atari"
 venue: "NeurIPS 2015"

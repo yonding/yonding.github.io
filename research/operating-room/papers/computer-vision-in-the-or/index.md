@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Computer Vision in the OR"
 title: "Computer Vision in the OR"
 summary: "Harvard BWH, CAMMA and others. Review of opportunities and limits"
 venue: "IEEE T-MRB 2021"

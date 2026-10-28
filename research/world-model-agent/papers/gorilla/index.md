@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2305.15334"
+doi: ""
+lookup: "Gorilla"
 title: "Gorilla"
 summary: "LLM specialized for API calls"
 venue: "NeurIPS 2024"

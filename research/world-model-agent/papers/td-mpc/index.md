@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2203.04955"
+doi: ""
+lookup: "TD-MPC"
 title: "TD-MPC"
 summary: "Combines latent-space MPC with value learning"
 venue: "ICML 2022"

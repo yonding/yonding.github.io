@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Data-driven spatio-temporal RGBD feature encoding for action recognition in operating rooms"
 title: "Data-driven Spatio-temporal RGBD Feature Encoding"
 summary: "Strasbourg CAMMA. OR action recognition (2015)"
 venue: "IJCARS 2015"

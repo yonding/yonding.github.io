@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Self-supervised monocular depth and ego-motion estimation in endoscopy appearance flow to the rescue"
 title: "AF-SfMLearner"
 summary: "Self-supervised monocular depth and pose for endoscopy"
 venue: "MedIA 2022"

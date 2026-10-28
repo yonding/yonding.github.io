@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "LoViT long video transformer for surgical phase recognition"
 title: "LoViT"
 summary: "Transformer for long videos"
 venue: "MedIA 2025"

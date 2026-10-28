@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Czempiel Sharghi Paschali Navab Mohareri surgical workflow recognition operating room 2022"
 title: "Czempiel et al."
 summary: "TUM CAMP, Intuitive. Internal and external workflow"
 venue: "arXiv 2022"

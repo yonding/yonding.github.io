@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2209.07753"
+doi: ""
+lookup: "Code as Policies"
 title: "Code as Policies"
 summary: "LLMs write robot control code"
 venue: "ICRA 2023"

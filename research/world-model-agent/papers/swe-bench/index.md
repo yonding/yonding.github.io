@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2310.06770"
+doi: ""
+lookup: "SWE-bench"
 title: "SWE-bench"
 summary: "Resolving real GitHub issues"
 venue: "ICLR 2024"

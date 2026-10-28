@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: "10.1007/978-3-031-16449-1_42"
+lookup: "PSI-AVA"
 title: "PSI-AVA"
 summary: "Univ. de los Andes. Robotic prostatectomy phases, steps, instruments and atomic actions"
 venue: "MICCAI 2022"

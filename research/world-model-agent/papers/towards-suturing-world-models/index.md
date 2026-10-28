@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2503.12531"
+doi: ""
+lookup: "Towards Suturing World Models"
 title: "Towards Suturing World Models"
 summary: "Video prediction model for suturing"
 venue: "arXiv 2025"

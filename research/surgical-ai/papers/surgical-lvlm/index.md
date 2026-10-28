@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2405.10948"
+doi: ""
+lookup: "Surgical-LVLM"
 title: "Surgical-LVLM"
 summary: "CUHK (Ren). Large VLM for grounded VQA"
 venue: "ICLR WS 2025"

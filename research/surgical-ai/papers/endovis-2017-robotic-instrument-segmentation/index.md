@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "2017 Robotic Instrument Segmentation Challenge Allan"
 title: "EndoVis 2017 Robotic Instrument Segmentation"
 summary: "EndoVis consortium. Robotic instrument segmentation challenge"
 venue: "arXiv 2019"

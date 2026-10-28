@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2212.06817"
+doi: ""
+lookup: "RT-1"
 title: "RT-1"
 summary: "Large-scale real-world robotics Transformer"
 venue: "RSS 2023"

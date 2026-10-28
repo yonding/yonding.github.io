@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Multi-task recurrent convolutional network with correlation loss for surgical video analysis"
 title: "MTRCNet-CL"
 summary: "CUHK. Joint learning of phases and tools with a correlation loss"
 venue: "MedIA 2020"

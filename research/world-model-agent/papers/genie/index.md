@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2402.15391"
+doi: ""
+lookup: "Genie"
 title: "Genie"
 summary: "Infers latent actions from unlabeled video"
 venue: "ICML 2024"

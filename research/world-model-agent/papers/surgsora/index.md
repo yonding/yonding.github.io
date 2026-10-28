@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "SurgSora"
 title: "SurgSora"
 summary: "Object-aware trajectory-controlled generation"
 venue: "MICCAI 2025"

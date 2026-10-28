@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: "10.1109/cvpr52734.2025.02421"
+lookup: "EchoWorld"
 title: "EchoWorld"
 summary: "Motion-aware probe guidance"
 venue: "CVPR 2025"

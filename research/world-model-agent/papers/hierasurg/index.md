@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "HieraSurg"
 title: "HieraSurg"
 summary: "Control through hierarchical two-stage diffusion"
 venue: "MICCAI 2025"

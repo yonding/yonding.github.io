@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2408.07981"
+doi: ""
+lookup: "LLaVA-Surg"
 title: "LLaVA-Surg"
 summary: "Conversational assistant for surgical video, 100k Surg-QA pairs"
 venue: "arXiv 2024"

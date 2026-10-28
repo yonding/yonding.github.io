@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2307.15818"
+doi: ""
+lookup: "RT-2"
 title: "RT-2"
 summary: "A VLA that transfers web knowledge to robot actions"
 venue: "CoRL 2023"

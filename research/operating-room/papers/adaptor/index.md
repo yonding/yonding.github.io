@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2108.11801"
+doi: ""
+lookup: "AdaptOR"
 title: "AdaptOR"
 summary: "Strasbourg CAMMA. Unsupervised domain adaptation, low resolution"
 venue: "MedIA 2022"

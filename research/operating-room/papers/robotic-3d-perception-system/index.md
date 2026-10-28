@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2003.09487"
+doi: ""
+lookup: "Robotic 3D Perception System"
 title: "Robotic 3D Perception System"
 summary: "Intuitive Surgical. Multi-view 3D segmentation in da Vinci ORs"
 venue: "IPCAI 2020"

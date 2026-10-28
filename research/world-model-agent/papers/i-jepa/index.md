@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2301.08243"
+doi: ""
+lookup: "I-JEPA"
 title: "I-JEPA"
 summary: "Predicts representations instead of pixels"
 venue: "CVPR 2023"

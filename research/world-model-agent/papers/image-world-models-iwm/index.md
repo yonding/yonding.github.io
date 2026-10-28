@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2403.00504"
+doi: ""
+lookup: "Image World Models (IWM)"
 title: "Image World Models (IWM)"
 summary: "Meta FAIR. Learns and leverages world models within representation learning"
 venue: "arXiv 2024"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2512.23162"
+doi: ""
+lookup: "Cosmos-H-Surgical (SurgWorld)"
 title: "Cosmos-H-Surgical (SurgWorld)"
 summary: "Trains surgical VLAs with synthetic video and pseudo actions"
 venue: "arXiv 2025"

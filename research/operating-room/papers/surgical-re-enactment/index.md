@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2607.24206"
+doi: ""
+lookup: "Surgical Re-enactment"
 title: "Surgical Re-enactment"
 summary: "Unconfirmed. Surgical re-enactment data in a reconstructed OR"
 venue: "ICRA RAMI WS 2026"

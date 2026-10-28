@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2310.04406"
+doi: ""
+lookup: "LATS"
 title: "LATS"
 summary: "Unifies reasoning, acting and planning with tree search"
 venue: "ICML 2024"

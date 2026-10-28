@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "A vision-language model and platform for temporally mapping surgery from video Halsted"
 title: "Halsted"
 summary: "Kiyasseh. Surgical mapping VLM trained on 650k videos from 8 specialties"
 venue: "arXiv 2026"

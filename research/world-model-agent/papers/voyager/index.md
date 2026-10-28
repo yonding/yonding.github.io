@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2305.16291"
+doi: ""
+lookup: "Voyager"
 title: "Voyager"
 summary: "Lifelong learning agent in Minecraft"
 venue: "TMLR 2024"

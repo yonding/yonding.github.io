@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Depth Video Workflow Recognition"
 title: "Depth Video Workflow Recognition"
 summary: "Univ. of Twente. Privacy-preserving depth"
 venue: "Surg Endosc 2025"

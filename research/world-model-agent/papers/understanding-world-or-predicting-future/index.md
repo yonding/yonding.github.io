@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: "10.1145/3746449"
+lookup: "Understanding World or Predicting Future"
 title: "Understanding World or Predicting Future"
 summary: "Two branches of world models, understanding versus prediction"
 venue: "ACM Computing Surveys 2026"

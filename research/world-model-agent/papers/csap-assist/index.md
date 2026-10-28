@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "CSAP-Assist"
 title: "CSAP-Assist"
 summary: "Multi-agent planning for multi-tool collaboration"
 venue: "MICCAI 2025"

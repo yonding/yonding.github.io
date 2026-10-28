@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2411.04983"
+doi: ""
+lookup: "DINO-WM"
 title: "DINO-WM"
 summary: "Zero-shot planning with a world model on DINO features"
 venue: "ICML 2025"

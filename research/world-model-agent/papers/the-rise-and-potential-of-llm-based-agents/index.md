@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2309.07864"
+doi: ""
+lookup: "The Rise and Potential of LLM Based Agents"
 title: "The Rise and Potential of LLM Based Agents"
 summary: "Early landmark survey of LLM agents"
 venue: "arXiv 2023"

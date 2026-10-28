@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "LeJEPA provable and scalable self-supervised learning without the heuristics"
 title: "LeJEPA"
 summary: "Theory for JEPA training that prevents collapse without heuristics, the basis of LeWM"
 venue: "arXiv 2025"

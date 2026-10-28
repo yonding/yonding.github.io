@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: "10.1007/s11548-024-03114-1"
+lookup: "Efficient EndoNeRF for Simulation"
 title: "Efficient EndoNeRF for Simulation"
 summary: "CUHK (Dou). Building surgical simulation environments from reconstructed tissue"
 venue: "IJCARS 2024"

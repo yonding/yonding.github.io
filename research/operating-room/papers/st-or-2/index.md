@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2312.12250"
+doi: ""
+lookup: "ST(OR)2"
 title: "ST(OR)2"
 summary: "CAMMA, Intuitive. Object-level spatio-temporal reasoning"
 venue: "MIDL 2023"

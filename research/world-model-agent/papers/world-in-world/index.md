@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2510.18135"
+doi: ""
+lookup: "World-in-World"
 title: "World-in-World"
 summary: "JHU (Yuille, Chellappa). Benchmarks world models by closed-loop embodied task success"
 venue: "arXiv 2025"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2312.07352"
+doi: ""
+lookup: "CholecTrack20"
 title: "CholecTrack20"
 summary: "Strasbourg CAMMA. Multi-perspective surgical tool tracking dataset"
 venue: "CVPR 2025"

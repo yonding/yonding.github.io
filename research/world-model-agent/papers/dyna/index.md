@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: "10.1145/122344.122377"
+lookup: "Dyna"
 title: "Dyna"
 summary: "The original framework unifying learning, planning and acting"
 venue: "ACM SIGART Bulletin 1991"

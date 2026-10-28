@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2305.10601"
+doi: ""
+lookup: "Tree of Thoughts"
 title: "Tree of Thoughts"
 summary: "Explores multiple reasoning paths"
 venue: "NeurIPS 2023"

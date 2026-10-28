@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2310.02207"
+doi: ""
+lookup: "Language Models Represent Space and Time"
 title: "Language Models Represent Space and Time"
 summary: "Space and time representations inside LLMs"
 venue: "ICLR 2024"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Real-time 3D reconstruction for collision avoidance in interventional environments Ladikos"
 title: "Real-time 3D Reconstruction for Collision Avoidance"
 summary: "TUM CAMP. Real-time 3D reconstruction in the OR (2008)"
 venue: "MICCAI 2008"

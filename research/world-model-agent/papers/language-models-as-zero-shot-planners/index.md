@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2201.07207"
+doi: ""
+lookup: "Language Models as Zero-Shot Planners"
 title: "Language Models as Zero-Shot Planners"
 summary: "LLMs generate executable action plans"
 venue: "ICML 2022"

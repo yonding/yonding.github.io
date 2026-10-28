@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "MoViS motion-guided video generation for laparoscopic surgery"
 title: "MoViS"
 summary: "Keypoint motion-guided generation"
 venue: "MICCAI Workshop 2025"

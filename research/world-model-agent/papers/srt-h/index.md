@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: "10.1126/scirobotics.adt5254"
+lookup: "SRT-H"
 title: "SRT-H"
 summary: "Hierarchical language planning and low-level policy, success on all 8 ex vivo gallbladders"
 venue: "Science Robotics 2025"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "A Path Towards Autonomous Machine Intelligence"
 title: "A Path Towards Autonomous Machine Intelligence"
 summary: "LeCun. An autonomous intelligence design centered on JEPA and world models"
 venue: "OpenReview 2022"

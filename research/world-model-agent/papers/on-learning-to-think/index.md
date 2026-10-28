@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "1511.09249"
+doi: ""
+lookup: "On Learning to Think"
 title: "On Learning to Think"
 summary: "Schmidhuber. An RNN world model and a controller that query each other"
 venue: "arXiv 2015"

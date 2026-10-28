@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: "10.1038/s41586-020-03051-4"
+lookup: "MuZero"
 title: "MuZero"
 summary: "Learns dynamics for planning without knowing the rules"
 venue: "Nature 2020"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Development of an artificial intelligence system using deep learning to indicate anatomical landmarks during laparoscopic cholecystectomy"
 title: "Anatomical Landmark AI for Cholecystectomy"
 summary: "Multi-center, Japan. Real-time anatomical landmarks in cholecystectomy"
 venue: "Surg Endosc 2021"

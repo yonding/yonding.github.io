@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2204.05467"
+doi: ""
+lookup: "RGB-D Semantic SLAM"
 title: "RGB-D Semantic SLAM"
 summary: "Intuitive Surgical. Surgical robot navigation"
 venue: "arXiv 2022"

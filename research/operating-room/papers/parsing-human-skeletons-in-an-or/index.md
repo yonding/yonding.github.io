@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Parsing human skeletons in an operating room"
 title: "Parsing Human Skeletons in an OR"
 summary: "TUM CAMP (Navab). Skeleton estimation in the OR"
 venue: "Mach Vis Appl 2016"

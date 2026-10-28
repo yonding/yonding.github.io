@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "1805.12114"
+doi: ""
+lookup: "PETS"
 title: "PETS"
 summary: "Learns from few trials with probabilistic ensemble dynamics"
 venue: "NeurIPS 2018"

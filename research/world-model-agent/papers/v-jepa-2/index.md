@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2506.09985"
+doi: ""
+lookup: "V-JEPA 2"
 title: "V-JEPA 2"
 summary: "From video representations to robot planning"
 venue: "arXiv 2025"

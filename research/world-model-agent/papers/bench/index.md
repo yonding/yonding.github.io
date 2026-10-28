@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "tau-bench Tool-Agent-User Interaction in Real-World Domains"
 title: "τ-bench"
 summary: "Evaluates tool, user and agent interaction"
 venue: "arXiv 2024"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2504.12516"
+doi: ""
+lookup: "BrowseComp"
 title: "BrowseComp"
 summary: "OpenAI. Hard-to-find information for browsing agents"
 venue: "arXiv 2025"

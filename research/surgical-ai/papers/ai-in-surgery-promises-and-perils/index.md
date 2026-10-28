@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Artificial intelligence in surgery promises and perils Hashimoto"
 title: "AI in Surgery, Promises and Perils"
 summary: "MGH (Hashimoto). Prospects and risks of surgical AI"
 venue: "Ann Surg 2018"

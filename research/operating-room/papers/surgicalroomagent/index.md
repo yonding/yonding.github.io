@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2609.11231"
+doi: ""
+lookup: "SurgicalRoomAgent"
 title: "SurgicalRoomAgent"
 summary: "United Imaging Surgical. Voice-driven multi-agent device control"
 venue: "arXiv 2026"

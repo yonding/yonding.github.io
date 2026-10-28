@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "See, predict, plan: diffusion for procedure planning in robotic surgical videos"
 title: "See, Predict, Plan (MS-PCD)"
 summary: "Procedure planning generation from phase labels"
 venue: "MICCAI 2024"

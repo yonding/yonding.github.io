@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2606.19889"
+doi: ""
+lookup: "SurgVista"
 title: "SurgVista"
 summary: "World model for long-horizon instrument-tissue dynamics"
 venue: "arXiv 2026"

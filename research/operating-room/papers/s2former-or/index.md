@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2402.14461"
+doi: ""
+lookup: "S²Former-OR"
 title: "S²Former-OR"
 summary: "CUHK. Single-stage bi-modal Transformer"
 venue: "IEEE TMI 2024"

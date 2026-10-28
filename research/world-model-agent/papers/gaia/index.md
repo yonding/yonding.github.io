@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2311.12983"
+doi: ""
+lookup: "GAIA"
 title: "GAIA"
 summary: "Benchmark for general AI assistants"
 venue: "ICLR 2024"

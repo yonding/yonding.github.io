@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: "10.1007/s11548-024-03091-5"
+lookup: "EndoViT"
 title: "EndoViT"
 summary: "TUM CAMP (Navab), Carl Zeiss. ViT pre-training on large-scale endoscopic images"
 venue: "IJCARS 2024"

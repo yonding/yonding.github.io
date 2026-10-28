@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2608.26214"
+doi: ""
+lookup: "Surgical video generation survey"
 title: "Surgical video generation survey"
 summary: "Three categories of unconditional, conditional and world-modeling generation"
 venue: "arXiv 2026"

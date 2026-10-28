@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2401.13649"
+doi: ""
+lookup: "VisualWebArena"
 title: "VisualWebArena"
 summary: "CMU. Web tasks that require visual grounding"
 venue: "ACL 2024"

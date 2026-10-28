@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "ISINet an instance-based approach for surgical instrument segmentation"
 title: "ISINet"
 summary: "Univ. de los Andes. Instance-based instrument segmentation"
 venue: "MICCAI 2020"

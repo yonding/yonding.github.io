@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "SurgicAI a hierarchical platform for fine-grained surgical policy learning and benchmarking"
 title: "SurgicAI"
 summary: "JHU. Benchmark for fine-grained surgical policy learning"
 venue: "NeurIPS D&B 2024"

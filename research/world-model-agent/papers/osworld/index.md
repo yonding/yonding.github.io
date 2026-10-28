@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2404.07972"
+doi: ""
+lookup: "OSWorld"
 title: "OSWorld"
 summary: "Computer use in real operating systems"
 venue: "NeurIPS 2024 D&B"

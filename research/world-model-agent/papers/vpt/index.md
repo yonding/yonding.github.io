@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2206.11795"
+doi: ""
+lookup: "VPT"
 title: "VPT"
 summary: "OpenAI. Learns Minecraft behavior from unlabeled video"
 venue: "NeurIPS 2022"

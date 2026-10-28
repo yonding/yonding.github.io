@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2410.07864"
+doi: ""
+lookup: "RDT-1B"
 title: "RDT-1B"
 summary: "Diffusion foundation model for bimanual manipulation"
 venue: "ICLR 2025"

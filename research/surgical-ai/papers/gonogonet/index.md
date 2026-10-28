@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Artificial Intelligence for Intraoperative Guidance using semantic segmentation to identify surgical anatomy during laparoscopic cholecystectomy"
 title: "GoNoGoNet"
 summary: "Toronto (Madani). Real-time guidance on safe and dangerous dissection zones"
 venue: "Ann Surg 2022"

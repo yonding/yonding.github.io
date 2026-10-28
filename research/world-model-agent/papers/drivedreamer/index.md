@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2309.09777"
+doi: ""
+lookup: "DriveDreamer"
 title: "DriveDreamer"
 summary: "World model driven by real-world driving data"
 venue: "ECCV 2024"

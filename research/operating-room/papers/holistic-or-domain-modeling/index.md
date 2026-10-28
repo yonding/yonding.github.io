@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: "10.1007/s11548-023-03022-w"
+lookup: "Holistic OR Domain Modeling"
 title: "Holistic OR Domain Modeling"
 summary: "TUM CAMP. Extended version of 4D-OR"
 venue: "IJCARS 2024"

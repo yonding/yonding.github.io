@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2303.07109"
+doi: ""
+lookup: "TWM"
 title: "TWM"
 summary: "Transformer world model with 100k interactions"
 venue: "ICLR 2023"

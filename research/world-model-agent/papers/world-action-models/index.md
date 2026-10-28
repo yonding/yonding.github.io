@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2605.12090"
+doi: ""
+lookup: "World Action Models"
 title: "World Action Models"
 summary: "World action models as the next stage of embodied AI"
 venue: "arXiv 2026"

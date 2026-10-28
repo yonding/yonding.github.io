@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2307.05182"
+doi: ""
+lookup: "CAT-ViL"
 title: "CAT-ViL"
 summary: "CUHK, UCL. Co-attention gated vision-language embedding"
 venue: "MICCAI 2023"

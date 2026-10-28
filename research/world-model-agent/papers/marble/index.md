@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Marble"
 title: "Marble"
 summary: "World Labs, Fei-Fei Li. Generates editable 3D worlds from text, images and video"
 venue: "World Labs blog 2025"

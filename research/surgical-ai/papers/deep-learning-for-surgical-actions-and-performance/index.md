@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: "10.1001/jamanetworkopen.2020.1664"
+lookup: "Deep Learning for Surgical Actions and Performance"
 title: "Deep Learning for Surgical Actions and Performance"
 summary: "Toronto. Classifying surgical actions and skill level from video"
 venue: "JAMA Netw Open 2020"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Sora technical report"
 title: "Sora technical report"
 summary: "Video generation models as world simulators"
 venue: "OpenAI 2024"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2402.01030"
+doi: ""
+lookup: "CodeAct"
 title: "CodeAct"
 summary: "Uses code as the action space"
 venue: "ICML 2024"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Temporal memory relation network for workflow recognition from surgical video"
 title: "TMRNet"
 summary: "CUHK. Long-range temporal memory relation network"
 venue: "IEEE TMI 2021"

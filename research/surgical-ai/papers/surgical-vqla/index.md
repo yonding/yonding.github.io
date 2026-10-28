@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2305.11692"
+doi: ""
+lookup: "Surgical-VQLA"
 title: "Surgical-VQLA"
 summary: "CUHK (Ren). VQA that outputs both the answer and its location"
 venue: "ICRA 2023"

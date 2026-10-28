@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2305.14992"
+doi: ""
+lookup: "RAP"
 title: "RAP"
 summary: "MCTS planning with the LLM as the world model"
 venue: "EMNLP 2023"

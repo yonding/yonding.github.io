@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2303.03378"
+doi: ""
+lookup: "PaLM-E"
 title: "PaLM-E"
 summary: "Embodied multimodal language model"
 venue: "ICML 2023"

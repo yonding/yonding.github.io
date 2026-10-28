@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2603.13024"
+doi: ""
+lookup: "SAW"
 title: "SAW"
 summary: "Surgical action world model conditioned on tool trajectories"
 venue: "arXiv 2026"

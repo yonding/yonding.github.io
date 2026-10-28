@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2405.15793"
+doi: ""
+lookup: "SWE-agent"
 title: "SWE-agent"
 summary: "Shows that interface design for agents drives performance"
 venue: "NeurIPS 2024"

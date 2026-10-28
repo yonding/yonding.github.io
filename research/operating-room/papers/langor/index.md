@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "LangOR"
 title: "LangOR"
 summary: "Unconfirmed. OR 3D language field"
 venue: "MICCAI 2026"

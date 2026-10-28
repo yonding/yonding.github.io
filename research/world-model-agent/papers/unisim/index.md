@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2310.06114"
+doi: ""
+lookup: "UniSim"
 title: "UniSim"
 summary: "Interactive simulator of the real world"
 venue: "ICLR 2024"

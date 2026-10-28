@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Neural Digital Twins"
 title: "Neural Digital Twins"
 summary: "JHU, FAU. Neural OR reconstruction, VR space planning"
 venue: "IJCARS 2024"

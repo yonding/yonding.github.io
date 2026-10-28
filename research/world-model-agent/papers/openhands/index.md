@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2407.16741"
+doi: ""
+lookup: "OpenHands"
 title: "OpenHands"
 summary: "Open-source coding agent harness"
 venue: "ICLR 2025"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2503.02904"
+doi: ""
+lookup: "Surgical Vision World Model"
 title: "Surgical Vision World Model"
 summary: "First surgical world model with Genie-style latent actions"
 venue: "MICCAI DEMI WS 2025"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Surgical data science for next-generation interventions Maier-Hein"
 title: "Surgical Data Science"
 summary: "Maier-Hein et al. Defining surgical data science"
 venue: "Nature BME 2017"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2302.00111"
+doi: ""
+lookup: "UniPi"
 title: "UniPi"
 summary: "Text-conditioned video generation as a universal policy"
 venue: "NeurIPS 2023"

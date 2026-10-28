@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Blob representation of robotic surgical scenes for position-aware video generation"
 title: "Blob Representation"
 summary: "Position-aware video generation from kinematics"
 venue: "IJCARS 2026"

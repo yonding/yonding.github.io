@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2504.16054"
+doi: ""
+lookup: "π0.5"
 title: "π0.5"
 summary: "A VLA that generalizes even to unseen homes"
 venue: "arXiv 2025"

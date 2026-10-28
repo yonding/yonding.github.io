@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2404.16027"
+doi: ""
+lookup: "ORBIT-Surgical"
 title: "ORBIT-Surgical"
 summary: "Toronto, Berkeley, NVIDIA. Omniverse-based simulator for surgical robot learning"
 venue: "ICRA 2024"

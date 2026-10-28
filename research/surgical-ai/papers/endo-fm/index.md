@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2306.16741"
+doi: ""
+lookup: "Endo-FM"
 title: "Endo-FM"
 summary: "CUHK (Dou). Foundation model for endoscopy video"
 venue: "MICCAI 2023"

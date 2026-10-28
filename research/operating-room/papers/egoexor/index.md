@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2505.24287"
+doi: ""
+lookup: "EgoExOR"
 title: "EgoExOR"
 summary: "TUM CAMP. Fusing egocentric and exocentric views"
 venue: "NeurIPS D&B 2025"

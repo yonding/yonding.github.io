@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2403.11050"
+doi: ""
+lookup: "Endora"
 title: "Endora"
 summary: "CUHK. Endoscopy video generation as a simulator"
 venue: "MICCAI 2024"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2606.23991"
+doi: ""
+lookup: "Critique of Agent Model"
 title: "Critique of Agent Model"
 summary: "Eric Xing et al. Distinguishes agentic from agentive systems and proposes the GIC architecture with a separate world model"
 venue: "arXiv 2026"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2207.05608"
+doi: ""
+lookup: "Inner Monologue"
 title: "Inner Monologue"
 summary: "Replans from environment feedback expressed in language"
 venue: "CoRL 2022"

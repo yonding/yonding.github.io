@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2204.01691"
+doi: ""
+lookup: "SayCan"
 title: "SayCan"
 summary: "Combines LLM planning with robot affordances"
 venue: "CoRL 2022"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2401.02117"
+doi: ""
+lookup: "Mobile ALOHA"
 title: "Mobile ALOHA"
 summary: "Learns mobile manipulation from whole-body teleoperation data"
 venue: "CoRL 2024"

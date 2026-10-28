@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2407.01392"
+doi: ""
+lookup: "Diffusion Forcing"
 title: "Diffusion Forcing"
 summary: "Combines next-token prediction and diffusion through per-token noise"
 venue: "NeurIPS 2024"

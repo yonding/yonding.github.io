@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Incorporating temporal prior from motion flow for instrument segmentation in minimally invasive surgery video"
 title: "MF-TAPNet"
 summary: "CUHK. Instrument segmentation with motion-flow temporal priors"
 venue: "MICCAI 2019"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2508.08028"
+doi: ""
+lookup: "Mitigating Biases with Geometry"
 title: "Mitigating Biases with Geometry"
 summary: "TUM CAMP (inferred). Bias analysis in re-identification"
 venue: "arXiv 2025"

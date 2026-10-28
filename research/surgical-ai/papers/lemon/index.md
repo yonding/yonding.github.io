@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2503.19740"
+doi: ""
+lookup: "LEMON"
 title: "LEMON"
 summary: "Large monocular endoscopy dataset and foundation model"
 venue: "arXiv 2025"

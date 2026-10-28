@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2608.24199"
+doi: ""
+lookup: "Cosmos-H-Dreams"
 title: "Cosmos-H-Dreams"
 summary: "Real-time interactive surgical simulator on a single GPU"
 venue: "arXiv 2026"

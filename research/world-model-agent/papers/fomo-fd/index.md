@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2607.27511"
+doi: ""
+lookup: "FoMo-FD"
 title: "FoMo-FD"
 summary: "Flow-matching world model that detects failures of surgical imitation policies on the dVRK"
 venue: "arXiv 2026"

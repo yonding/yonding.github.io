@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "MRF 3D Pose Estimation"
 title: "MRF 3D Pose Estimation"
 summary: "Strasbourg CAMMA. Staff tracking for radiation exposure"
 venue: "ICVSS poster 2014"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2208.11173"
+doi: ""
+lookup: "The Alberta Plan for AI Research"
 title: "The Alberta Plan for AI Research"
 summary: "Sutton et al. A roadmap for continually learning agents and model-based planning"
 venue: "arXiv 2022"

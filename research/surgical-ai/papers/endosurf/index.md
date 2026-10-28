@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2307.11307"
+doi: ""
+lookup: "EndoSurf"
 title: "EndoSurf"
 summary: "ANU, Monash. SDF-based surface reconstruction of deformable tissue"
 venue: "MICCAI 2023"

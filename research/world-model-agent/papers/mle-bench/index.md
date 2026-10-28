@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2410.07095"
+doi: ""
+lookup: "MLE-bench"
 title: "MLE-bench"
 summary: "OpenAI. ML engineering agents on Kaggle competitions"
 venue: "ICLR 2025"

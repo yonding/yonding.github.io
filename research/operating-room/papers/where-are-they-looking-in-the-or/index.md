@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Where are they looking in the operating room Chen Padoy"
 title: "Where are they looking in the OR"
 summary: "CAMMA, Bern Univ. Hosp. Gaze analysis of OR staff"
 venue: "IPCAI 2026"

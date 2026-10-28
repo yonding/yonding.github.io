@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2512.00019"
+doi: ""
+lookup: "Surgical digital twin survey"
 title: "Surgical digital twin survey"
 summary: "Comprehensive overview of surgical digital twins"
 venue: "arXiv 2025"

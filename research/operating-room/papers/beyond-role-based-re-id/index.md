@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2503.13028"
+doi: ""
+lookup: "Beyond Role-Based (Re-ID)"
 title: "Beyond Role-Based (Re-ID)"
 summary: "TUM CAMP (inferred). Re-identification of OR staff"
 venue: "arXiv 2025"

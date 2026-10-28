@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "VISAGE"
 title: "VISAGE"
 summary: "Generates future frames from action graphs"
 venue: "MICCAI 2024"

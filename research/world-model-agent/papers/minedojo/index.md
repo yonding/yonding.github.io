@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2206.08853"
+doi: ""
+lookup: "MineDojo"
 title: "MineDojo"
 summary: "Open-ended embodied agent environment built from internet knowledge"
 venue: "NeurIPS 2022"

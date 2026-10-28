@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2304.13705"
+doi: ""
+lookup: "ACT (ALOHA)"
 title: "ACT (ALOHA)"
 summary: "Low-cost bimanual robot and the Action Chunking Transformer"
 venue: "RSS 2023"

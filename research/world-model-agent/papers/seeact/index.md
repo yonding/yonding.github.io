@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2401.01614"
+doi: ""
+lookup: "SeeAct"
 title: "SeeAct"
 summary: "General web agent built on a multimodal model"
 venue: "ICML 2024"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2307.16789"
+doi: ""
+lookup: "ToolLLM"
 title: "ToolLLM"
 summary: "Learns to use more than 16,000 real APIs"
 venue: "ICLR 2024"

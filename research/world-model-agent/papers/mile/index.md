@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "MILE"
 title: "MILE"
 summary: "Wayve. Imitation learning for driving that learns a world model and a policy together"
 venue: "NeurIPS 2022"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2207.01206"
+doi: ""
+lookup: "WebShop"
 title: "WebShop"
 summary: "Web shopping environment built from real products"
 venue: "NeurIPS 2022"

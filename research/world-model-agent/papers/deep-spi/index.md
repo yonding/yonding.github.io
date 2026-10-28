@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2510.12312"
+doi: ""
+lookup: "Deep SPI"
 title: "Deep SPI"
 summary: "Safe policy improvement via world models"
 venue: "ICLR 2026"

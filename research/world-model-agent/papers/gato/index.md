@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2205.06175"
+doi: ""
+lookup: "Gato"
 title: "Gato"
 summary: "One model for games, dialogue and robots"
 venue: "TMLR 2022"

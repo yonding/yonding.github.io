@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2205.02805"
+doi: ""
+lookup: "Empirical Study on Long Surgical Videos"
 title: "Empirical Study on Long Surgical Videos"
 summary: "Intuitive Surgical. 820 OR-AR videos, backbone comparison"
 venue: "ML4H 2022"

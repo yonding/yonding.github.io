@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2608.03211"
+doi: ""
+lookup: "CrossScope"
 title: "CrossScope"
 summary: "World model that jointly predicts video from two scopes"
 venue: "arXiv 2026"

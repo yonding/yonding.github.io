@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2503.14734"
+doi: ""
+lookup: "GR00T N1"
 title: "GR00T N1"
 summary: "Humanoid foundation model"
 venue: "arXiv 2025"

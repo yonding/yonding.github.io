@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2405.03520"
+doi: ""
+lookup: "Is Sora a World Simulator"
 title: "Is Sora a World Simulator"
 summary: "Survey of general world models"
 venue: "arXiv 2024"

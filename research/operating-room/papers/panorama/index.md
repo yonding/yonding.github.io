@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2603.19920"
+doi: ""
+lookup: "PanORama"
 title: "PanORama"
 summary: "TUM CAMP. Multi-view panoptic segmentation"
 venue: "arXiv 2026"

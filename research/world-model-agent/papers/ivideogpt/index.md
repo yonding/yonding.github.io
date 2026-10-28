@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2405.15223"
+doi: ""
+lookup: "iVideoGPT"
 title: "iVideoGPT"
 summary: "Interactive VideoGPT world model"
 venue: "NeurIPS 2024"

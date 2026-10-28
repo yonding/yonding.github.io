@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2007.03357"
+doi: ""
+lookup: "Graph Reasoning in Robotic Surgery"
 title: "Graph Reasoning in Robotic Surgery"
 summary: "NUS, CUHK (Ren). Scene graphs of tool-tissue interactions on EndoVis18"
 venue: "MICCAI 2020"

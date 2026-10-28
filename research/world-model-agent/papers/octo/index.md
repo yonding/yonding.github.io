@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2405.12213"
+doi: ""
+lookup: "Octo"
 title: "Octo"
 summary: "Open generalist robot policy"
 venue: "RSS 2024"

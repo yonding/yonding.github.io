@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Open-sourced reinforcement learning environments for surgical robotics dVRL"
 title: "dVRL"
 summary: "UCSD (Yip). Open RL environment for the dVRK"
 venue: "arXiv 2019"

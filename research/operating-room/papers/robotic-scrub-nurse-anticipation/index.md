@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Robotic Scrub Nurse (Anticipation)"
 title: "Robotic Scrub Nurse (Anticipation)"
 summary: "TUM MITI (Wilhelm), TU Darmstadt. Predicting and handing over instruments from laparoscopic video"
 venue: "Commun Med 2024"

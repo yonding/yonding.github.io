@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2404.09231"
+doi: ""
+lookup: "TriTemp-OR"
 title: "TriTemp-OR"
 summary: "CUHK (Heng), NUS (Jin). Tri-modal temporal fusion"
 venue: "arXiv 2024"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Reasoning Text-to-Video Retrieval"
 title: "Reasoning Text-to-Video Retrieval"
 summary: "Unconfirmed. Clip retrieval in a digital-twin OR"
 venue: "MICCAI 2026"

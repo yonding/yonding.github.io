@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "OperA attention-regularized transformers for surgical phase recognition"
 title: "OperA"
 summary: "TUM CAMP. Phase recognition with an attention-regularized Transformer"
 venue: "MICCAI 2021"

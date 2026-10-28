@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2303.11366"
+doi: ""
+lookup: "Reflexion"
 title: "Reflexion"
 summary: "Reflects on failures in language and retries"
 venue: "NeurIPS 2023"

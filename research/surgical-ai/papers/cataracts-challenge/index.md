@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "CATARACTS Challenge on automatic tool annotation for cataRACT surgery"
 title: "CATARACTS Challenge"
 summary: "LaTIM, Brest. Cataract surgery tool recognition challenge"
 venue: "MedIA 2019"

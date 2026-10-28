@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "On-line Recognition of Surgical Activity for Monitoring in the Operating Room Padoy"
 title: "On-line Recognition of Surgical Activity in the OR"
 summary: "TUM CAMP, Padoy. Early OR activity recognition (2008)"
 venue: "AAAI IAAI 2008"

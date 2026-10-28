@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2606.16721"
+doi: ""
+lookup: "Medical World Models (Liu et al.)"
 title: "Medical World Models (Liu et al.)"
 summary: "Medical state representation, dynamics and intervention policies"
 venue: "arXiv 2026"

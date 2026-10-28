@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Multi-stream deep architecture for surgical phase recognition on multi-view RGBD videos"
 title: "Multi-stream Multi-view RGBD Phase Recognition"
 summary: "Strasbourg CAMMA. OR phase recognition from ceiling RGB-D (2016)"
 venue: "MICCAI M2CAI WS 2016"

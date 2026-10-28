@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2302.04761"
+doi: ""
+lookup: "Toolformer"
 title: "Toolformer"
 summary: "Learns to call tools on its own"
 venue: "NeurIPS 2023"

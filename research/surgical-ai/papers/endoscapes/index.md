@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: "10.1038/s41597-025-04642-4"
+lookup: "Endoscapes"
 title: "Endoscapes"
 summary: "Strasbourg CAMMA. Dataset for CVS assessment and scene segmentation"
 venue: "Scientific Data 2025"

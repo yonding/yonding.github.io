@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2312.13139"
+doi: ""
+lookup: "GR-1"
 title: "GR-1"
 summary: "ByteDance. Video generative pre-training for visual robot manipulation"
 venue: "ICLR 2024"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2510.16240"
+doi: ""
+lookup: "Cosmos-Surg-dVRK"
 title: "Cosmos-Surg-dVRK"
 summary: "Automatic evaluation of surgical policies inside a world model"
 venue: "IEEE RA-L (arXiv 2025)"

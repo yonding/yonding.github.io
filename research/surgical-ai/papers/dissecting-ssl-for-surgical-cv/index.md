@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2207.00449"
+doi: ""
+lookup: "Dissecting SSL for Surgical CV"
 title: "Dissecting SSL for Surgical CV"
 summary: "Strasbourg CAMMA. Systematic comparison of four SSL methods on surgical video"
 venue: "MedIA 2023"

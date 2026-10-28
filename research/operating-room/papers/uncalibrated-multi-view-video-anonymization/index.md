@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2602.02850"
+doi: ""
+lookup: "Uncalibrated Multi-View Video Anonymization"
 title: "Uncalibrated Multi-View Video Anonymization"
 summary: "Strasbourg CAMMA. Self-supervised multi-view anonymization"
 venue: "arXiv 2026"

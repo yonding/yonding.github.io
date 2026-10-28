@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Ambient Intelligence in Healthcare"
 title: "Ambient Intelligence in Healthcare"
 summary: "Stanford (Fei-Fei Li). Ambient intelligence in hospitals and ORs"
 venue: "Nature 2020"

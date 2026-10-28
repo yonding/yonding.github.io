@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2408.03867"
+doi: ""
+lookup: "Surgformer"
 title: "Surgformer"
 summary: "Hierarchical temporal attention Transformer"
 venue: "MICCAI 2024"

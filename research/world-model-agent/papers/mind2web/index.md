@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2306.06070"
+doi: ""
+lookup: "Mind2Web"
 title: "Mind2Web"
 summary: "Dataset of tasks on real websites"
 venue: "NeurIPS 2023 D&B"

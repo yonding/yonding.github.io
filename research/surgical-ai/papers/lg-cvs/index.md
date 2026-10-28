@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2212.04155"
+doi: ""
+lookup: "LG-CVS"
 title: "LG-CVS"
 summary: "Strasbourg CAMMA. Latent scene graph representations for CVS assessment"
 venue: "IEEE TMI 2024"

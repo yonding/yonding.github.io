@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2405.13949"
+doi: ""
+lookup: "PitVQA"
 title: "PitVQA"
 summary: "UCL WEISS (Stoyanov, Islam). VQA dataset and GPT-2 model for pituitary surgery"
 venue: "MICCAI 2024"

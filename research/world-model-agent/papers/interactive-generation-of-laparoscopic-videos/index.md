@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Interactive generation of laparoscopic videos with diffusion models"
 title: "Interactive Generation of Laparoscopic Videos"
 summary: "Interactive generation from text and masks"
 venue: "MICCAI Workshop 2024"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "Occlusion-free 4D Gaussians"
 title: "Occlusion-free 4D Gaussians"
 summary: "Unconfirmed. 4DGS of open surgery from surgical-light cameras"
 venue: "MICCAI 2025"

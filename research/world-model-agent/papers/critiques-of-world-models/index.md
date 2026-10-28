@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2507.05169"
+doi: ""
+lookup: "Critiques of World Models"
 title: "Critiques of World Models"
 summary: "Eric Xing et al. Redefines the purpose of world models as simulating possible actions and proposes the PAN architecture"
 venue: "arXiv 2025"

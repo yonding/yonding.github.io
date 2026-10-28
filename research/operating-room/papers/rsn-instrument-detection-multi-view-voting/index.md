@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: ""
+lookup: "RSN Instrument Detection (Multi-view Voting)"
 title: "RSN Instrument Detection (Multi-view Voting)"
 summary: "Unconfirmed. Instrument detection for a robotic scrub nurse"
 venue: "IJCARS 2023"

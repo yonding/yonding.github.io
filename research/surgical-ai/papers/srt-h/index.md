@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: "10.1126/scirobotics.adt5254"
+lookup: "SRT-H"
 title: "SRT-H"
 summary: "JHU, Stanford. Hierarchical language planning and low-level policy, ex vivo cholecystectomy"
 venue: "Science Robotics 2025"

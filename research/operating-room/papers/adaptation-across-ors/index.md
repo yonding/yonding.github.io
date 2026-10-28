@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2207.03083"
+doi: ""
+lookup: "Adaptation Across ORs"
 title: "Adaptation Across ORs"
 summary: "Intuitive, Stanford. Domain adaptation across ORs"
 venue: "MICCAI 2022"

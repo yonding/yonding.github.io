@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: "10.1109/LRA.2026.3665443"
+lookup: "SurgRAW"
 title: "SurgRAW"
 summary: "Chain-of-thought multi-agent surgical video analysis"
 venue: "IEEE RA-L 2026"

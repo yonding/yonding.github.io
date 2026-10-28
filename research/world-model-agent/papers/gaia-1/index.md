@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: "2309.17080"
+doi: ""
+lookup: "GAIA-1"
 title: "GAIA-1"
 summary: "Generative world model for autonomous driving"
 venue: "arXiv 2023"

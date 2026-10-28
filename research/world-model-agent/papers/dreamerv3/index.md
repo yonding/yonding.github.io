@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+arxiv: ""
+doi: "10.1038/s41586-025-08744-2"
+lookup: "DreamerV3"
 title: "DreamerV3"
 summary: "One configuration across many domains, including Minecraft diamonds"
 venue: "Nature 2025"
