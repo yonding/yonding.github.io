@@ -82,16 +82,20 @@ footer p{margin:0 0 6px}
   tbody th{width:112px;min-width:112px;font-size:13px}
   td{min-width:160px;width:160px}
 }
+.head{display:flex;align-items:center;justify-content:space-between;gap:12px 24px;flex-wrap:wrap;margin-bottom:18px}
+.head h1{margin:0}
+.head .tabs{margin-bottom:0}
 </style>
 </head>
 <body>
 <main>
+  <header class="head">
   <h1>World Models and Agents Paper Map</h1>
-
   <div class="tabs" role="tablist">
     <button class="tab" role="tab" id="tab-general" aria-controls="panel" data-view="general">General AI</button>
     <button class="tab" role="tab" id="tab-surgical" aria-controls="panel" data-view="surgical">Surgical and Medical AI</button>
   </div>
+  </header>
 
   <div id="panel" role="tabpanel">
     <div class="flow"><p id="flow"></p></div>
