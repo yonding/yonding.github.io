@@ -85,6 +85,11 @@ footer p{margin:0 0 6px}
 .head{display:flex;align-items:center;justify-content:space-between;gap:12px 24px;flex-wrap:wrap;margin-bottom:18px}
 .head h1{margin:0}
 .head .tabs{margin-bottom:0}
+.stack{display:grid;grid-template-columns:minmax(0,1fr);gap:7px}
+.stack .paper{margin-bottom:0}
+td.two{min-width:350px;width:350px}
+td.two .stack{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (max-width:640px){td.two{min-width:300px;width:300px}}
 </style>
 </head>
 <body>
@@ -380,13 +385,13 @@ function render(){
     for(const y of V.years){
       const ps = V.papers.filter(p=>p.r===row.id && p.y===y);
       if(!ps.length){h += "<td class='empty'></td>"; continue;}
-      h += "<td>" + ps.map(p=>{
+      h += "<td><div class='stack'>" + ps.map(p=>{
         const url = p.u || scholar(p.q || p.t);
         return "<a class='paper' data-k='"+p.k+"' style='--c:var("+KINDS[p.k].c+")' href='"+esc(url)+"' target='_blank' rel='noopener'>"
           + "<span class='t'>"+esc(p.t)+(p.s?"<span class='s'>Search</span>":"")+"</span>"
           + "<span class='n'>"+esc(p.n)+"</span>"
           + "<span class='v'>"+esc(p.v)+"</span></a>";
-      }).join("") + "</td>";
+      }).join("") + "</div></td>";
     }
     h += "</tr>";
   }
@@ -412,10 +417,21 @@ function buildLegend(){
   const c = document.createElement("span"); c.className="count"; c.id="count"; lg.appendChild(c);
 }
 
+const TWO_COL_AFTER = 4;
 function applyFilter(){
   let shown = 0, total = 0;
   document.querySelectorAll(".paper").forEach(a=>{ total++; const on = active.has(a.dataset.k); a.hidden = !on; if(on) shown++; });
   document.getElementById("count").textContent = "Showing " + shown + " papers (of " + total + ")";
+  // Cells with many visible papers switch to two columns.
+  // A wide column then lets its other cells with two or more papers use both columns too.
+  const stacks = [...document.querySelectorAll("td .stack")];
+  const visible = st => st.querySelectorAll(".paper:not([hidden])").length;
+  const wideCols = new Set();
+  stacks.forEach(st=>{ if(visible(st) > TWO_COL_AFTER) wideCols.add(st.parentElement.cellIndex); });
+  stacks.forEach(st=>{
+    const td = st.parentElement, n = visible(st);
+    td.classList.toggle("two", n > TWO_COL_AFTER || (wideCols.has(td.cellIndex) && n >= 2));
+  });
 }
 
 document.querySelectorAll(".tab").forEach(b=>b.addEventListener("click",()=>{ view=b.dataset.view; history.replaceState(null,"","#"+view); render(); }));
