@@ -48,8 +48,8 @@ bio:
 
 # Newest first.
 education:
-  - {degree: "Ph.D. student", school: "Technical University of Munich, Germany", date: "2026 – Present"}
-  - {degree: "M.S.", school: "Kyung Hee University, South Korea", date: "Mar 2024 – 2026"}
+  - {degree: "Ph.D. student", school: "Technical University of Munich, Germany", date: "Oct 2026 – Present"}
+  - {degree: "M.S.", school: "Kyung Hee University, South Korea", date: "Mar 2024 – Aug 2026"}
   - {degree: "B.S.", school: "Kyung Hee University, South Korea", date: "Mar 2019 – Feb 2024"}
 
 footer: Ka Young Kim · Technical University of Munich
