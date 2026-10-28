@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: ""
 doi: ""
 lookup: "MoViS motion-guided video generation for laparoscopic surgery"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2020"
 arxiv: "2005.12126"
 doi: ""
 lookup: "GameGAN"

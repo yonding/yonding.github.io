@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: "2510.18135"
 doi: ""
 lookup: "World-in-World"

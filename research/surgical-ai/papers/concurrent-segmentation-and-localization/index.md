@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Laina"
+year: "2017"
 arxiv: ""
 doi: ""
 lookup: "Concurrent segmentation and localization for tracking of surgical instruments Laina"

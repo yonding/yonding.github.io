@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2026"
 arxiv: ""
 doi: "10.1109/LRA.2026.3665443"
 lookup: "SurgRAW"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2024"
 arxiv: "2408.03867"
 doi: ""
 lookup: "Surgformer"

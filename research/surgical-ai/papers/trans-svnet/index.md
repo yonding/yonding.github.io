@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2021"
 arxiv: "2103.09712"
 doi: ""
 lookup: "Trans-SVNet"

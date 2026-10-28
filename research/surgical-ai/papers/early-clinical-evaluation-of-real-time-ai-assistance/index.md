@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2024"
 arxiv: ""
 doi: "10.1093/bjs/znad353"
 lookup: "Early Clinical Evaluation of Real-time AI Assistance"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2026"
 arxiv: "2608.24199"
 doi: ""
 lookup: "Cosmos-H-Dreams"

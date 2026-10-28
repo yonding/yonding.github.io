@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2026"
 arxiv: "2605.08712"
 doi: ""
 lookup: "From Articulated Kinematics to Routed Visual Control"

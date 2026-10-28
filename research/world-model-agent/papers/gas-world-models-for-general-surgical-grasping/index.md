@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2024"
 arxiv: "2405.17940"
 doi: ""
 lookup: "GAS (World Models for General Surgical Grasping)"

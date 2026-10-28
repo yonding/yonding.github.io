@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2026"
 arxiv: "2608.03211"
 doi: ""
 lookup: "CrossScope"

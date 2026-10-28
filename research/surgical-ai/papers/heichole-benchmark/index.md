@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2023"
 arxiv: ""
 doi: "10.1016/j.media.2023.102770"
 lookup: "HeiChole Benchmark"

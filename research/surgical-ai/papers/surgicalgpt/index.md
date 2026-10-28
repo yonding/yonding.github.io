@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Seenivasan"
+year: "2023"
 arxiv: ""
 doi: ""
 lookup: "SurgicalGPT end-to-end language-vision GPT for visual question answering in surgery"

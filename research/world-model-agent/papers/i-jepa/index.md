@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2023"
 arxiv: "2301.08243"
 doi: ""
 lookup: "I-JEPA"

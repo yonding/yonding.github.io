@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2023"
 arxiv: "2212.06817"
 doi: ""
 lookup: "RT-1"

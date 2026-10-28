@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: "2410.07095"
 doi: ""
 lookup: "MLE-bench"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Czempiel"
+year: "2022"
 arxiv: ""
 doi: ""
 lookup: "Czempiel Sharghi Paschali Navab Mohareri surgical workflow recognition operating room 2022"

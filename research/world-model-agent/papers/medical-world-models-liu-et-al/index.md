@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2026"
 arxiv: "2606.16721"
 doi: ""
 lookup: "Medical World Models (Liu et al.)"

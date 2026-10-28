@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2022"
 arxiv: "2206.15255"
 doi: ""
 lookup: "EndoNeRF"

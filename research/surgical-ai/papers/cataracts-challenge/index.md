@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Hajj"
+year: "2019"
 arxiv: ""
 doi: ""
 lookup: "CATARACTS Challenge on automatic tool annotation for cataRACT surgery"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Kiyasseh"
+year: "2026"
 arxiv: ""
 doi: ""
 lookup: "A vision-language model and platform for temporally mapping surgery from video Halsted"

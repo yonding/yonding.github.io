@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: "2312.07352"
 doi: ""
 lookup: "CholecTrack20"

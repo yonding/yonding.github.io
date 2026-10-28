@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Padoy"
+year: "2024"
 arxiv: ""
 doi: ""
 lookup: "Procedure-Aware Surgical Video-language Pretraining with Hierarchical Knowledge Augmentation"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: "2503.14734"
 doi: ""
 lookup: "GR00T N1"

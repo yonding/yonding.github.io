@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: ""
 doi: "10.1109/iccv51701.2025.00779"
 lookup: "Medical World Model (MeWM)"

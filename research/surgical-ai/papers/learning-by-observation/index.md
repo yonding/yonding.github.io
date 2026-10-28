@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Goldberg"
+year: "2015"
 arxiv: ""
 doi: ""
 lookup: "Learning by observation for surgical subtasks multilateral cutting of 3D viscoelastic and 2D orthotropic tissue phantoms"

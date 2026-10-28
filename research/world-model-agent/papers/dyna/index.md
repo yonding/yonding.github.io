@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "1991"
 arxiv: ""
 doi: "10.1145/122344.122377"
 lookup: "Dyna"

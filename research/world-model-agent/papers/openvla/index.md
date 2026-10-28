@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2024"
 arxiv: "2406.09246"
 doi: ""
 lookup: "OpenVLA"

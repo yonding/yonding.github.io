@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: "2412.03572"
 doi: ""
 lookup: "Navigation World Models"

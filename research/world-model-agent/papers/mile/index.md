@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Kendall"
+year: "2022"
 arxiv: ""
 doi: ""
 lookup: "MILE"

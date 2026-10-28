@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2020"
 arxiv: "1903.00374"
 doi: ""
 lookup: "SimPLe"

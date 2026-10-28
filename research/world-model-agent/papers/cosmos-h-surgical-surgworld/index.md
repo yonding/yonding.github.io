@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: "2512.23162"
 doi: ""
 lookup: "Cosmos-H-Surgical (SurgWorld)"

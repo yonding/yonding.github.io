@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: ""
 doi: "10.1007/s11548-025-03397-y"
 lookup: "SurGrID"

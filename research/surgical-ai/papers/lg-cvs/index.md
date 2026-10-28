@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2024"
 arxiv: "2212.04155"
 doi: ""
 lookup: "LG-CVS"

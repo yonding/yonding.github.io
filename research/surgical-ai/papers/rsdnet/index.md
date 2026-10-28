@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Twinanda"
+year: "2019"
 arxiv: ""
 doi: ""
 lookup: "RSDNet learning to predict remaining surgery duration from laparoscopic videos without manual annotations"

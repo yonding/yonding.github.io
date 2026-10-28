@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2020"
 arxiv: ""
 doi: "10.1001/jamanetworkopen.2020.1664"
 lookup: "Deep Learning for Surgical Actions and Performance"

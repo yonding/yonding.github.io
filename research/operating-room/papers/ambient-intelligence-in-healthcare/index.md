@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Haque"
+year: "2020"
 arxiv: ""
 doi: ""
 lookup: "Ambient Intelligence in Healthcare"

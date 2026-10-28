@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: ""
 doi: ""
 lookup: "LLaMA-VG video vision LLaMA-based model for endoscopy video generation"

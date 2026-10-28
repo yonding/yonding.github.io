@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: "2510.16732"
 doi: ""
 lookup: "World Models for Embodied AI"

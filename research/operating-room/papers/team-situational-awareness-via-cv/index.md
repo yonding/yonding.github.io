@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Zenati"
+year: "2022"
 arxiv: ""
 doi: ""
 lookup: "Team Situational Awareness via CV"

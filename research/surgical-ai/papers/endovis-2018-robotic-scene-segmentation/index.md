@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Allan"
+year: "2020"
 arxiv: ""
 doi: ""
 lookup: "2018 Robotic Scene Segmentation Challenge Allan"

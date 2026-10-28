@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2020"
 arxiv: "2007.03357"
 doi: ""
 lookup: "Graph Reasoning in Robotic Surgery"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Sivakumar"
+year: "2025"
 arxiv: ""
 doi: ""
 lookup: "SG2VID"

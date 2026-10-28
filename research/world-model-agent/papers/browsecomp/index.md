@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: "2504.12516"
 doi: ""
 lookup: "BrowseComp"

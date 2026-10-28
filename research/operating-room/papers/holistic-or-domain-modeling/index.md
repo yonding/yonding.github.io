@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2024"
 arxiv: ""
 doi: "10.1007/s11548-023-03022-w"
 lookup: "Holistic OR Domain Modeling"

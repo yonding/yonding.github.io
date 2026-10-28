@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2026"
 arxiv: ""
 doi: ""
 lookup: "LLM-Embedded Robotic Scrub Nurse"

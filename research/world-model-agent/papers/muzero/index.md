@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2020"
 arxiv: ""
 doi: "10.1038/s41586-020-03051-4"
 lookup: "MuZero"

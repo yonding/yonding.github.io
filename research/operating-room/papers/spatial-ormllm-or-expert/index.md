@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2026"
 arxiv: "2508.08199"
 doi: ""
 lookup: "Spatial-ORMLLM (OR-Expert)"

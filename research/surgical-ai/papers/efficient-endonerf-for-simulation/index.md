@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2024"
 arxiv: ""
 doi: "10.1007/s11548-024-03114-1"
 lookup: "Efficient EndoNeRF for Simulation"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: "2509.20328"
 doi: ""
 lookup: "Video Models Are Zero-Shot Learners and Reasoners"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Bastian"
+year: "2023"
 arxiv: ""
 doi: ""
 lookup: "SegmentOR Obtaining efficient operating room semantics through temporal propagation"

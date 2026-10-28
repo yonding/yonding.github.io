@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Ross"
+year: "2018"
 arxiv: ""
 doi: ""
 lookup: "Exploiting the potential of unlabeled endoscopic video data with self-supervised learning Ross"

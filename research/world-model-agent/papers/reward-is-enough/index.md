@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2021"
 arxiv: ""
 doi: "10.1016/j.artint.2021.103535"
 lookup: "Reward is Enough"

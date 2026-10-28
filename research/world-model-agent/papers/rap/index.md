@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2023"
 arxiv: "2305.14992"
 doi: ""
 lookup: "RAP"

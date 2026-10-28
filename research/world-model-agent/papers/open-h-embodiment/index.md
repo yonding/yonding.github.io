@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2026"
 arxiv: "2604.21017"
 doi: ""
 lookup: "Open-H-Embodiment"

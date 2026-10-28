@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Ren"
+year: "2024"
 arxiv: ""
 doi: ""
 lookup: "Surgical-DINO adapter learning of foundation models for depth estimation in endoscopic surgery"

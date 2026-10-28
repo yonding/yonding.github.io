@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: "2405.10948"
 doi: ""
 lookup: "Surgical-LVLM"

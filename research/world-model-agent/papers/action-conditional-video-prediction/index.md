@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2015"
 arxiv: "1507.08750"
 doi: ""
 lookup: "Action-Conditional Video Prediction"

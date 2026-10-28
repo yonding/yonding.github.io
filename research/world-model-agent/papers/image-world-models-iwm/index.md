@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2024"
 arxiv: "2403.00504"
 doi: ""
 lookup: "Image World Models (IWM)"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: "none"
+author: ""
+year: "2026"
 arxiv: ""
 doi: ""
 lookup: "npj Digital Surgery inaugural editorial"

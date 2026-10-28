@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2017"
 arxiv: "1610.00696"
 doi: ""
 lookup: "Deep Visual Foresight"

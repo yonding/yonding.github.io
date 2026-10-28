@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Wilhelm"
+year: "2024"
 arxiv: ""
 doi: ""
 lookup: "Robotic Scrub Nurse"

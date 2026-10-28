@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Nwoye"
+year: "2023"
 arxiv: ""
 doi: ""
 lookup: "CholecTriplet2021 a benchmark challenge for surgical action triplet recognition"

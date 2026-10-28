@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Padoy"
+year: "2008"
 arxiv: ""
 doi: ""
 lookup: "On-line Recognition of Surgical Activity for Monitoring in the Operating Room Padoy"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2026"
 arxiv: "2603.07562"
 doi: ""
 lookup: "Brain-WM"

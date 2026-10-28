@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Heng"
+year: "2018"
 arxiv: ""
 doi: ""
 lookup: "SV-RCNet workflow recognition from surgical videos using recurrent convolutional network"

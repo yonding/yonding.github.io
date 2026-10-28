@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2022"
 arxiv: "2207.05608"
 doi: ""
 lookup: "Inner Monologue"

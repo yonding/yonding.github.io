@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Balestriero"
+year: "2025"
 arxiv: ""
 doi: ""
 lookup: "LeJEPA provable and scalable self-supervised learning without the heuristics"

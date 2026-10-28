@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2016"
 arxiv: ""
 doi: "10.1126/scitranslmed.aad9398"
 lookup: "STAR Autonomous Soft-Tissue Surgery"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2017"
 arxiv: "1602.03468"
 doi: ""
 lookup: "Articulated Clinician Detection"

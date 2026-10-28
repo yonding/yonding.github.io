@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: "2512.00019"
 doi: ""
 lookup: "Surgical digital twin survey"

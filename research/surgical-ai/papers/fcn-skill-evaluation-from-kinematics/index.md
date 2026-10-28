@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Fawaz"
+year: "2019"
 arxiv: ""
 doi: ""
 lookup: "Accurate and interpretable evaluation of surgical skills from kinematic data using fully convolutional neural networks"

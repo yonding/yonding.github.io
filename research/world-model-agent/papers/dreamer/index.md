@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2020"
 arxiv: "1912.01603"
 doi: ""
 lookup: "Dreamer"

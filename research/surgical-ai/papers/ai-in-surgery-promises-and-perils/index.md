@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Hashimoto"
+year: "2018"
 arxiv: ""
 doi: ""
 lookup: "Artificial intelligence in surgery promises and perils Hashimoto"

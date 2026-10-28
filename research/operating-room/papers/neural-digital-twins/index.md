@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Kleinbeck"
+year: "2024"
 arxiv: ""
 doi: ""
 lookup: "Neural Digital Twins"

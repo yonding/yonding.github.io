@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: "2409.19590"
 doi: ""
 lookup: "RoboNurse-VLA"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2018"
 arxiv: "1808.04440"
 doi: ""
 lookup: "FaceOff"

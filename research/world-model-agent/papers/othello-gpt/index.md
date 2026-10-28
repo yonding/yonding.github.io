@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2023"
 arxiv: "2210.13382"
 doi: ""
 lookup: "Othello-GPT"

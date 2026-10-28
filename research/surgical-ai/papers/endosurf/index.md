@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2023"
 arxiv: "2307.11307"
 doi: ""
 lookup: "EndoSurf"

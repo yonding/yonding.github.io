@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Thananjeyan"
+year: "2017"
 arxiv: ""
 doi: ""
 lookup: "Multilateral surgical pattern cutting in 2D orthotropic gauze with deep reinforcement learning policies for tensioning"

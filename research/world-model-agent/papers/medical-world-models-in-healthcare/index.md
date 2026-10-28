@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2026"
 arxiv: "2607.25242"
 doi: ""
 lookup: "Medical World Models in Healthcare"

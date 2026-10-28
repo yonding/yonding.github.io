@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2022"
 arxiv: "2201.07207"
 doi: ""
 lookup: "Language Models as Zero-Shot Planners"

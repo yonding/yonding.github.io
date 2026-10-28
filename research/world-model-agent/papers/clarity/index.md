@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2026"
 arxiv: "2512.08029"
 doi: ""
 lookup: "CLARITY"

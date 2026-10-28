@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2023"
 arxiv: "2209.11302"
 doi: ""
 lookup: "ProgPrompt"

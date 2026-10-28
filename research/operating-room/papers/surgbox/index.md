@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2024"
 arxiv: "2412.05187"
 doi: ""
 lookup: "SurgBox"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Richter"
+year: "2019"
 arxiv: ""
 doi: ""
 lookup: "Open-sourced reinforcement learning environments for surgical robotics dVRL"

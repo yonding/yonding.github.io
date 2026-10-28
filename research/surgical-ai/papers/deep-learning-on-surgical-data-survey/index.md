@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2022"
 arxiv: "2209.01435"
 doi: ""
 lookup: "Deep Learning on Surgical Data Survey"

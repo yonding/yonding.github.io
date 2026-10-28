@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: "none"
+author: ""
+year: "2019"
 arxiv: ""
 doi: ""
 lookup: "The Bitter Lesson"

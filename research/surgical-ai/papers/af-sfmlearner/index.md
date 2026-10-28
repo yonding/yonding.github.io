@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Shao"
+year: "2022"
 arxiv: ""
 doi: ""
 lookup: "Self-supervised monocular depth and ego-motion estimation in endoscopy appearance flow to the rescue"

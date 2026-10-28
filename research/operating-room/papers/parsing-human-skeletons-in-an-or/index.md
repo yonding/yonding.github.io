@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Belagiannis"
+year: "2016"
 arxiv: ""
 doi: ""
 lookup: "Parsing human skeletons in an operating room"

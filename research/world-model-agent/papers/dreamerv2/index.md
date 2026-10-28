@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2021"
 arxiv: "2010.02193"
 doi: ""
 lookup: "DreamerV2"

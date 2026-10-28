@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: ""
 doi: "10.1038/s41597-025-04642-4"
 lookup: "Endoscapes"

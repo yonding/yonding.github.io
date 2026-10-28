@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2022"
 arxiv: "2207.03083"
 doi: ""
 lookup: "Adaptation Across ORs"

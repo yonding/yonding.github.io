@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2024"
 arxiv: "2405.03520"
 doi: ""
 lookup: "Is Sora a World Simulator"

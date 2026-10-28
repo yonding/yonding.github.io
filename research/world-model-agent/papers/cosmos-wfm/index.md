@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: "2501.03575"
 doi: ""
 lookup: "Cosmos WFM"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2023"
 arxiv: ""
 doi: ""
 lookup: "RSN Instrument Detection (Multi-view Voting)"

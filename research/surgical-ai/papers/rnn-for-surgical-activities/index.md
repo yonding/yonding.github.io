@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "DiPietro"
+year: "2016"
 arxiv: ""
 doi: ""
 lookup: "Recognizing surgical activities with recurrent neural networks DiPietro"

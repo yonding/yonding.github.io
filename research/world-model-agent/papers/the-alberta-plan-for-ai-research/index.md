@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2022"
 arxiv: "2208.11173"
 doi: ""
 lookup: "The Alberta Plan for AI Research"

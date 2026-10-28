@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2021"
 arxiv: "2106.15309"
 doi: ""
 lookup: "Multimodal Semantic Scene Graphs for Holistic Modeling of Surgical Procedures"

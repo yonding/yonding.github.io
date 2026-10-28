@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2022"
 arxiv: "2201.11903"
 doi: ""
 lookup: "Chain-of-Thought Prompting"

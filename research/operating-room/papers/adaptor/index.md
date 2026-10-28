@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2022"
 arxiv: "2108.11801"
 doi: ""
 lookup: "AdaptOR"

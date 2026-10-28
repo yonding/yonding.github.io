@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Ourselin"
+year: "2025"
 arxiv: ""
 doi: ""
 lookup: "LoViT long video transformer for surgical phase recognition"

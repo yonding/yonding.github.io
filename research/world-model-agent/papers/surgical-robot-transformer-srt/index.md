@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Krieger"
+year: "2024"
 arxiv: "2407.12998"
 doi: ""
 lookup: "Surgical Robot Transformer (SRT)"

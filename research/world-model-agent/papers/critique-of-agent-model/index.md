@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2026"
 arxiv: "2606.23991"
 doi: ""
 lookup: "Critique of Agent Model"

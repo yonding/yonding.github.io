@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Czempiel"
+year: "2021"
 arxiv: ""
 doi: ""
 lookup: "OperA attention-regularized transformers for surgical phase recognition"

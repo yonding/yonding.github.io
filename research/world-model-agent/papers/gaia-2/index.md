@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: "2503.20523"
 doi: ""
 lookup: "GAIA-2"

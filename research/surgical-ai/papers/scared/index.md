@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Allan"
+year: "2021"
 arxiv: ""
 doi: ""
 lookup: "Stereo Correspondence and Reconstruction of Endoscopic Data Challenge SCARED"

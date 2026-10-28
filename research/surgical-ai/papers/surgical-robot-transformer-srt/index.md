@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Krieger"
+year: "2024"
 arxiv: ""
 doi: ""
 lookup: "Surgical Robot Transformer imitation learning for surgical tasks"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2026"
 arxiv: "2501.11347"
 doi: ""
 lookup: "EndoChat"

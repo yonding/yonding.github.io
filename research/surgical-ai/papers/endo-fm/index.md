@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2023"
 arxiv: "2306.16741"
 doi: ""
 lookup: "Endo-FM"

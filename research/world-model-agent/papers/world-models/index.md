@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2018"
 arxiv: "1803.10122"
 doi: ""
 lookup: "World Models"

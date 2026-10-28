@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: "2511.01775"
 doi: ""
 lookup: "SurgVeo pilot study"

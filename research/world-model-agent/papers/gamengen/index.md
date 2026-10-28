@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: "2408.14837"
 doi: ""
 lookup: "GameNGen"

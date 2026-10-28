@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2026"
 arxiv: "2607.24206"
 doi: ""
 lookup: "Surgical Re-enactment"

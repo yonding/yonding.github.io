@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: "2509.24527"
 doi: ""
 lookup: "Dreamer 4"

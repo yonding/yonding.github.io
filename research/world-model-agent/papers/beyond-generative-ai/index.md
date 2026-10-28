@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: "2511.16333"
 doi: ""
 lookup: "Beyond Generative AI"

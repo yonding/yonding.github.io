@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: "2510.02387"
 doi: ""
 lookup: "CWM (Code World Model)"

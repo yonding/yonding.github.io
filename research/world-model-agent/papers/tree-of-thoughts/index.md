@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2023"
 arxiv: "2305.10601"
 doi: ""
 lookup: "Tree of Thoughts"

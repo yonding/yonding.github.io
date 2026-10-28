@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Kennedy-Metz"
+year: "2021"
 arxiv: ""
 doi: ""
 lookup: "Computer Vision in the OR"

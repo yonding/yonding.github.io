@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Vercauteren"
+year: "2020"
 arxiv: ""
 doi: ""
 lookup: "CAI4CAI the rise of contextual artificial intelligence in computer assisted interventions"

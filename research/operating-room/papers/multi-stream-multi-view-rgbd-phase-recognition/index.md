@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Twinanda"
+year: "2016"
 arxiv: ""
 doi: ""
 lookup: "Multi-stream deep architecture for surgical phase recognition on multi-view RGBD videos"

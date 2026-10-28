@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2023"
 arxiv: "2207.00449"
 doi: ""
 lookup: "Dissecting SSL for Surgical CV"

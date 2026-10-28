@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Gerats"
+year: "2024"
 arxiv: ""
 doi: ""
 lookup: "NeRF-OR"

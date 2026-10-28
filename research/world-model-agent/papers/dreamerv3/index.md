@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: ""
 doi: "10.1038/s41586-025-08744-2"
 lookup: "DreamerV3"

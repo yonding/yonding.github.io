@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Narasimhan"
+year: "2024"
 arxiv: ""
 doi: ""
 lookup: "tau-bench Tool-Agent-User Interaction in Real-World Domains"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2024"
 arxiv: ""
 doi: ""
 lookup: "See, predict, plan: diffusion for procedure planning in robotic surgical videos"

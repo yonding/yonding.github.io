@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2026"
 arxiv: "2605.12090"
 doi: ""
 lookup: "World Action Models"

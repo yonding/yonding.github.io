@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Arbelaez"
+year: "2020"
 arxiv: ""
 doi: ""
 lookup: "ISINet an instance-based approach for surgical instrument segmentation"

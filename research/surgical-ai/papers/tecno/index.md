@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2020"
 arxiv: "2003.10751"
 doi: ""
 lookup: "TeCNO"

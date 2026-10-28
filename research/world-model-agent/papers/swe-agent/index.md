@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2024"
 arxiv: "2405.15793"
 doi: ""
 lookup: "SWE-agent"

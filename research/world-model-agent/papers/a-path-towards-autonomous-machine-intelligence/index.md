@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "LeCun"
+year: "2022"
 arxiv: ""
 doi: ""
 lookup: "A Path Towards Autonomous Machine Intelligence"

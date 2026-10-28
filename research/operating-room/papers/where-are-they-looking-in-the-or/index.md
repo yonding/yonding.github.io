@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Padoy"
+year: "2026"
 arxiv: ""
 doi: ""
 lookup: "Where are they looking in the operating room Chen Padoy"

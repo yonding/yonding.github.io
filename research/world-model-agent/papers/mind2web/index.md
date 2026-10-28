@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2023"
 arxiv: "2306.06070"
 doi: ""
 lookup: "Mind2Web"

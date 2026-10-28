@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Silver"
+year: "2025"
 arxiv: ""
 doi: ""
 lookup: "Welcome to the Era of Experience Silver Sutton"

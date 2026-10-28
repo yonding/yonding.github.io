@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Allan"
+year: "2019"
 arxiv: ""
 doi: ""
 lookup: "2017 Robotic Instrument Segmentation Challenge Allan"

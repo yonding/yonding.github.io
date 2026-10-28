@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Heng"
+year: "2020"
 arxiv: ""
 doi: ""
 lookup: "Multi-task recurrent convolutional network with correlation loss for surgical video analysis"

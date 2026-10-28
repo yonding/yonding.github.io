@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2024"
 arxiv: "2401.01614"
 doi: ""
 lookup: "SeeAct"

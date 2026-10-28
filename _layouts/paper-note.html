@@ -49,7 +49,7 @@ h1{font-size:clamp(24px,4vw,34px);line-height:1.2;letter-spacing:-0.02em;margin:
     <a class="btn primary" href="{{ page.pdf }}" target="_blank" rel="noopener">{{ page.pdf_label }}</a>
     <a class="btn" href="{{ page.paper_url }}" target="_blank" rel="noopener">Paper page</a>
   </div>
-  <div class="cite" id="cite" data-arxiv="{{ page.arxiv }}" data-doi="{{ page.doi }}" data-lookup="{{ page.lookup | escape }}">
+  <div class="cite" id="cite" data-cite="{{ page.cite }}" data-arxiv="{{ page.arxiv }}" data-doi="{{ page.doi }}" data-author="{{ page.author | escape }}" data-year="{{ page.year }}" data-title="{{ page.title | escape }}" data-lookup="{{ page.lookup | escape }}">
     <span class="num" id="cite-num">…</span><span class="lbl">citations</span>
     <span class="src" id="cite-src">Loading the latest count</span>
   </div>
@@ -63,31 +63,53 @@ h1{font-size:clamp(24px,4vw,34px);line-height:1.2;letter-spacing:-0.02em;margin:
 <script>
 (function(){
   var box=document.getElementById("cite"), num=document.getElementById("cite-num"), src=document.getElementById("cite-src");
-  var arxiv=box.dataset.arxiv, doi=box.dataset.doi, lookup=box.dataset.lookup;
-  var key="cite:"+(arxiv||doi||lookup), DAY=86400000;
+  var d=box.dataset, arxiv=d.arxiv, doi=d.doi, lookup=d.lookup, title=d.title, author=d.author, year=parseInt(d.year,10)||0;
+  var scholar="https://scholar.google.com/scholar?q="+encodeURIComponent(lookup);
   function esc(t){return String(t).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];});}
+  function msg(n,h){num.textContent=n;src.innerHTML=h;}
+  if(d.cite==="none"){msg("–","Not an indexed paper, so there is no citation count.");return;}
+  if(!arxiv&&!doi&&!author){msg("–","Not verified: no ID or author to confirm the match. <a href='"+scholar+"' target='_blank' rel='noopener'>Check Google Scholar</a>");return;}
+
+  function norm(t){return String(t||"").normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim();}
+  function toks(t){return norm(t).split(" ").filter(function(w){return w.length>2;});}
+  function frac(a,b){if(!a.length)return 0;var B={};b.forEach(function(w){B[w]=1;});return a.filter(function(w){return B[w];}).length/a.length;}
+  function titleOK(ct){
+    if(norm(lookup)===norm(title)){ return (" "+norm(ct)+" ").indexOf(" "+norm(title)+" ")>=0; }
+    var c=toks(ct), l=toks(lookup); return frac(c,l)>=0.8 || frac(l,c)>=0.8;
+  }
+  function authorOK(names){ if(!author) return true; var a=norm(author); return names.some(function(n){return norm(n).indexOf(a)>=0;}); }
+  function yearOK(y){ return !year||!y||(y>=year-3&&y<=year+1); }
+
+  var key="cite2:"+(arxiv||doi||lookup), DAY=86400000;
   function show(r){
     num.textContent=Number(r.count).toLocaleString("en-US");
     var when=new Date(r.at).toLocaleDateString("en-US",{year:"numeric",month:"short",day:"numeric"});
-    var h="Source: <a href='"+esc(r.link)+"' target='_blank' rel='noopener'>"+esc(r.source)+"</a>, checked "+when;
-    if(r.matched) h+=". Matched by title: “"+esc(r.matched)+"”";
+    var h="Source: <a href='"+esc(r.link)+"' target='_blank' rel='noopener'>"+esc(r.source)+"</a>, checked "+when+". "+esc(r.how);
+    if(r.matched) h+=": “"+esc(r.matched)+"”";
     src.innerHTML=h;
-  }
-  function fail(){
-    num.textContent="–";
-    src.innerHTML="Couldn’t load the count right now. <a href='https://scholar.google.com/scholar?q="+encodeURIComponent(lookup)+"' target='_blank' rel='noopener'>Check Google Scholar</a>";
   }
   try{var c=JSON.parse(localStorage.getItem(key)||"null"); if(c&&Date.now()-c.at<DAY){show(c);return;}}catch(e){}
   function save(r){r.at=Date.now();try{localStorage.setItem(key,JSON.stringify(r));}catch(e){} show(r);}
   function j(u){return fetch(u).then(function(x){if(!x.ok)throw new Error(x.status);return x.json();});}
-  var S2="https://api.semanticscholar.org/graph/v1/paper/", F="?fields=citationCount,title,url";
+  var S2="https://api.semanticscholar.org/graph/v1/paper/", F="?fields=citationCount,title,url,year,authors";
+  function exact(p,how){ if(!authorOK((p.authors||[]).map(function(a){return a.name;}))) throw 0; return {count:p.citationCount,source:"Semantic Scholar",link:p.url,how:how}; }
   var tries=[];
-  if(arxiv) tries.push(function(){return j(S2+"arXiv:"+encodeURIComponent(arxiv)+F).then(function(d){return {count:d.citationCount,source:"Semantic Scholar",link:d.url};});});
-  if(doi) tries.push(function(){return j(S2+"DOI:"+encodeURIComponent(doi)+F).then(function(d){return {count:d.citationCount,source:"Semantic Scholar",link:d.url};});});
-  tries.push(function(){return j(S2+"search/match?query="+encodeURIComponent(lookup)+"&fields=citationCount,title,url").then(function(d){var p=d.data&&d.data[0];if(!p)throw 0;return {count:p.citationCount,source:"Semantic Scholar",link:p.url,matched:p.title};});});
-  if(doi) tries.push(function(){return j("https://api.openalex.org/works/doi:"+encodeURIComponent(doi)).then(function(d){return {count:d.cited_by_count,source:"OpenAlex",link:d.id};});});
-  tries.push(function(){return j("https://api.openalex.org/works?per-page=1&search="+encodeURIComponent(lookup)).then(function(d){var p=d.results&&d.results[0];if(!p)throw 0;return {count:p.cited_by_count,source:"OpenAlex",link:p.id,matched:p.display_name};});});
-  (function next(i){ if(i>=tries.length){fail();return;} tries[i]().then(function(r){ if(r.count==null) throw 0; save(r); }).catch(function(){ next(i+1); }); })(0);
+  if(arxiv) tries.push(function(){return j(S2+"arXiv:"+encodeURIComponent(arxiv)+F).then(function(p){return exact(p,"Matched by arXiv ID");});});
+  if(doi) tries.push(function(){return j(S2+"DOI:"+encodeURIComponent(doi)+F).then(function(p){return exact(p,"Matched by DOI");});});
+  if(doi) tries.push(function(){return j("https://api.openalex.org/works/doi:"+encodeURIComponent(doi)).then(function(p){return {count:p.cited_by_count,source:"OpenAlex",link:p.id,how:"Matched by DOI"};});});
+  if(author){
+    var how="Verified by title, author ("+author+")"+(year?" and year":"");
+    tries.push(function(){return j(S2+"search?limit=10&fields=citationCount,title,url,year,authors&query="+encodeURIComponent(lookup)).then(function(r){
+      var p=(r.data||[]).filter(function(p){return titleOK(p.title)&&authorOK((p.authors||[]).map(function(a){return a.name;}))&&yearOK(p.year);})[0];
+      if(!p) throw 0; return {count:p.citationCount,source:"Semantic Scholar",link:p.url,how:how,matched:p.title};});});
+    tries.push(function(){return j("https://api.openalex.org/works?per-page=10&search="+encodeURIComponent(lookup)).then(function(r){
+      var p=(r.results||[]).filter(function(p){return titleOK(p.display_name)&&authorOK((p.authorships||[]).map(function(a){return a.author&&a.author.display_name||"";}))&&yearOK(p.publication_year);})[0];
+      if(!p) throw 0; return {count:p.cited_by_count,source:"OpenAlex",link:p.id,how:how,matched:p.display_name};});});
+  }
+  (function next(i){
+    if(i>=tries.length){msg("–","No verified match found. <a href='"+scholar+"' target='_blank' rel='noopener'>Check Google Scholar</a>");return;}
+    tries[i]().then(function(r){ if(r.count==null) throw 0; save(r); }).catch(function(){ next(i+1); });
+  })(0);
 })();
 </script>
 </body>

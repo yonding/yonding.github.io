@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Maier-Hein"
+year: "2022"
 arxiv: ""
 doi: ""
 lookup: "Surgical data science from concepts toward clinical translation"

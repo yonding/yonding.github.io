@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Twinanda"
+year: "2015"
 arxiv: ""
 doi: ""
 lookup: "Data-driven spatio-temporal RGBD feature encoding for action recognition in operating rooms"

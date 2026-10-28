@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2020"
 arxiv: "2006.16166"
 doi: ""
 lookup: "OR Surgical Activity Recognition"

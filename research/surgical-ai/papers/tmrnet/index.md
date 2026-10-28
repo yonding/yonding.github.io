@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Heng"
+year: "2021"
 arxiv: ""
 doi: ""
 lookup: "Temporal memory relation network for workflow recognition from surgical video"

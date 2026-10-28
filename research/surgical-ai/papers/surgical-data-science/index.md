@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Maier-Hein"
+year: "2017"
 arxiv: ""
 doi: ""
 lookup: "Surgical data science for next-generation interventions Maier-Hein"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2021"
 arxiv: "2108.13035"
 doi: ""
 lookup: "SurRoL"

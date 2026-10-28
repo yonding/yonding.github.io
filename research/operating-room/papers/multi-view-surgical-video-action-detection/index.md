@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Schmidt"
+year: "2021"
 arxiv: ""
 doi: ""
 lookup: "Multi-view Surgical Video Action Detection via Mixed Global View Attention"

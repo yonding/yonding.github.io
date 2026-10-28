@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Lea"
+year: "2017"
 arxiv: ""
 doi: ""
 lookup: "Temporal convolutional networks for action segmentation and detection Lea"

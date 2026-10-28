@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: ""
 doi: "10.1109/cvpr52734.2025.01935"
 lookup: "CheXWorld"

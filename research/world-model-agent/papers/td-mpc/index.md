@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2022"
 arxiv: "2203.04955"
 doi: ""
 lookup: "TD-MPC"

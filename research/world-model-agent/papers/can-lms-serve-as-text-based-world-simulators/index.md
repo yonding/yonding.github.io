@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2024"
 arxiv: "2406.06485"
 doi: ""
 lookup: "Can LMs Serve as Text-Based World Simulators"

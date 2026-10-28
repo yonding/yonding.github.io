@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Padoy"
+year: "2024"
 arxiv: ""
 doi: ""
 lookup: "HecVL hierarchical video-language pretraining for zero-shot surgical phase recognition"

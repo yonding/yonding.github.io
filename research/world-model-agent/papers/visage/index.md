@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Navab"
+year: "2024"
 arxiv: ""
 doi: ""
 lookup: "VISAGE"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: "2508.08028"
 doi: ""
 lookup: "Mitigating Biases with Geometry"

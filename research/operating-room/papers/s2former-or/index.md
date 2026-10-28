@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2024"
 arxiv: "2402.14461"
 doi: ""
 lookup: "S²Former-OR"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: "2505.12705"
 doi: ""
 lookup: "DreamGen"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2024"
 arxiv: "2407.05023"
 doi: ""
 lookup: "SurgicalGaussian"

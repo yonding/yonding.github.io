@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2024"
 arxiv: ""
 doi: ""
 lookup: "OR Multimodal Data Management Consensus"

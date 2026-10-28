@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2023"
 arxiv: "2309.07864"
 doi: ""
 lookup: "The Rise and Potential of LLM Based Agents"

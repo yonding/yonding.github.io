@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2023"
 arxiv: "2307.05973"
 doi: ""
 lookup: "VoxPoser"

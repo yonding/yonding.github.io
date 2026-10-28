@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2024"
 arxiv: "2310.08864"
 doi: ""
 lookup: "Open X-Embodiment"

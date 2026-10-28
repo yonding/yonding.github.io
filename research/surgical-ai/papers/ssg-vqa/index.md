@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2024"
 arxiv: "2312.10251"
 doi: ""
 lookup: "SSG-VQA"

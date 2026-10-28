@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Tokuyasu"
+year: "2021"
 arxiv: ""
 doi: ""
 lookup: "Development of an artificial intelligence system using deep learning to indicate anatomical landmarks during laparoscopic cholecystectomy"

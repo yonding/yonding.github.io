@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2022"
 arxiv: ""
 doi: ""
 lookup: "3D human pose estimation in multi-view operating room videos using differentiable camera projections"

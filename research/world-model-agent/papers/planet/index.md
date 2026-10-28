@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2019"
 arxiv: "1811.04551"
 doi: ""
 lookup: "PlaNet"

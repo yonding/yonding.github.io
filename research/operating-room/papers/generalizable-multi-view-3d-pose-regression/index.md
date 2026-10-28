@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2018"
 arxiv: "1804.10462"
 doi: ""
 lookup: "Generalizable Multi-view 3D Pose Regression"

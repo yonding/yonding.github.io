@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2023"
 arxiv: "2303.13293"
 doi: ""
 lookup: "LABRAD-OR"

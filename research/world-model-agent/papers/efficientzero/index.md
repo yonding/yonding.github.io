@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2021"
 arxiv: "2111.00210"
 doi: ""
 lookup: "EfficientZero"

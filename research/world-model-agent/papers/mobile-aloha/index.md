@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2024"
 arxiv: "2401.02117"
 doi: ""
 lookup: "Mobile ALOHA"

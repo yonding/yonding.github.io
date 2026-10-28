@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Madani"
+year: "2022"
 arxiv: ""
 doi: ""
 lookup: "Artificial Intelligence for Intraoperative Guidance using semantic segmentation to identify surgical anatomy during laparoscopic cholecystectomy"

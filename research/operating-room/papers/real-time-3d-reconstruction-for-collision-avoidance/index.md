@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Ladikos"
+year: "2008"
 arxiv: ""
 doi: ""
 lookup: "Real-time 3D reconstruction for collision avoidance in interventional environments Ladikos"

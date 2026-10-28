@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2019"
 arxiv: "2007.08340"
 doi: ""
 lookup: "Low-Resolution Depth HPE"

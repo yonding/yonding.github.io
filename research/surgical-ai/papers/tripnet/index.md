@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Nwoye"
+year: "2020"
 arxiv: ""
 doi: ""
 lookup: "Recognition of instrument-tissue interactions in endoscopic videos via action triplets Tripnet"

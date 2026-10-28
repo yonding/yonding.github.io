@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Kitaguchi"
+year: "2020"
 arxiv: ""
 doi: ""
 lookup: "Real-time automatic surgical phase recognition in laparoscopic sigmoidectomy using the convolutional neural network-based deep learning approach"

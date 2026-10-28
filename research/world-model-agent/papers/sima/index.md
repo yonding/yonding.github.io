@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2024"
 arxiv: ""
 doi: ""
 lookup: "Scaling Instructable Agents Across Many Simulated Worlds SIMA"

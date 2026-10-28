@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2021"
 arxiv: "2112.09332"
 doi: ""
 lookup: "WebGPT"

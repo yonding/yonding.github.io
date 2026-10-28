@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: "none"
+author: ""
+year: "2024"
 arxiv: ""
 doi: ""
 lookup: "Sora technical report"

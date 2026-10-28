@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2022"
 arxiv: "2204.05467"
 doi: ""
 lookup: "RGB-D Semantic SLAM"

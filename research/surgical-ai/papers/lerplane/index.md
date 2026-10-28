@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2023"
 arxiv: ""
 doi: ""
 lookup: "LerPlane neural representations for fast 4D reconstruction of deformable tissues"

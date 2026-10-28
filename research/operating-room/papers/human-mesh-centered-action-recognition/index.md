@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Yeung"
+year: "2024"
 arxiv: ""
 doi: ""
 lookup: "Human Mesh-centered Action Recognition"

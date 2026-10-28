@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: "2503.02579"
 doi: ""
 lookup: "MM-OR"

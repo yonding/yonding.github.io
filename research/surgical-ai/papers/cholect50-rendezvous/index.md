@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2022"
 arxiv: "2109.03223"
 doi: ""
 lookup: "CholecT50 (Rendezvous)"

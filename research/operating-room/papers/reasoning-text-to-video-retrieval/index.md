@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2026"
 arxiv: ""
 doi: ""
 lookup: "Reasoning Text-to-Video Retrieval"

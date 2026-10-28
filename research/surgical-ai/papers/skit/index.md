@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Ourselin"
+year: "2023"
 arxiv: ""
 doi: ""
 lookup: "SKiT"

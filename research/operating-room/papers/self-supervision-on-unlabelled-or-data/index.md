@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2020"
 arxiv: "2007.08354"
 doi: ""
 lookup: "Self-supervision on Unlabelled OR Data"

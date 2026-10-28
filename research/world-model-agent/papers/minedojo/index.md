@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2022"
 arxiv: "2206.08853"
 doi: ""
 lookup: "MineDojo"

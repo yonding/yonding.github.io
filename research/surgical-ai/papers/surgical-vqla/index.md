@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2023"
 arxiv: "2305.11692"
 doi: ""
 lookup: "Surgical-VQLA"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Hager"
+year: "2014"
 arxiv: ""
 doi: ""
 lookup: "JHU-ISI Gesture and Skill Assessment Working Set JIGSAWS"

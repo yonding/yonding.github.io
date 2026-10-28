@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: "2502.15657"
 doi: ""
 lookup: "Superintelligent Agents Pose Catastrophic Risks"

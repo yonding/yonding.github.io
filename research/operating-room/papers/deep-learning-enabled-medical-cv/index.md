@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Esteva"
+year: "2021"
 arxiv: ""
 doi: ""
 lookup: "Deep Learning-enabled Medical CV"

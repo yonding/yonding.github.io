@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: "none"
+author: ""
+year: "2025"
 arxiv: ""
 doi: ""
 lookup: "GWM-1"

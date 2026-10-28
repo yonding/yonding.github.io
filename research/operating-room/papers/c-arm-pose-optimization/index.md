@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Rodas"
+year: "2017"
 arxiv: ""
 doi: ""
 lookup: "Pose optimization of a C-arm imaging device to reduce intraoperative radiation exposure of staff and patient"

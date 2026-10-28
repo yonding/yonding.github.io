@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2015"
 arxiv: "1511.09249"
 doi: ""
 lookup: "On Learning to Think"

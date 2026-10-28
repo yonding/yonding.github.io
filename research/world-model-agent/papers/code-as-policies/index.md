@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2023"
 arxiv: "2209.07753"
 doi: ""
 lookup: "Code as Policies"

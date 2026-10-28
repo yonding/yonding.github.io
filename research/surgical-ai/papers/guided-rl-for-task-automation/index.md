@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Dou"
+year: "2023"
 arxiv: ""
 doi: ""
 lookup: "Demonstration-Guided Reinforcement Learning with Efficient Exploration for Task Automation of Surgical Robot"

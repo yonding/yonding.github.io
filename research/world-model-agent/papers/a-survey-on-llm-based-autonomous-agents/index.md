@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2024"
 arxiv: "2308.11432"
 doi: ""
 lookup: "A Survey on LLM-based Autonomous Agents"

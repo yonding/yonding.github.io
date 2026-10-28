@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: "2507.05169"
 doi: ""
 lookup: "Critiques of World Models"

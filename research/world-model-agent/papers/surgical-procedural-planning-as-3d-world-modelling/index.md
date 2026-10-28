@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2026"
 arxiv: ""
 doi: ""
 lookup: "Surgical Procedural Planning as 3D World Modelling"

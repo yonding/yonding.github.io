@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2026"
 arxiv: "2602.03569"
 doi: ""
 lookup: "EHRWorld"

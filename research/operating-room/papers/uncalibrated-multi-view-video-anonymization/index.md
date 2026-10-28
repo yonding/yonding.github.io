@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2026"
 arxiv: "2602.02850"
 doi: ""
 lookup: "Uncalibrated Multi-View Video Anonymization"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Scheikl"
+year: "2023"
 arxiv: ""
 doi: ""
 lookup: "LapGym an open source framework for reinforcement learning in robot-assisted laparoscopic surgery"

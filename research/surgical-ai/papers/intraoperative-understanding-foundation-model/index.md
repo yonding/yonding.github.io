@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2026"
 arxiv: "2602.13633"
 doi: ""
 lookup: "Intraoperative Understanding Foundation Model"

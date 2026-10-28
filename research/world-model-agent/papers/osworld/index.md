@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2024"
 arxiv: "2404.07972"
 doi: ""
 lookup: "OSWorld"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2022"
 arxiv: ""
 doi: "10.1126/scirobotics.abj2908"
 lookup: "STAR Autonomous Anastomosis"

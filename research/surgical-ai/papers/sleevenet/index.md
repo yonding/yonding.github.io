@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Hashimoto"
+year: "2019"
 arxiv: ""
 doi: ""
 lookup: "Computer vision analysis of intraoperative video automated recognition of operative steps in laparoscopic sleeve gastrectomy"

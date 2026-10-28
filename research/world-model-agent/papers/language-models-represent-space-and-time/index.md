@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2024"
 arxiv: "2310.02207"
 doi: ""
 lookup: "Language Models Represent Space and Time"

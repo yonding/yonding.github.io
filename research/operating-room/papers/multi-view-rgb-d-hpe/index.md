@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2017"
 arxiv: "1701.07372"
 doi: ""
 lookup: "Multi-view RGB-D HPE"

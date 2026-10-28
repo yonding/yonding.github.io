@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: "2303.10944"
 doi: ""
 lookup: "Pix2SG"

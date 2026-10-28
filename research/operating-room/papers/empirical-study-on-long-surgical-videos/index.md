@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2022"
 arxiv: "2205.02805"
 doi: ""
 lookup: "Empirical Study on Long Surgical Videos"

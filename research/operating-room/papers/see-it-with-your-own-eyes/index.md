@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Rodas"
+year: "2016"
 arxiv: ""
 doi: ""
 lookup: "See it with your own eyes markerless mobile augmented reality for radiation awareness in the hybrid room"

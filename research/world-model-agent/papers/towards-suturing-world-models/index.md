@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: "2503.12531"
 doi: ""
 lookup: "Towards Suturing World Models"

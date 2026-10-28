@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2025"
 arxiv: "2508.07968"
 doi: ""
 lookup: "TrackOR"

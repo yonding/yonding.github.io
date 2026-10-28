@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2026"
 arxiv: ""
 doi: "10.1145/3746449"
 lookup: "Understanding World or Predicting Future"

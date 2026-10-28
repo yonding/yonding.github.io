@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: "none"
+author: ""
+year: "2026"
 arxiv: ""
 doi: ""
 lookup: "IEEE TMI special issue on world models"

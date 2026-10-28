@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Twinanda"
+year: "2017"
 arxiv: ""
 doi: ""
 lookup: "EndoNet a deep architecture for recognition tasks on laparoscopic videos"

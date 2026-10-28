@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2024"
 arxiv: ""
 doi: ""
 lookup: "SurgicAI a hierarchical platform for fine-grained surgical policy learning and benchmarking"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2026"
 arxiv: "2512.10942"
 doi: ""
 lookup: "VL-JEPA"

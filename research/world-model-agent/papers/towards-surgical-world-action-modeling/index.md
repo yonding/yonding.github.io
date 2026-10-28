@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2026"
 arxiv: "2608.20284"
 doi: ""
 lookup: "Towards Surgical World-Action Modeling"

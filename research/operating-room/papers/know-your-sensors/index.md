@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2022"
 arxiv: ""
 doi: "10.1080/21681163.2022.2152377"
 lookup: "Know your sensORs"

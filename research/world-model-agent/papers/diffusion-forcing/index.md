@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2024"
 arxiv: "2407.01392"
 doi: ""
 lookup: "Diffusion Forcing"

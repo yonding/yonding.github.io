@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Varghese"
+year: "2024"
 arxiv: ""
 doi: ""
 lookup: "Artificial intelligence in surgery Varghese Harrison O'Grady Topol Nature Medicine"

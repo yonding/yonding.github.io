@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: "Heng"
+year: "2019"
 arxiv: ""
 doi: ""
 lookup: "Incorporating temporal prior from motion flow for instrument segmentation in minimally invasive surgery video"

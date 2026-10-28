@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: ""
+author: ""
+year: "2023"
 arxiv: "2304.13705"
 doi: ""
 lookup: "ACT (ALOHA)"

@@ -1,5 +1,8 @@
 ---
 layout: paper-note
+cite: "none"
+author: ""
+year: "2014"
 arxiv: ""
 doi: ""
 lookup: "MRF 3D Pose Estimation"
