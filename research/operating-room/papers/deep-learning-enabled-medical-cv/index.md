@@ -1,0 +1,10 @@
+---
+layout: paper-note
+title: "Deep Learning-enabled Medical CV"
+summary: "Stanford and others. Medical CV review including the OR"
+venue: "npj Digit Med 2021"
+map_title: "Operating Room AI Paper Map"
+paper_url: "https://www.nature.com/articles/s41746-020-00376-2"
+pdf: "https://www.nature.com/articles/s41746-020-00376-2.pdf"
+pdf_label: "PDF"
+---

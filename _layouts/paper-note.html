@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{ page.title }} · Notes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light;
+  --bg:#EEF2F1;--surface:#FFFFFF;--ink:#16262B;--muted:#5B6B70;--line:#CBD5D3;--accent:#0B8576}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#101A1D;--surface:#18252A;--ink:#E3ECEA;--muted:#9AABAF;--line:#2C3D42;--accent:#3FC9B5}}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#101A1D;--surface:#18252A;--ink:#E3ECEA;--muted:#9AABAF;--line:#2C3D42;--accent:#3FC9B5}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",system-ui,sans-serif;line-height:1.6}
+main{max-width:760px;margin:0 auto;padding:28px 20px 60px}
+.crumb{font-size:14px;color:var(--muted);text-decoration:none}
+.crumb:hover{color:var(--accent)}
+h1{font-size:clamp(24px,4vw,34px);line-height:1.2;letter-spacing:-0.02em;margin:14px 0 8px}
+.meta{color:var(--muted);margin:0}
+.venue{font-weight:600;color:var(--accent);margin:6px 0 0}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 28px}
+.btn{display:inline-block;text-decoration:none;font-weight:600;font-size:14px;padding:8px 14px;border-radius:999px;border:1.5px solid var(--ink);color:var(--ink);background:transparent}
+.btn.primary{background:var(--ink);color:var(--bg)}
+.btn:hover{border-color:var(--accent)}
+.btn:focus-visible,.crumb:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.notes{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px 20px}
+.notes h2.label{font-size:13px;font-weight:600;color:var(--muted);margin:0 0 10px;letter-spacing:.02em}
+.notes .empty{color:var(--muted);margin:0}
+.notes img{max-width:100%}
+.notes pre{overflow-x:auto}
+.edit{display:inline-block;margin-top:14px;font-size:14px;color:var(--muted)}
+.edit:hover{color:var(--accent)}
+</style>
+</head>
+<body>
+<main>
+  <a class="crumb" href="../../">← {{ page.map_title }}</a>
+  <h1>{{ page.title }}</h1>
+  {% if page.summary and page.summary != "" %}<p class="meta">{{ page.summary }}</p>{% endif %}
+  <p class="venue">{{ page.venue }}</p>
+  <div class="actions">
+    <a class="btn primary" href="{{ page.pdf }}" target="_blank" rel="noopener">{{ page.pdf_label }}</a>
+    <a class="btn" href="{{ page.paper_url }}" target="_blank" rel="noopener">Paper page</a>
+  </div>
+  <section class="notes">
+    <h2 class="label">My notes</h2>
+    {% assign body = content | strip_html | strip %}
+    {% if body == "" %}<p class="empty">No notes yet.</p>{% else %}{{ content }}{% endif %}
+  </section>
+  <a class="edit" href="https://github.com/yonding/yonding.github.io/edit/main/{{ page.path }}" target="_blank" rel="noopener">Edit notes on GitHub</a>
+</main>
+</body>
+</html>

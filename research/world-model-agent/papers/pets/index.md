@@ -1,0 +1,10 @@
+---
+layout: paper-note
+title: "PETS"
+summary: "Learns from few trials with probabilistic ensemble dynamics"
+venue: "NeurIPS 2018"
+map_title: "World Models and Agents Paper Map"
+paper_url: "https://arxiv.org/abs/1805.12114"
+pdf: "https://arxiv.org/pdf/1805.12114"
+pdf_label: "PDF"
+---

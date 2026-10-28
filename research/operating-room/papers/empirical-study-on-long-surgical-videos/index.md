@@ -1,0 +1,10 @@
+---
+layout: paper-note
+title: "Empirical Study on Long Surgical Videos"
+summary: "Intuitive Surgical. 820 OR-AR videos, backbone comparison"
+venue: "ML4H 2022"
+map_title: "Operating Room AI Paper Map"
+paper_url: "https://arxiv.org/abs/2205.02805"
+pdf: "https://arxiv.org/pdf/2205.02805"
+pdf_label: "PDF"
+---

@@ -1,0 +1,10 @@
+---
+layout: paper-note
+title: "Action-Conditional Video Prediction"
+summary: "Early work on action-conditioned next-frame prediction in Atari"
+venue: "NeurIPS 2015"
+map_title: "World Models and Agents Paper Map"
+paper_url: "https://arxiv.org/abs/1507.08750"
+pdf: "https://arxiv.org/pdf/1507.08750"
+pdf_label: "PDF"
+---

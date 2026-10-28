@@ -1,0 +1,10 @@
+---
+layout: paper-note
+title: "Cosmos-Surg-dVRK"
+summary: "Automatic evaluation of surgical policies inside a world model"
+venue: "IEEE RA-L (arXiv 2025)"
+map_title: "World Models and Agents Paper Map"
+paper_url: "https://arxiv.org/abs/2510.16240"
+pdf: "https://arxiv.org/pdf/2510.16240"
+pdf_label: "PDF"
+---
