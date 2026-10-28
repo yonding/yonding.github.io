@@ -417,7 +417,7 @@ function buildLegend(){
   const c = document.createElement("span"); c.className="count"; c.id="count"; lg.appendChild(c);
 }
 
-const TWO_COL_AFTER = 4;
+const TWO_COL_AFTER = 2;
 function applyFilter(){
   let shown = 0, total = 0;
   document.querySelectorAll(".paper").forEach(a=>{ total++; const on = active.has(a.dataset.k); a.hidden = !on; if(on) shown++; });
