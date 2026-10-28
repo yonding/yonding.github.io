@@ -415,3 +415,6 @@ body.lb-open { overflow: hidden; }
 @media (max-width: 720px) {
   .edu li { grid-template-columns: minmax(0, 1fr); font-size: 15px; padding: 6px 0; }
 }
+
+.foot-link { color: var(--mute-2); }
+.foot-link:hover { color: var(--accent); }
