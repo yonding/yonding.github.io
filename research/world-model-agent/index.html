@@ -87,9 +87,6 @@ footer p{margin:0 0 6px}
 .head .tabs{margin-bottom:0}
 .stack{display:grid;grid-template-columns:minmax(0,1fr);gap:7px}
 .stack .paper{margin-bottom:0}
-td.two{min-width:350px;width:350px}
-td.two .stack{grid-template-columns:repeat(2,minmax(0,1fr))}
-@media (max-width:640px){td.two{min-width:300px;width:300px}}
 </style>
 </head>
 <body>
@@ -417,20 +414,28 @@ function buildLegend(){
   const c = document.createElement("span"); c.className="count"; c.id="count"; lg.appendChild(c);
 }
 
-const TWO_COL_AFTER = 2;
+// How many card columns a cell needs for n visible papers: [at least n papers, columns].
+// The widest cell in a year sets the column count for every cell in that year.
+const COL_STEPS = [[10, 4], [6, 3], [3, 2]];
+const CARD_W = 162, CARD_GAP = 7, CELL_PAD = 16;
+function colsFor(n){ for(const [min, c] of COL_STEPS){ if(n >= min) return c; } return 1; }
 function applyFilter(){
   let shown = 0, total = 0;
   document.querySelectorAll(".paper").forEach(a=>{ total++; const on = active.has(a.dataset.k); a.hidden = !on; if(on) shown++; });
   document.getElementById("count").textContent = "Showing " + shown + " papers (of " + total + ")";
-  // Cells with many visible papers switch to two columns.
-  // A wide column then lets its other cells with two or more papers use both columns too.
   const stacks = [...document.querySelectorAll("td .stack")];
   const visible = st => st.querySelectorAll(".paper:not([hidden])").length;
-  const wideCols = new Set();
-  stacks.forEach(st=>{ if(visible(st) > TWO_COL_AFTER) wideCols.add(st.parentElement.cellIndex); });
+  const colCount = {};
   stacks.forEach(st=>{
-    const td = st.parentElement, n = visible(st);
-    td.classList.toggle("two", n > TWO_COL_AFTER || (wideCols.has(td.cellIndex) && n >= 2));
+    const i = st.parentElement.cellIndex;
+    colCount[i] = Math.max(colCount[i] || 1, colsFor(visible(st)));
+  });
+  document.querySelectorAll("#matrix tbody td").forEach(td=>{
+    const c = colCount[td.cellIndex] || 1;
+    const w = (c * CARD_W + (c - 1) * CARD_GAP + CELL_PAD) + "px";
+    td.style.width = w; td.style.minWidth = w;
+    const st = td.querySelector(".stack");
+    if(st) st.style.gridTemplateColumns = "repeat(" + c + ", minmax(0, 1fr))";
   });
 }
 
